@@ -1,0 +1,344 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>offers.itacademy.ge.API</name>
+    </assembly>
+    <members>
+        <member name="T:offers.itacademy.ge.API.Controllers.CategoriesController">
+            <summary>
+            Controller for managing product categories. 
+            Provides endpoints for retrieving, creating, updating, and deleting categories.
+            </summary>
+        </member>
+        <member name="M:offers.itacademy.ge.API.Controllers.CategoriesController.#ctor(offers.itacademy.ge.Application.Interfaces.ServiceInterfaces.ICategoryService)">
+            <summary>
+            Initializes a new instance of the <see cref="T:offers.itacademy.ge.API.Controllers.CategoriesController"/> class.
+            </summary>
+            <param name="categoryService">The service responsible for handling category operations.</param>
+        </member>
+        <member name="M:offers.itacademy.ge.API.Controllers.CategoriesController.GetAll(System.Int32,System.Int32,System.Threading.CancellationToken)">
+            <summary>
+            Get all categories, paginated
+            </summary>
+            <param name="page"></param>
+            <param name="pageSize"></param>
+            <param name="token"></param>
+            <returns></returns>
+        </member>
+        <member name="M:offers.itacademy.ge.API.Controllers.CategoriesController.GetById(System.Int32,System.Threading.CancellationToken)">
+            <summary>
+            Get category by id
+            </summary>
+            <param name="id"></param>
+            <param name="token"></param>
+            <returns></returns>
+        </member>
+        <member name="M:offers.itacademy.ge.API.Controllers.CategoriesController.Create(offers.itacademy.ge.Application.Models.Categories.CategoryRequestModel,System.Threading.CancellationToken)">
+            <summary>
+            Admin - Create category
+            </summary>
+            <param name="request"></param>
+            <param name="token"></param>
+            <returns></returns>
+        </member>
+        <member name="M:offers.itacademy.ge.API.Controllers.CategoriesController.Update(System.Int32,offers.itacademy.ge.Application.Models.Categories.CategoryRequestModel,System.Threading.CancellationToken)">
+            <summary>
+            Admin - Update category
+            </summary>
+            <param name="id"></param>
+            <param name="request"></param>
+            <param name="token"></param>
+            <returns></returns>
+        </member>
+        <member name="M:offers.itacademy.ge.API.Controllers.CategoriesController.Delete(System.Int32,System.Threading.CancellationToken)">
+            <summary>
+            Admin - Delete category
+            </summary>
+            <param name="id"></param>
+            <param name="token"></param>
+            <returns></returns>
+        </member>
+        <member name="T:offers.itacademy.ge.API.Controllers.ProductOffersController">
+            <summary>
+            Controller for managing product offers. 
+            Allows companies to create, update, and delete offers, and customers to browse and purchase them.
+            </summary>
+        </member>
+        <member name="M:offers.itacademy.ge.API.Controllers.ProductOffersController.#ctor(offers.itacademy.ge.Application.Interfaces.ServiceInterfaces.IProductOfferService)">
+            <summary>
+            Initializes a new instance of the <see cref="T:offers.itacademy.ge.API.Controllers.ProductOffersController"/> class.
+            </summary>
+            <param name="productOffersService">Service responsible for handling product offer operations.</param>
+        </member>
+        <member name="M:offers.itacademy.ge.API.Controllers.ProductOffersController.GetAll(System.Int32,System.Int32,System.Threading.CancellationToken)">
+            <summary>
+            Admin - Get all offers, paginated
+            </summary>
+            <param name="page"></param>
+            <param name="pageSize"></param>
+            <param name="token"></param>
+            <returns></returns>
+        </member>
+        <member name="M:offers.itacademy.ge.API.Controllers.ProductOffersController.GetActive(System.Int32,System.Int32,System.Threading.CancellationToken)">
+            <summary>
+            Get currently active offers, paginated
+            </summary>
+            <param name="page"></param>
+            <param name="pageSize"></param>
+            <param name="token"></param>
+            <returns></returns>
+        </member>
+        <member name="M:offers.itacademy.ge.API.Controllers.ProductOffersController.GetById(System.Int32,System.Threading.CancellationToken)">
+            <summary>
+            Get offer by id
+            </summary>
+            <param name="id"></param>
+            <param name="token"></param>
+            <returns></returns>
+        </member>
+        <member name="M:offers.itacademy.ge.API.Controllers.ProductOffersController.Create(offers.itacademy.ge.Application.Models.ProductOffers.ProductOfferRequestModel,System.Threading.CancellationToken)">
+            <summary>
+            Company - Create offer
+            </summary>
+            <param name="request"></param>
+            <param name="token"></param>
+            <returns></returns>
+        </member>
+        <member name="M:offers.itacademy.ge.API.Controllers.ProductOffersController.Update(System.Int32,offers.itacademy.ge.Application.Models.ProductOffers.ProductOfferRequestModel,System.Threading.CancellationToken)">
+            <summary>
+            Company - Update existing offer
+            </summary>
+            <param name="id"></param>
+            <param name="request"></param>
+            <param name="token"></param>
+            <returns></returns>
+        </member>
+        <member name="M:offers.itacademy.ge.API.Controllers.ProductOffersController.Delete(System.Int32,System.Threading.CancellationToken)">
+            <summary>
+            Company - Delete offer
+            </summary>
+            <param name="id"></param>
+            <param name="token"></param>
+            <returns></returns>
+        </member>
+        <member name="M:offers.itacademy.ge.API.Controllers.ProductOffersController.Cancel(System.Int32,System.Threading.CancellationToken)">
+            <summary>
+            Company - Cancell offer
+            </summary>
+            <param name="id"></param>
+            <param name="token"></param>
+            <returns></returns>
+        </member>
+        <member name="M:offers.itacademy.ge.API.Controllers.ProductOffersController.GetRelevant(System.Int32,System.Int32,System.Threading.CancellationToken)">
+            <summary>
+            Customer - Get relevant offers for current customer, paginated
+            </summary>
+            <param name="page"></param>
+            <param name="pageSize"></param>
+            <param name="token"></param>
+            <returns></returns>
+        </member>
+        <member name="M:offers.itacademy.ge.API.Controllers.ProductOffersController.UploadImage(System.Int32,offers.itacademy.ge.Application.Models.Images.ImageRequestModel,System.Threading.CancellationToken)">
+            <summary>
+            Company - Upload image for offer
+            </summary>
+            <param name="id"></param>
+            <param name="request"></param>
+            <param name="token"></param>
+            <returns></returns>
+        </member>
+        <member name="M:offers.itacademy.ge.API.Controllers.ProductOffersController.GetCompanyOffers(System.Int32,System.Int32,System.Threading.CancellationToken)">
+            <summary>
+            Company - Get offers by current company, paginated
+            </summary>
+            <param name="page"></param>
+            <param name="pageSize"></param>
+            <param name="token"></param>
+            <returns></returns>
+        </member>
+        <member name="T:offers.itacademy.ge.API.Controllers.PurchasesController">
+            <summary>
+            Controller for managing purchases. 
+            Allows customers and companies to view and interact with purchase data.
+            </summary>
+        </member>
+        <member name="M:offers.itacademy.ge.API.Controllers.PurchasesController.#ctor(offers.itacademy.ge.Application.Interfaces.ServiceInterfaces.IPurchaseService)">
+            <summary>
+            Initializes a new instance of the <see cref="T:offers.itacademy.ge.API.Controllers.PurchasesController"/> class.
+            </summary>
+            <param name="purchaseService">Service responsible for handling purchase-related operations.</param>
+        </member>
+        <member name="M:offers.itacademy.ge.API.Controllers.PurchasesController.PurchaseOfferAsync(System.Int32,System.Int32,System.Threading.CancellationToken)">
+            <summary>
+            Customer - Purchase offer
+            </summary>
+            <param name="offerId"></param>
+            <param name="quantity"></param>
+            <param name="token"></param>
+            <returns></returns>
+        </member>
+        <member name="M:offers.itacademy.ge.API.Controllers.PurchasesController.CancelPurchaseAsync(System.Int32,System.Threading.CancellationToken)">
+            <summary>
+            Customer - Cancell purchase
+            </summary>
+            <param name="purchaseId"></param>
+            <param name="token"></param>
+            <returns></returns>
+        </member>
+        <member name="M:offers.itacademy.ge.API.Controllers.PurchasesController.GetMyPurchasesAsync(System.Int32,System.Int32,System.Threading.CancellationToken)">
+            <summary>
+            Customer,Company - Get purchases of current user, paginated
+            </summary>
+            <param name="pageNumber"></param>
+            <param name="pageSize"></param>
+            <param name="token"></param>
+            <returns></returns>
+        </member>
+        <member name="M:offers.itacademy.ge.API.Controllers.PurchasesController.GetUserPurchasesAsync(System.Int32,System.Int32,System.Int32,System.Threading.CancellationToken)">
+            <summary>
+            Admin - Get purchases of user by user id, paginated
+            </summary>
+            <param name="userId"></param>
+            <param name="pageNumber"></param>
+            <param name="pageSize"></param>
+            <param name="token"></param>
+            <returns></returns>
+        </member>
+        <member name="M:offers.itacademy.ge.API.Controllers.PurchasesController.GetOfferPurchases(System.Int32,System.Int32,System.Int32,System.Threading.CancellationToken)">
+            <summary>
+            Company, Admin - Get purchases of concrete offer, paginated
+            </summary>
+            <param name="offerId"></param>
+            <param name="pageNumber"></param>
+            <param name="pageSize"></param>
+            <param name="token"></param>
+            <returns></returns>
+        </member>
+        <member name="M:offers.itacademy.ge.API.Controllers.PurchasesController.GetById(System.Int32,System.Threading.CancellationToken)">
+            <summary>
+            Customer - Get purchase by id for current customer user.
+            </summary>
+            <param name="id"></param>
+            <param name="token"></param>
+            <returns></returns>
+        </member>
+        <member name="T:offers.itacademy.ge.API.Controllers.UsersController">
+            <summary>
+            Controller for managing user-related operations such as viewing profiles or managing roles.
+            </summary>
+        </member>
+        <member name="M:offers.itacademy.ge.API.Controllers.UsersController.#ctor(offers.itacademy.ge.Application.Interfaces.ServiceInterfaces.IUserService)">
+            <summary>
+            Initializes a new instance of the <see cref="T:offers.itacademy.ge.API.Controllers.UsersController"/> class.
+            </summary>
+            <param name="userService">Service for handling user-related operations.</param>
+        </member>
+        <member name="M:offers.itacademy.ge.API.Controllers.UsersController.GetAllCompaniesAsync(System.Int32,System.Int32,System.Threading.CancellationToken)">
+            <summary>
+            Admin - Get all companies, paginated
+            </summary>
+            <param name="pageNumber"></param>
+            <param name="pageSize"></param>
+            <param name="token"></param>
+            <returns></returns>
+        </member>
+        <member name="M:offers.itacademy.ge.API.Controllers.UsersController.GetAllCustomersAsync(System.Int32,System.Int32,System.Threading.CancellationToken)">
+            <summary>
+            Admin - Get all customers, paginated
+            </summary>
+            <param name="pageNumber"></param>
+            <param name="pageSize"></param>
+            <param name="token"></param>
+            <returns></returns>
+        </member>
+        <member name="M:offers.itacademy.ge.API.Controllers.UsersController.GetAllAdminsAsync(System.Int32,System.Int32,System.Threading.CancellationToken)">
+            <summary>
+            Admin - Get all admins, paginated
+            </summary>
+            <param name="pageNumber"></param>
+            <param name="pageSize"></param>
+            <param name="token"></param>
+            <returns></returns>
+        </member>
+        <member name="M:offers.itacademy.ge.API.Controllers.UsersController.Login(offers.itacademy.ge.Application.Models.Users.UserLoginRequestModel,System.Threading.CancellationToken)">
+            <summary>
+            Login to system
+            </summary>
+            <param name="model"></param>
+            <param name="token"></param>
+            <returns></returns>
+        </member>
+        <member name="M:offers.itacademy.ge.API.Controllers.UsersController.RegisterAdmin(offers.itacademy.ge.Application.Models.Users.Admin.AdminRequestModel,System.Threading.CancellationToken)">
+            <summary>
+            Admin - Register new admin to system
+            </summary>
+            <param name="model"></param>
+            <param name="token"></param>
+            <returns></returns>
+        </member>
+        <member name="M:offers.itacademy.ge.API.Controllers.UsersController.RegisterCompany(offers.itacademy.ge.Application.Models.Users.Company.CompanyRequestModel,System.Threading.CancellationToken)">
+            <summary>
+            Register new company to system
+            </summary>
+            <param name="model"></param>
+            <param name="token"></param>
+            <returns></returns>
+        </member>
+        <member name="M:offers.itacademy.ge.API.Controllers.UsersController.RegisterCustomer(offers.itacademy.ge.Application.Models.Users.Customer.CustomerRequestModel,System.Threading.CancellationToken)">
+            <summary>
+            Register new customer to system
+            </summary>
+            <param name="model"></param>
+            <param name="token"></param>
+            <returns></returns>
+        </member>
+        <member name="M:offers.itacademy.ge.API.Controllers.UsersController.UploadCompanyImage(offers.itacademy.ge.Application.Models.Images.ImageRequestModel,System.Threading.CancellationToken)">
+            <summary>
+            Company - Upload image for company
+            </summary>
+            <param name="fileForm"></param>
+            <param name="token"></param>
+            <returns></returns>
+        </member>
+        <member name="M:offers.itacademy.ge.API.Controllers.UsersController.ActivateCompany(System.Int32,System.Threading.CancellationToken)">
+            <summary>
+            Admin - Activate company
+            </summary>
+            <param name="companyId"></param>
+            <param name="token"></param>
+            <returns></returns>
+        </member>
+        <member name="M:offers.itacademy.ge.API.Controllers.UsersController.UpdateCustomerCategories(System.Collections.Generic.List{System.Int32},System.Threading.CancellationToken)">
+            <summary>
+            Customer - Update preferred categories for current customer
+            </summary>
+            <param name="categoryIds"></param>
+            <param name="token"></param>
+            <returns></returns>
+        </member>
+        <member name="M:offers.itacademy.ge.API.Controllers.UsersController.UpdateAdmin(offers.itacademy.ge.Application.Models.Users.Admin.AdminRequestUpdateModel,System.Threading.CancellationToken)">
+            <summary>
+            Admin - Update current admin
+            </summary>
+            <param name="model"></param>
+            <param name="token"></param>
+            <returns></returns>
+        </member>
+        <member name="M:offers.itacademy.ge.API.Controllers.UsersController.UpdateCompany(offers.itacademy.ge.Application.Models.Users.Company.CompanyRequestUpdateModel,System.Threading.CancellationToken)">
+            <summary>
+            Company - Update current company
+            </summary>
+            <param name="model"></param>
+            <param name="token"></param>
+            <returns></returns>
+        </member>
+        <member name="M:offers.itacademy.ge.API.Controllers.UsersController.UpdateCustomer(offers.itacademy.ge.Application.Models.Users.Customer.CustomerRequestUpdateModel,System.Threading.CancellationToken)">
+            <summary>
+            Customer - Update current customer
+            </summary>
+            <param name="model"></param>
+            <param name="token"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

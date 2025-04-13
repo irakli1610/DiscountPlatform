@@ -1,0 +1,358 @@
+2025-04-05 12:39:12.673 +04:00 [INF] Starting ExpirationMonitorWorker
+2025-04-05 12:39:13.360 +04:00 [INF] OfferExpirationWorker started.
+2025-04-05 12:39:13.367 +04:00 [INF] Checking for expired offers at "2025-04-05T08:39:13.3627232Z"
+2025-04-05 12:39:15.077 +04:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-04-05 12:39:15.090 +04:00 [INF] Hosting environment: Production
+2025-04-05 12:39:15.092 +04:00 [INF] Content root path: C:\Users\irakl\Desktop\TBC .Net Course\Final Project\offers.itacatemy.ge.ExpirationMonitorWorker\bin\Debug\net8.0
+2025-04-05 12:39:15.342 +04:00 [INF] Executed DbCommand (90ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[CategoryId], [p].[CompanyId], [p].[CreateTime], [p].[Description], [p].[ExpirationTime], [p].[ImageUrl], [p].[Name], [p].[Price], [p].[Quantity], [p].[Status], [u0].[Id], [u0].[Email], [u0].[Password], [u0].[Role], [u0].[UserName], [u0].[Balance], [u0].[ImageUrl], [u0].[IsActivated]
+FROM [ProductOffers] AS [p]
+INNER JOIN (
+    SELECT [u].[Id], [u].[Email], [u].[Password], [u].[Role], [u].[UserName], [u].[Balance], [u].[ImageUrl], [u].[IsActivated]
+    FROM [Users] AS [u]
+    WHERE [u].[Role] = 1
+) AS [u0] ON [p].[CompanyId] = [u0].[Id]
+WHERE [p].[ExpirationTime] <= GETUTCDATE() AND [p].[Status] = 0
+2025-04-05 12:39:15.363 +04:00 [INF] No expired offers found.
+2025-04-05 12:40:15.411 +04:00 [INF] Checking for expired offers at "2025-04-05T08:40:15.3888802Z"
+2025-04-05 12:40:15.482 +04:00 [INF] Executed DbCommand (9ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[CategoryId], [p].[CompanyId], [p].[CreateTime], [p].[Description], [p].[ExpirationTime], [p].[ImageUrl], [p].[Name], [p].[Price], [p].[Quantity], [p].[Status], [u0].[Id], [u0].[Email], [u0].[Password], [u0].[Role], [u0].[UserName], [u0].[Balance], [u0].[ImageUrl], [u0].[IsActivated]
+FROM [ProductOffers] AS [p]
+INNER JOIN (
+    SELECT [u].[Id], [u].[Email], [u].[Password], [u].[Role], [u].[UserName], [u].[Balance], [u].[ImageUrl], [u].[IsActivated]
+    FROM [Users] AS [u]
+    WHERE [u].[Role] = 1
+) AS [u0] ON [p].[CompanyId] = [u0].[Id]
+WHERE [p].[ExpirationTime] <= GETUTCDATE() AND [p].[Status] = 0
+2025-04-05 12:40:15.485 +04:00 [INF] No expired offers found.
+2025-04-05 12:41:03.778 +04:00 [INF] Starting ExpirationMonitorWorker
+2025-04-05 12:41:04.391 +04:00 [INF] OfferExpirationWorker started.
+2025-04-05 12:41:04.397 +04:00 [INF] Checking for expired offers at "2025-04-05T08:41:04.3928955Z"
+2025-04-05 12:41:05.881 +04:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-04-05 12:41:05.882 +04:00 [INF] Hosting environment: Production
+2025-04-05 12:41:05.883 +04:00 [INF] Content root path: C:\Users\irakl\Desktop\TBC .Net Course\Final Project\offers.itacatemy.ge.ExpirationMonitorWorker\bin\Debug\net8.0
+2025-04-05 12:41:06.048 +04:00 [INF] Executed DbCommand (32ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[CategoryId], [p].[CompanyId], [p].[CreateTime], [p].[Description], [p].[ExpirationTime], [p].[ImageUrl], [p].[Name], [p].[Price], [p].[Quantity], [p].[Status], [u0].[Id], [u0].[Email], [u0].[Password], [u0].[Role], [u0].[UserName], [u0].[Balance], [u0].[ImageUrl], [u0].[IsActivated]
+FROM [ProductOffers] AS [p]
+INNER JOIN (
+    SELECT [u].[Id], [u].[Email], [u].[Password], [u].[Role], [u].[UserName], [u].[Balance], [u].[ImageUrl], [u].[IsActivated]
+    FROM [Users] AS [u]
+    WHERE [u].[Role] = 1
+) AS [u0] ON [p].[CompanyId] = [u0].[Id]
+WHERE [p].[ExpirationTime] <= GETUTCDATE() AND [p].[Status] = 0
+2025-04-05 12:41:06.069 +04:00 [INF] No expired offers found.
+2025-04-05 13:16:47.285 +04:00 [INF] Starting ExpirationMonitorWorker
+2025-04-05 13:16:47.951 +04:00 [INF] OfferExpirationWorker started.
+2025-04-05 13:16:47.957 +04:00 [INF] Checking for expired offers at "2025-04-05T09:16:47.9528546Z"
+2025-04-05 13:16:49.415 +04:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-04-05 13:16:49.416 +04:00 [INF] Hosting environment: Production
+2025-04-05 13:16:49.417 +04:00 [INF] Content root path: C:\Users\irakl\Desktop\TBC .Net Course\Final Project\offers.itacatemy.ge.ExpirationMonitorWorker\bin\Debug\net8.0
+2025-04-05 13:16:49.559 +04:00 [INF] Executed DbCommand (29ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[CategoryId], [p].[CompanyId], [p].[CreateTime], [p].[Description], [p].[ExpirationTime], [p].[ImageUrl], [p].[Name], [p].[Price], [p].[Quantity], [p].[Status], [u0].[Id], [u0].[Email], [u0].[Password], [u0].[Role], [u0].[UserName], [u0].[Balance], [u0].[ImageUrl], [u0].[IsActivated]
+FROM [ProductOffers] AS [p]
+INNER JOIN (
+    SELECT [u].[Id], [u].[Email], [u].[Password], [u].[Role], [u].[UserName], [u].[Balance], [u].[ImageUrl], [u].[IsActivated]
+    FROM [Users] AS [u]
+    WHERE [u].[Role] = 1
+) AS [u0] ON [p].[CompanyId] = [u0].[Id]
+WHERE [p].[ExpirationTime] <= GETUTCDATE() AND [p].[Status] = 0
+2025-04-05 13:16:49.580 +04:00 [INF] No expired offers found.
+2025-04-05 13:17:20.244 +04:00 [INF] Starting ExpirationMonitorWorker
+2025-04-05 13:17:20.922 +04:00 [INF] OfferExpirationWorker started.
+2025-04-05 13:17:20.928 +04:00 [INF] Checking for expired offers at "2025-04-05T09:17:20.9247652Z"
+2025-04-05 13:17:22.218 +04:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-04-05 13:17:22.219 +04:00 [INF] Hosting environment: Production
+2025-04-05 13:17:22.220 +04:00 [INF] Content root path: C:\Users\irakl\Desktop\TBC .Net Course\Final Project\offers.itacatemy.ge.ExpirationMonitorWorker\bin\Debug\net8.0
+2025-04-05 13:17:22.372 +04:00 [INF] Executed DbCommand (31ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[CategoryId], [p].[CompanyId], [p].[CreateTime], [p].[Description], [p].[ExpirationTime], [p].[ImageUrl], [p].[Name], [p].[Price], [p].[Quantity], [p].[Status], [u0].[Id], [u0].[Email], [u0].[Password], [u0].[Role], [u0].[UserName], [u0].[Balance], [u0].[ImageUrl], [u0].[IsActivated]
+FROM [ProductOffers] AS [p]
+INNER JOIN (
+    SELECT [u].[Id], [u].[Email], [u].[Password], [u].[Role], [u].[UserName], [u].[Balance], [u].[ImageUrl], [u].[IsActivated]
+    FROM [Users] AS [u]
+    WHERE [u].[Role] = 1
+) AS [u0] ON [p].[CompanyId] = [u0].[Id]
+WHERE [p].[ExpirationTime] <= GETUTCDATE() AND [p].[Status] = 0
+2025-04-05 13:17:22.391 +04:00 [INF] No expired offers found.
+2025-04-05 13:18:22.422 +04:00 [INF] Checking for expired offers at "2025-04-05T09:18:22.4221505Z"
+2025-04-05 13:18:22.480 +04:00 [INF] Executed DbCommand (9ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[CategoryId], [p].[CompanyId], [p].[CreateTime], [p].[Description], [p].[ExpirationTime], [p].[ImageUrl], [p].[Name], [p].[Price], [p].[Quantity], [p].[Status], [u0].[Id], [u0].[Email], [u0].[Password], [u0].[Role], [u0].[UserName], [u0].[Balance], [u0].[ImageUrl], [u0].[IsActivated]
+FROM [ProductOffers] AS [p]
+INNER JOIN (
+    SELECT [u].[Id], [u].[Email], [u].[Password], [u].[Role], [u].[UserName], [u].[Balance], [u].[ImageUrl], [u].[IsActivated]
+    FROM [Users] AS [u]
+    WHERE [u].[Role] = 1
+) AS [u0] ON [p].[CompanyId] = [u0].[Id]
+WHERE [p].[ExpirationTime] <= GETUTCDATE() AND [p].[Status] = 0
+2025-04-05 13:18:22.484 +04:00 [INF] No expired offers found.
+2025-04-05 13:18:32.962 +04:00 [INF] Starting ExpirationMonitorWorker
+2025-04-05 13:18:33.516 +04:00 [INF] OfferExpirationWorker started.
+2025-04-05 13:18:33.523 +04:00 [INF] Checking for expired offers at "2025-04-05T09:18:33.5185315Z"
+2025-04-05 13:18:34.931 +04:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-04-05 13:18:34.931 +04:00 [INF] Hosting environment: Production
+2025-04-05 13:18:34.941 +04:00 [INF] Content root path: C:\Users\irakl\Desktop\TBC .Net Course\Final Project\offers.itacatemy.ge.ExpirationMonitorWorker\bin\Debug\net8.0
+2025-04-05 13:18:35.075 +04:00 [INF] Executed DbCommand (29ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[CategoryId], [p].[CompanyId], [p].[CreateTime], [p].[Description], [p].[ExpirationTime], [p].[ImageUrl], [p].[Name], [p].[Price], [p].[Quantity], [p].[Status], [u0].[Id], [u0].[Email], [u0].[Password], [u0].[Role], [u0].[UserName], [u0].[Balance], [u0].[ImageUrl], [u0].[IsActivated]
+FROM [ProductOffers] AS [p]
+INNER JOIN (
+    SELECT [u].[Id], [u].[Email], [u].[Password], [u].[Role], [u].[UserName], [u].[Balance], [u].[ImageUrl], [u].[IsActivated]
+    FROM [Users] AS [u]
+    WHERE [u].[Role] = 1
+) AS [u0] ON [p].[CompanyId] = [u0].[Id]
+WHERE [p].[ExpirationTime] <= GETUTCDATE() AND [p].[Status] = 0
+2025-04-05 13:18:35.095 +04:00 [INF] No expired offers found.
+2025-04-05 13:19:17.578 +04:00 [INF] Starting ExpirationMonitorWorker
+2025-04-05 13:19:18.234 +04:00 [INF] OfferExpirationWorker started.
+2025-04-05 13:19:18.240 +04:00 [INF] Checking for expired offers at "2025-04-05T09:19:18.2362169Z"
+2025-04-05 13:19:19.620 +04:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-04-05 13:19:19.621 +04:00 [INF] Hosting environment: Production
+2025-04-05 13:19:19.623 +04:00 [INF] Content root path: C:\Users\irakl\Desktop\TBC .Net Course\Final Project\offers.itacatemy.ge.ExpirationMonitorWorker\bin\Debug\net8.0
+2025-04-05 13:19:19.774 +04:00 [INF] Executed DbCommand (25ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[CategoryId], [p].[CompanyId], [p].[CreateTime], [p].[Description], [p].[ExpirationTime], [p].[ImageUrl], [p].[Name], [p].[Price], [p].[Quantity], [p].[Status], [u0].[Id], [u0].[Email], [u0].[Password], [u0].[Role], [u0].[UserName], [u0].[Balance], [u0].[ImageUrl], [u0].[IsActivated]
+FROM [ProductOffers] AS [p]
+INNER JOIN (
+    SELECT [u].[Id], [u].[Email], [u].[Password], [u].[Role], [u].[UserName], [u].[Balance], [u].[ImageUrl], [u].[IsActivated]
+    FROM [Users] AS [u]
+    WHERE [u].[Role] = 1
+) AS [u0] ON [p].[CompanyId] = [u0].[Id]
+WHERE [p].[ExpirationTime] <= GETUTCDATE() AND [p].[Status] = 0
+2025-04-05 13:19:19.796 +04:00 [INF] No expired offers found.
+2025-04-05 13:20:19.847 +04:00 [INF] Checking for expired offers at "2025-04-05T09:20:19.8141686Z"
+2025-04-05 13:20:19.920 +04:00 [INF] Executed DbCommand (13ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[CategoryId], [p].[CompanyId], [p].[CreateTime], [p].[Description], [p].[ExpirationTime], [p].[ImageUrl], [p].[Name], [p].[Price], [p].[Quantity], [p].[Status], [u0].[Id], [u0].[Email], [u0].[Password], [u0].[Role], [u0].[UserName], [u0].[Balance], [u0].[ImageUrl], [u0].[IsActivated]
+FROM [ProductOffers] AS [p]
+INNER JOIN (
+    SELECT [u].[Id], [u].[Email], [u].[Password], [u].[Role], [u].[UserName], [u].[Balance], [u].[ImageUrl], [u].[IsActivated]
+    FROM [Users] AS [u]
+    WHERE [u].[Role] = 1
+) AS [u0] ON [p].[CompanyId] = [u0].[Id]
+WHERE [p].[ExpirationTime] <= GETUTCDATE() AND [p].[Status] = 0
+2025-04-05 13:20:19.922 +04:00 [INF] No expired offers found.
+2025-04-05 13:21:19.931 +04:00 [INF] Checking for expired offers at "2025-04-05T09:21:19.9317577Z"
+2025-04-05 13:21:19.967 +04:00 [INF] Executed DbCommand (14ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[CategoryId], [p].[CompanyId], [p].[CreateTime], [p].[Description], [p].[ExpirationTime], [p].[ImageUrl], [p].[Name], [p].[Price], [p].[Quantity], [p].[Status], [u0].[Id], [u0].[Email], [u0].[Password], [u0].[Role], [u0].[UserName], [u0].[Balance], [u0].[ImageUrl], [u0].[IsActivated]
+FROM [ProductOffers] AS [p]
+INNER JOIN (
+    SELECT [u].[Id], [u].[Email], [u].[Password], [u].[Role], [u].[UserName], [u].[Balance], [u].[ImageUrl], [u].[IsActivated]
+    FROM [Users] AS [u]
+    WHERE [u].[Role] = 1
+) AS [u0] ON [p].[CompanyId] = [u0].[Id]
+WHERE [p].[ExpirationTime] <= GETUTCDATE() AND [p].[Status] = 0
+2025-04-05 13:21:19.971 +04:00 [INF] No expired offers found.
+2025-04-05 13:21:46.231 +04:00 [INF] Starting ExpirationMonitorWorker
+2025-04-05 13:21:46.834 +04:00 [INF] OfferExpirationWorker started.
+2025-04-05 13:21:46.840 +04:00 [INF] Checking for expired offers at "2025-04-05T09:21:46.8368896Z"
+2025-04-05 13:21:48.466 +04:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-04-05 13:21:48.467 +04:00 [INF] Hosting environment: Production
+2025-04-05 13:21:48.470 +04:00 [INF] Content root path: C:\Users\irakl\Desktop\TBC .Net Course\Final Project\offers.itacatemy.ge.ExpirationMonitorWorker\bin\Debug\net8.0
+2025-04-05 13:21:48.617 +04:00 [INF] Executed DbCommand (32ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[CategoryId], [p].[CompanyId], [p].[CreateTime], [p].[Description], [p].[ExpirationTime], [p].[ImageUrl], [p].[Name], [p].[Price], [p].[Quantity], [p].[Status], [u0].[Id], [u0].[Email], [u0].[Password], [u0].[Role], [u0].[UserName], [u0].[Balance], [u0].[ImageUrl], [u0].[IsActivated]
+FROM [ProductOffers] AS [p]
+INNER JOIN (
+    SELECT [u].[Id], [u].[Email], [u].[Password], [u].[Role], [u].[UserName], [u].[Balance], [u].[ImageUrl], [u].[IsActivated]
+    FROM [Users] AS [u]
+    WHERE [u].[Role] = 1
+) AS [u0] ON [p].[CompanyId] = [u0].[Id]
+WHERE [p].[ExpirationTime] <= GETUTCDATE() AND [p].[Status] = 0
+2025-04-05 13:21:48.639 +04:00 [INF] No expired offers found.
+2025-04-05 13:22:48.667 +04:00 [INF] Checking for expired offers at "2025-04-05T09:22:48.6673746Z"
+2025-04-05 13:22:48.736 +04:00 [INF] Executed DbCommand (17ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[CategoryId], [p].[CompanyId], [p].[CreateTime], [p].[Description], [p].[ExpirationTime], [p].[ImageUrl], [p].[Name], [p].[Price], [p].[Quantity], [p].[Status], [u0].[Id], [u0].[Email], [u0].[Password], [u0].[Role], [u0].[UserName], [u0].[Balance], [u0].[ImageUrl], [u0].[IsActivated]
+FROM [ProductOffers] AS [p]
+INNER JOIN (
+    SELECT [u].[Id], [u].[Email], [u].[Password], [u].[Role], [u].[UserName], [u].[Balance], [u].[ImageUrl], [u].[IsActivated]
+    FROM [Users] AS [u]
+    WHERE [u].[Role] = 1
+) AS [u0] ON [p].[CompanyId] = [u0].[Id]
+WHERE [p].[ExpirationTime] <= GETUTCDATE() AND [p].[Status] = 0
+2025-04-05 13:22:48.740 +04:00 [INF] No expired offers found.
+2025-04-05 13:23:48.752 +04:00 [INF] Checking for expired offers at "2025-04-05T09:23:48.7527878Z"
+2025-04-05 13:23:48.789 +04:00 [INF] Executed DbCommand (15ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[CategoryId], [p].[CompanyId], [p].[CreateTime], [p].[Description], [p].[ExpirationTime], [p].[ImageUrl], [p].[Name], [p].[Price], [p].[Quantity], [p].[Status], [u0].[Id], [u0].[Email], [u0].[Password], [u0].[Role], [u0].[UserName], [u0].[Balance], [u0].[ImageUrl], [u0].[IsActivated]
+FROM [ProductOffers] AS [p]
+INNER JOIN (
+    SELECT [u].[Id], [u].[Email], [u].[Password], [u].[Role], [u].[UserName], [u].[Balance], [u].[ImageUrl], [u].[IsActivated]
+    FROM [Users] AS [u]
+    WHERE [u].[Role] = 1
+) AS [u0] ON [p].[CompanyId] = [u0].[Id]
+WHERE [p].[ExpirationTime] <= GETUTCDATE() AND [p].[Status] = 0
+2025-04-05 13:23:48.794 +04:00 [INF] No expired offers found.
+2025-04-05 13:24:48.809 +04:00 [INF] Checking for expired offers at "2025-04-05T09:24:48.8092908Z"
+2025-04-05 13:24:48.833 +04:00 [INF] Executed DbCommand (14ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[CategoryId], [p].[CompanyId], [p].[CreateTime], [p].[Description], [p].[ExpirationTime], [p].[ImageUrl], [p].[Name], [p].[Price], [p].[Quantity], [p].[Status], [u0].[Id], [u0].[Email], [u0].[Password], [u0].[Role], [u0].[UserName], [u0].[Balance], [u0].[ImageUrl], [u0].[IsActivated]
+FROM [ProductOffers] AS [p]
+INNER JOIN (
+    SELECT [u].[Id], [u].[Email], [u].[Password], [u].[Role], [u].[UserName], [u].[Balance], [u].[ImageUrl], [u].[IsActivated]
+    FROM [Users] AS [u]
+    WHERE [u].[Role] = 1
+) AS [u0] ON [p].[CompanyId] = [u0].[Id]
+WHERE [p].[ExpirationTime] <= GETUTCDATE() AND [p].[Status] = 0
+2025-04-05 13:24:48.837 +04:00 [INF] No expired offers found.
+2025-04-05 13:25:53.558 +04:00 [INF] Starting ExpirationMonitorWorker
+2025-04-05 13:25:54.130 +04:00 [INF] OfferExpirationWorker started.
+2025-04-05 13:25:54.136 +04:00 [INF] Checking for expired offers at "2025-04-05T09:25:54.1320920Z"
+2025-04-05 13:25:55.520 +04:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-04-05 13:25:55.521 +04:00 [INF] Hosting environment: Production
+2025-04-05 13:25:55.531 +04:00 [INF] Content root path: C:\Users\irakl\Desktop\TBC .Net Course\Final Project\offers.itacatemy.ge.ExpirationMonitorWorker\bin\Debug\net8.0
+2025-04-05 13:25:55.666 +04:00 [INF] Executed DbCommand (30ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[CategoryId], [p].[CompanyId], [p].[CreateTime], [p].[Description], [p].[ExpirationTime], [p].[ImageUrl], [p].[Name], [p].[Price], [p].[Quantity], [p].[Status], [u0].[Id], [u0].[Email], [u0].[Password], [u0].[Role], [u0].[UserName], [u0].[Balance], [u0].[ImageUrl], [u0].[IsActivated]
+FROM [ProductOffers] AS [p]
+INNER JOIN (
+    SELECT [u].[Id], [u].[Email], [u].[Password], [u].[Role], [u].[UserName], [u].[Balance], [u].[ImageUrl], [u].[IsActivated]
+    FROM [Users] AS [u]
+    WHERE [u].[Role] = 1
+) AS [u0] ON [p].[CompanyId] = [u0].[Id]
+WHERE [p].[ExpirationTime] <= GETUTCDATE() AND [p].[Status] = 0
+2025-04-05 13:25:55.687 +04:00 [INF] No expired offers found.
+2025-04-05 13:26:55.704 +04:00 [INF] Checking for expired offers at "2025-04-05T09:26:55.7047290Z"
+2025-04-05 13:26:55.784 +04:00 [INF] Executed DbCommand (9ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[CategoryId], [p].[CompanyId], [p].[CreateTime], [p].[Description], [p].[ExpirationTime], [p].[ImageUrl], [p].[Name], [p].[Price], [p].[Quantity], [p].[Status], [u0].[Id], [u0].[Email], [u0].[Password], [u0].[Role], [u0].[UserName], [u0].[Balance], [u0].[ImageUrl], [u0].[IsActivated]
+FROM [ProductOffers] AS [p]
+INNER JOIN (
+    SELECT [u].[Id], [u].[Email], [u].[Password], [u].[Role], [u].[UserName], [u].[Balance], [u].[ImageUrl], [u].[IsActivated]
+    FROM [Users] AS [u]
+    WHERE [u].[Role] = 1
+) AS [u0] ON [p].[CompanyId] = [u0].[Id]
+WHERE [p].[ExpirationTime] <= GETUTCDATE() AND [p].[Status] = 0
+2025-04-05 13:26:55.787 +04:00 [INF] No expired offers found.
+2025-04-05 13:27:55.796 +04:00 [INF] Checking for expired offers at "2025-04-05T09:27:55.7963947Z"
+2025-04-05 13:27:55.828 +04:00 [INF] Executed DbCommand (11ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[CategoryId], [p].[CompanyId], [p].[CreateTime], [p].[Description], [p].[ExpirationTime], [p].[ImageUrl], [p].[Name], [p].[Price], [p].[Quantity], [p].[Status], [u0].[Id], [u0].[Email], [u0].[Password], [u0].[Role], [u0].[UserName], [u0].[Balance], [u0].[ImageUrl], [u0].[IsActivated]
+FROM [ProductOffers] AS [p]
+INNER JOIN (
+    SELECT [u].[Id], [u].[Email], [u].[Password], [u].[Role], [u].[UserName], [u].[Balance], [u].[ImageUrl], [u].[IsActivated]
+    FROM [Users] AS [u]
+    WHERE [u].[Role] = 1
+) AS [u0] ON [p].[CompanyId] = [u0].[Id]
+WHERE [p].[ExpirationTime] <= GETUTCDATE() AND [p].[Status] = 0
+2025-04-05 13:27:55.833 +04:00 [INF] No expired offers found.
+2025-04-05 13:28:55.851 +04:00 [INF] Checking for expired offers at "2025-04-05T09:28:55.8513456Z"
+2025-04-05 13:28:55.880 +04:00 [INF] Executed DbCommand (15ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[CategoryId], [p].[CompanyId], [p].[CreateTime], [p].[Description], [p].[ExpirationTime], [p].[ImageUrl], [p].[Name], [p].[Price], [p].[Quantity], [p].[Status], [u0].[Id], [u0].[Email], [u0].[Password], [u0].[Role], [u0].[UserName], [u0].[Balance], [u0].[ImageUrl], [u0].[IsActivated]
+FROM [ProductOffers] AS [p]
+INNER JOIN (
+    SELECT [u].[Id], [u].[Email], [u].[Password], [u].[Role], [u].[UserName], [u].[Balance], [u].[ImageUrl], [u].[IsActivated]
+    FROM [Users] AS [u]
+    WHERE [u].[Role] = 1
+) AS [u0] ON [p].[CompanyId] = [u0].[Id]
+WHERE [p].[ExpirationTime] <= GETUTCDATE() AND [p].[Status] = 0
+2025-04-05 13:28:55.883 +04:00 [INF] No expired offers found.
+2025-04-05 13:29:55.888 +04:00 [INF] Checking for expired offers at "2025-04-05T09:29:55.8887987Z"
+2025-04-05 13:29:55.910 +04:00 [INF] Executed DbCommand (17ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[CategoryId], [p].[CompanyId], [p].[CreateTime], [p].[Description], [p].[ExpirationTime], [p].[ImageUrl], [p].[Name], [p].[Price], [p].[Quantity], [p].[Status], [u0].[Id], [u0].[Email], [u0].[Password], [u0].[Role], [u0].[UserName], [u0].[Balance], [u0].[ImageUrl], [u0].[IsActivated]
+FROM [ProductOffers] AS [p]
+INNER JOIN (
+    SELECT [u].[Id], [u].[Email], [u].[Password], [u].[Role], [u].[UserName], [u].[Balance], [u].[ImageUrl], [u].[IsActivated]
+    FROM [Users] AS [u]
+    WHERE [u].[Role] = 1
+) AS [u0] ON [p].[CompanyId] = [u0].[Id]
+WHERE [p].[ExpirationTime] <= GETUTCDATE() AND [p].[Status] = 0
+2025-04-05 13:29:55.913 +04:00 [INF] No expired offers found.
+2025-04-05 13:30:46.697 +04:00 [INF] Starting ExpirationMonitorWorker
+2025-04-05 13:30:47.270 +04:00 [INF] OfferExpirationWorker started.
+2025-04-05 13:30:47.276 +04:00 [INF] Checking for expired offers at "2025-04-05T09:30:47.2725972Z"
+2025-04-05 13:30:48.639 +04:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-04-05 13:30:48.641 +04:00 [INF] Hosting environment: Production
+2025-04-05 13:30:48.652 +04:00 [INF] Content root path: C:\Users\irakl\Desktop\TBC .Net Course\Final Project\offers.itacatemy.ge.ExpirationMonitorWorker\bin\Debug\net8.0
+2025-04-05 13:30:48.793 +04:00 [INF] Executed DbCommand (31ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[CategoryId], [p].[CompanyId], [p].[CreateTime], [p].[Description], [p].[ExpirationTime], [p].[ImageUrl], [p].[Name], [p].[Price], [p].[Quantity], [p].[Status], [u0].[Id], [u0].[Email], [u0].[Password], [u0].[Role], [u0].[UserName], [u0].[Balance], [u0].[ImageUrl], [u0].[IsActivated]
+FROM [ProductOffers] AS [p]
+INNER JOIN (
+    SELECT [u].[Id], [u].[Email], [u].[Password], [u].[Role], [u].[UserName], [u].[Balance], [u].[ImageUrl], [u].[IsActivated]
+    FROM [Users] AS [u]
+    WHERE [u].[Role] = 1
+) AS [u0] ON [p].[CompanyId] = [u0].[Id]
+WHERE [p].[ExpirationTime] <= GETUTCDATE() AND [p].[Status] = 0
+2025-04-05 13:30:48.817 +04:00 [INF] No expired offers found.
+2025-04-05 13:31:48.831 +04:00 [INF] Checking for expired offers at "2025-04-05T09:31:48.8315586Z"
+2025-04-05 13:31:48.906 +04:00 [INF] Executed DbCommand (15ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[CategoryId], [p].[CompanyId], [p].[CreateTime], [p].[Description], [p].[ExpirationTime], [p].[ImageUrl], [p].[Name], [p].[Price], [p].[Quantity], [p].[Status], [u0].[Id], [u0].[Email], [u0].[Password], [u0].[Role], [u0].[UserName], [u0].[Balance], [u0].[ImageUrl], [u0].[IsActivated]
+FROM [ProductOffers] AS [p]
+INNER JOIN (
+    SELECT [u].[Id], [u].[Email], [u].[Password], [u].[Role], [u].[UserName], [u].[Balance], [u].[ImageUrl], [u].[IsActivated]
+    FROM [Users] AS [u]
+    WHERE [u].[Role] = 1
+) AS [u0] ON [p].[CompanyId] = [u0].[Id]
+WHERE [p].[ExpirationTime] <= GETUTCDATE() AND [p].[Status] = 0
+2025-04-05 13:31:48.909 +04:00 [INF] No expired offers found.
+2025-04-05 13:32:48.930 +04:00 [INF] Checking for expired offers at "2025-04-05T09:32:48.9305267Z"
+2025-04-05 13:32:48.960 +04:00 [INF] Executed DbCommand (9ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[CategoryId], [p].[CompanyId], [p].[CreateTime], [p].[Description], [p].[ExpirationTime], [p].[ImageUrl], [p].[Name], [p].[Price], [p].[Quantity], [p].[Status], [u0].[Id], [u0].[Email], [u0].[Password], [u0].[Role], [u0].[UserName], [u0].[Balance], [u0].[ImageUrl], [u0].[IsActivated]
+FROM [ProductOffers] AS [p]
+INNER JOIN (
+    SELECT [u].[Id], [u].[Email], [u].[Password], [u].[Role], [u].[UserName], [u].[Balance], [u].[ImageUrl], [u].[IsActivated]
+    FROM [Users] AS [u]
+    WHERE [u].[Role] = 1
+) AS [u0] ON [p].[CompanyId] = [u0].[Id]
+WHERE [p].[ExpirationTime] <= GETUTCDATE() AND [p].[Status] = 0
+2025-04-05 13:32:48.963 +04:00 [INF] No expired offers found.
+2025-04-05 13:33:48.973 +04:00 [INF] Checking for expired offers at "2025-04-05T09:33:48.9732632Z"
+2025-04-05 13:33:49.002 +04:00 [INF] Executed DbCommand (19ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[CategoryId], [p].[CompanyId], [p].[CreateTime], [p].[Description], [p].[ExpirationTime], [p].[ImageUrl], [p].[Name], [p].[Price], [p].[Quantity], [p].[Status], [u0].[Id], [u0].[Email], [u0].[Password], [u0].[Role], [u0].[UserName], [u0].[Balance], [u0].[ImageUrl], [u0].[IsActivated]
+FROM [ProductOffers] AS [p]
+INNER JOIN (
+    SELECT [u].[Id], [u].[Email], [u].[Password], [u].[Role], [u].[UserName], [u].[Balance], [u].[ImageUrl], [u].[IsActivated]
+    FROM [Users] AS [u]
+    WHERE [u].[Role] = 1
+) AS [u0] ON [p].[CompanyId] = [u0].[Id]
+WHERE [p].[ExpirationTime] <= GETUTCDATE() AND [p].[Status] = 0
+2025-04-05 13:33:49.005 +04:00 [INF] No expired offers found.
+2025-04-05 13:34:49.010 +04:00 [INF] Checking for expired offers at "2025-04-05T09:34:49.0103180Z"
+2025-04-05 13:34:49.018 +04:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[CategoryId], [p].[CompanyId], [p].[CreateTime], [p].[Description], [p].[ExpirationTime], [p].[ImageUrl], [p].[Name], [p].[Price], [p].[Quantity], [p].[Status], [u0].[Id], [u0].[Email], [u0].[Password], [u0].[Role], [u0].[UserName], [u0].[Balance], [u0].[ImageUrl], [u0].[IsActivated]
+FROM [ProductOffers] AS [p]
+INNER JOIN (
+    SELECT [u].[Id], [u].[Email], [u].[Password], [u].[Role], [u].[UserName], [u].[Balance], [u].[ImageUrl], [u].[IsActivated]
+    FROM [Users] AS [u]
+    WHERE [u].[Role] = 1
+) AS [u0] ON [p].[CompanyId] = [u0].[Id]
+WHERE [p].[ExpirationTime] <= GETUTCDATE() AND [p].[Status] = 0
+2025-04-05 13:34:49.021 +04:00 [INF] No expired offers found.
+2025-04-05 13:35:49.021 +04:00 [INF] Checking for expired offers at "2025-04-05T09:35:49.0213415Z"
+2025-04-05 13:35:49.039 +04:00 [INF] Executed DbCommand (14ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[CategoryId], [p].[CompanyId], [p].[CreateTime], [p].[Description], [p].[ExpirationTime], [p].[ImageUrl], [p].[Name], [p].[Price], [p].[Quantity], [p].[Status], [u0].[Id], [u0].[Email], [u0].[Password], [u0].[Role], [u0].[UserName], [u0].[Balance], [u0].[ImageUrl], [u0].[IsActivated]
+FROM [ProductOffers] AS [p]
+INNER JOIN (
+    SELECT [u].[Id], [u].[Email], [u].[Password], [u].[Role], [u].[UserName], [u].[Balance], [u].[ImageUrl], [u].[IsActivated]
+    FROM [Users] AS [u]
+    WHERE [u].[Role] = 1
+) AS [u0] ON [p].[CompanyId] = [u0].[Id]
+WHERE [p].[ExpirationTime] <= GETUTCDATE() AND [p].[Status] = 0
+2025-04-05 13:35:49.042 +04:00 [INF] No expired offers found.
+2025-04-05 13:36:49.043 +04:00 [INF] Checking for expired offers at "2025-04-05T09:36:49.0439571Z"
+2025-04-05 13:36:49.059 +04:00 [INF] Executed DbCommand (10ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[CategoryId], [p].[CompanyId], [p].[CreateTime], [p].[Description], [p].[ExpirationTime], [p].[ImageUrl], [p].[Name], [p].[Price], [p].[Quantity], [p].[Status], [u0].[Id], [u0].[Email], [u0].[Password], [u0].[Role], [u0].[UserName], [u0].[Balance], [u0].[ImageUrl], [u0].[IsActivated]
+FROM [ProductOffers] AS [p]
+INNER JOIN (
+    SELECT [u].[Id], [u].[Email], [u].[Password], [u].[Role], [u].[UserName], [u].[Balance], [u].[ImageUrl], [u].[IsActivated]
+    FROM [Users] AS [u]
+    WHERE [u].[Role] = 1
+) AS [u0] ON [p].[CompanyId] = [u0].[Id]
+WHERE [p].[ExpirationTime] <= GETUTCDATE() AND [p].[Status] = 0
+2025-04-05 13:36:49.062 +04:00 [INF] No expired offers found.
+2025-04-05 13:37:49.065 +04:00 [INF] Checking for expired offers at "2025-04-05T09:37:49.0659112Z"
+2025-04-05 13:37:49.084 +04:00 [INF] Executed DbCommand (15ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[CategoryId], [p].[CompanyId], [p].[CreateTime], [p].[Description], [p].[ExpirationTime], [p].[ImageUrl], [p].[Name], [p].[Price], [p].[Quantity], [p].[Status], [u0].[Id], [u0].[Email], [u0].[Password], [u0].[Role], [u0].[UserName], [u0].[Balance], [u0].[ImageUrl], [u0].[IsActivated]
+FROM [ProductOffers] AS [p]
+INNER JOIN (
+    SELECT [u].[Id], [u].[Email], [u].[Password], [u].[Role], [u].[UserName], [u].[Balance], [u].[ImageUrl], [u].[IsActivated]
+    FROM [Users] AS [u]
+    WHERE [u].[Role] = 1
+) AS [u0] ON [p].[CompanyId] = [u0].[Id]
+WHERE [p].[ExpirationTime] <= GETUTCDATE() AND [p].[Status] = 0
+2025-04-05 13:37:49.087 +04:00 [INF] No expired offers found.
+2025-04-05 15:37:55.975 +04:00 [INF] Starting ExpirationMonitorWorker
+2025-04-05 15:37:56.642 +04:00 [INF] OfferExpirationWorker started.
+2025-04-05 15:37:56.650 +04:00 [INF] Checking for expired offers at "2025-04-05T11:37:56.6448109Z"
+2025-04-05 15:37:58.171 +04:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-04-05 15:37:58.172 +04:00 [INF] Hosting environment: Production
+2025-04-05 15:37:58.173 +04:00 [INF] Content root path: C:\Users\irakl\Desktop\TBC .Net Course\Final Project\offers.itacatemy.ge.ExpirationMonitorWorker\bin\Debug\net8.0
+2025-04-05 15:37:58.356 +04:00 [INF] Executed DbCommand (39ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[CategoryId], [p].[CompanyId], [p].[CreateTime], [p].[Description], [p].[ExpirationTime], [p].[ImageUrl], [p].[Name], [p].[Price], [p].[Quantity], [p].[Status], [u0].[Id], [u0].[Email], [u0].[Password], [u0].[Role], [u0].[UserName], [u0].[Balance], [u0].[ImageUrl], [u0].[IsActivated]
+FROM [ProductOffers] AS [p]
+INNER JOIN (
+    SELECT [u].[Id], [u].[Email], [u].[Password], [u].[Role], [u].[UserName], [u].[Balance], [u].[ImageUrl], [u].[IsActivated]
+    FROM [Users] AS [u]
+    WHERE [u].[Role] = 1
+) AS [u0] ON [p].[CompanyId] = [u0].[Id]
+WHERE [p].[ExpirationTime] <= GETUTCDATE() AND [p].[Status] = 0
+2025-04-05 15:37:58.381 +04:00 [INF] No expired offers found.

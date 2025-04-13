@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\offers.itacademy.ge.API.props" />
+</Project>

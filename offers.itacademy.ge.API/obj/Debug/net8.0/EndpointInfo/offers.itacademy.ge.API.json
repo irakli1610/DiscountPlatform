@@ -1,0 +1,42 @@
+{
+  "openapi": "3.0.1",
+  "info": {
+    "title": "Discount Products Management API v1",
+    "description": "Discount Products Management API v1 with global exception handling, versioning, and fluent validation.",
+    "contact": {
+      "name": "DiscountProductsAPI",
+      "url": "https://SomeRandomUrl/RandomPath",
+      "email": "DiscountProductsAPI@gmail.com"
+    },
+    "version": "v1"
+  },
+  "paths": {
+    "/api/v1/Sample": {
+      "get": {
+        "tags": [
+          "Sample"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "securitySchemes": {
+      "Bearer": {
+        "type": "http",
+        "description": "Enter 'Bearer {your JWT token}' to authenticate.",
+        "scheme": "Bearer",
+        "bearerFormat": "JWT"
+      }
+    }
+  },
+  "security": [
+    {
+      "Bearer": [ ]
+    }
+  ]
+}

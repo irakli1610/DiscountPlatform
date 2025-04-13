@@ -1,0 +1,940 @@
+2025-03-31 11:16:51.828 +04:00  INF  Start processing HTTP request GET https://localhost:7230/healthz
+2025-03-31 11:16:51.832 +04:00  INF  Sending HTTP request GET https://localhost:7230/healthz
+2025-03-31 11:16:51.841 +04:00  INF  Request starting HTTP/1.1 GET https://localhost:7230/healthz - null null
+2025-03-31 11:16:51.844 +04:00  INF  Executing endpoint 'Health checks'
+2025-03-31 11:16:51.847 +04:00  INF  Executed endpoint 'Health checks'
+2025-03-31 11:16:51.848 +04:00  INF  Received HTTP response headers after 13.0971ms - 200
+2025-03-31 11:16:51.849 +04:00  INF  End processing HTTP request after 20.6579ms - 200
+2025-03-31 11:16:51.850 +04:00  INF  Request finished HTTP/1.1 GET https://localhost:7230/healthz - 200 null application/json; charset=utf-8 7.7366ms
+2025-03-31 11:16:51.854 +04:00  INF  Saved 1 entities to in-memory store.
+2025-03-31 11:17:06.864 +04:00  INF  Start processing HTTP request GET https://localhost:7230/healthz
+2025-03-31 11:17:06.866 +04:00  INF  Sending HTTP request GET https://localhost:7230/healthz
+2025-03-31 11:17:06.868 +04:00  INF  Request starting HTTP/1.1 GET https://localhost:7230/healthz - null null
+2025-03-31 11:17:06.871 +04:00  INF  Executing endpoint 'Health checks'
+2025-03-31 11:17:06.874 +04:00  INF  Executed endpoint 'Health checks'
+2025-03-31 11:17:06.875 +04:00  INF  Received HTTP response headers after 6.5403ms - 200
+2025-03-31 11:17:06.877 +04:00  INF  End processing HTTP request after 12.7764ms - 200
+2025-03-31 11:17:06.879 +04:00  INF  Request finished HTTP/1.1 GET https://localhost:7230/healthz - 200 null application/json; charset=utf-8 9.0017ms
+2025-03-31 11:17:06.884 +04:00  INF  Saved 1 entities to in-memory store.
+2025-03-31 11:17:21.893 +04:00  INF  Start processing HTTP request GET https://localhost:7230/healthz
+2025-03-31 11:17:21.896 +04:00  INF  Sending HTTP request GET https://localhost:7230/healthz
+2025-03-31 11:17:21.899 +04:00  INF  Request starting HTTP/1.1 GET https://localhost:7230/healthz - null null
+2025-03-31 11:17:21.903 +04:00  INF  Executing endpoint 'Health checks'
+2025-03-31 11:17:21.907 +04:00  INF  Executed endpoint 'Health checks'
+2025-03-31 11:17:21.909 +04:00  INF  Received HTTP response headers after 9.7021ms - 200
+2025-03-31 11:17:21.912 +04:00  INF  End processing HTTP request after 18.527ms - 200
+2025-03-31 11:17:21.913 +04:00  INF  Request finished HTTP/1.1 GET https://localhost:7230/healthz - 200 null application/json; charset=utf-8 12.5863ms
+2025-03-31 11:17:21.919 +04:00  INF  Saved 1 entities to in-memory store.
+2025-03-31 11:17:36.927 +04:00  INF  Start processing HTTP request GET https://localhost:7230/healthz
+2025-03-31 11:17:36.930 +04:00  INF  Sending HTTP request GET https://localhost:7230/healthz
+2025-03-31 11:17:36.934 +04:00  INF  Request starting HTTP/1.1 GET https://localhost:7230/healthz - null null
+2025-03-31 11:17:36.937 +04:00  INF  Executing endpoint 'Health checks'
+2025-03-31 11:17:36.942 +04:00  INF  Executed endpoint 'Health checks'
+2025-03-31 11:17:36.944 +04:00  INF  Received HTTP response headers after 9.7356ms - 200
+2025-03-31 11:17:36.946 +04:00  INF  End processing HTTP request after 18.9532ms - 200
+2025-03-31 11:17:36.948 +04:00  INF  Request finished HTTP/1.1 GET https://localhost:7230/healthz - 200 null application/json; charset=utf-8 12.7371ms
+2025-03-31 11:17:36.955 +04:00  INF  Saved 1 entities to in-memory store.
+2025-03-31 11:17:51.960 +04:00  INF  Start processing HTTP request GET https://localhost:7230/healthz
+2025-03-31 11:17:51.962 +04:00  INF  Sending HTTP request GET https://localhost:7230/healthz
+2025-03-31 11:17:51.966 +04:00  INF  Request starting HTTP/1.1 GET https://localhost:7230/healthz - null null
+2025-03-31 11:17:51.970 +04:00  INF  Executing endpoint 'Health checks'
+2025-03-31 11:17:51.974 +04:00  INF  Executed endpoint 'Health checks'
+2025-03-31 11:17:51.976 +04:00  INF  Received HTTP response headers after 9.5909ms - 200
+2025-03-31 11:17:51.978 +04:00  INF  End processing HTTP request after 18.1078ms - 200
+2025-03-31 11:17:51.980 +04:00  INF  Request finished HTTP/1.1 GET https://localhost:7230/healthz - 200 null application/json; charset=utf-8 14.1343ms
+2025-03-31 11:17:51.987 +04:00  INF  Saved 1 entities to in-memory store.
+2025-03-31 11:18:06.999 +04:00  INF  Start processing HTTP request GET https://localhost:7230/healthz
+2025-03-31 11:18:07.002 +04:00  INF  Sending HTTP request GET https://localhost:7230/healthz
+2025-03-31 11:18:07.019 +04:00  INF  Request starting HTTP/1.1 GET https://localhost:7230/healthz - null null
+2025-03-31 11:18:07.023 +04:00  INF  Executing endpoint 'Health checks'
+2025-03-31 11:18:07.027 +04:00  INF  Executed endpoint 'Health checks'
+2025-03-31 11:18:07.029 +04:00  INF  Received HTTP response headers after 24.2173ms - 200
+2025-03-31 11:18:07.032 +04:00  INF  End processing HTTP request after 33.1905ms - 200
+2025-03-31 11:18:07.034 +04:00  INF  Request finished HTTP/1.1 GET https://localhost:7230/healthz - 200 null application/json; charset=utf-8 12.9448ms
+2025-03-31 11:18:07.040 +04:00  INF  Saved 1 entities to in-memory store.
+2025-03-31 11:18:22.042 +04:00  INF  Start processing HTTP request GET https://localhost:7230/healthz
+2025-03-31 11:18:22.045 +04:00  INF  Sending HTTP request GET https://localhost:7230/healthz
+2025-03-31 11:18:22.048 +04:00  INF  Request starting HTTP/1.1 GET https://localhost:7230/healthz - null null
+2025-03-31 11:18:22.052 +04:00  INF  Executing endpoint 'Health checks'
+2025-03-31 11:18:22.056 +04:00  INF  Executed endpoint 'Health checks'
+2025-03-31 11:18:22.058 +04:00  INF  Received HTTP response headers after 9.6441ms - 200
+2025-03-31 11:18:22.060 +04:00  INF  End processing HTTP request after 18.1261ms - 200
+2025-03-31 11:18:22.062 +04:00  INF  Request finished HTTP/1.1 GET https://localhost:7230/healthz - 200 null application/json; charset=utf-8 12.5097ms
+2025-03-31 11:18:22.068 +04:00  INF  Saved 1 entities to in-memory store.
+2025-03-31 11:18:37.084 +04:00  INF  Start processing HTTP request GET https://localhost:7230/healthz
+2025-03-31 11:18:37.086 +04:00  INF  Sending HTTP request GET https://localhost:7230/healthz
+2025-03-31 11:18:37.091 +04:00  INF  Request starting HTTP/1.1 GET https://localhost:7230/healthz - null null
+2025-03-31 11:18:37.097 +04:00  INF  Executing endpoint 'Health checks'
+2025-03-31 11:18:37.105 +04:00  INF  Executed endpoint 'Health checks'
+2025-03-31 11:18:37.108 +04:00  INF  Received HTTP response headers after 16.4808ms - 200
+2025-03-31 11:18:37.111 +04:00  INF  End processing HTTP request after 27.4785ms - 200
+2025-03-31 11:18:37.115 +04:00  INF  Request finished HTTP/1.1 GET https://localhost:7230/healthz - 200 null application/json; charset=utf-8 21.1259ms
+2025-03-31 11:18:37.126 +04:00  INF  Saved 1 entities to in-memory store.
+2025-03-31 11:18:52.144 +04:00  INF  Start processing HTTP request GET https://localhost:7230/healthz
+2025-03-31 11:18:52.147 +04:00  INF  Sending HTTP request GET https://localhost:7230/healthz
+2025-03-31 11:18:52.153 +04:00  INF  Request starting HTTP/1.1 GET https://localhost:7230/healthz - null null
+2025-03-31 11:18:52.160 +04:00  INF  Executing endpoint 'Health checks'
+2025-03-31 11:18:52.165 +04:00  INF  Executed endpoint 'Health checks'
+2025-03-31 11:18:52.168 +04:00  INF  Received HTTP response headers after 15.4378ms - 200
+2025-03-31 11:18:52.172 +04:00  INF  End processing HTTP request after 27.5426ms - 200
+2025-03-31 11:18:52.176 +04:00  INF  Request finished HTTP/1.1 GET https://localhost:7230/healthz - 200 null application/json; charset=utf-8 19.4088ms
+2025-03-31 11:18:52.185 +04:00  INF  Saved 1 entities to in-memory store.
+2025-03-31 11:19:07.197 +04:00  INF  Start processing HTTP request GET https://localhost:7230/healthz
+2025-03-31 11:19:07.201 +04:00  INF  Sending HTTP request GET https://localhost:7230/healthz
+2025-03-31 11:19:07.205 +04:00  INF  Request starting HTTP/1.1 GET https://localhost:7230/healthz - null null
+2025-03-31 11:19:07.213 +04:00  INF  Executing endpoint 'Health checks'
+2025-03-31 11:19:07.221 +04:00  INF  Executed endpoint 'Health checks'
+2025-03-31 11:19:07.224 +04:00  INF  Received HTTP response headers after 16.7332ms - 200
+2025-03-31 11:19:07.228 +04:00  INF  End processing HTTP request after 30.9084ms - 200
+2025-03-31 11:19:07.232 +04:00  INF  Request finished HTTP/1.1 GET https://localhost:7230/healthz - 200 null application/json; charset=utf-8 23.1625ms
+2025-03-31 11:19:07.241 +04:00  INF  Saved 1 entities to in-memory store.
+2025-03-31 11:19:22.257 +04:00  INF  Start processing HTTP request GET https://localhost:7230/healthz
+2025-03-31 11:19:22.260 +04:00  INF  Sending HTTP request GET https://localhost:7230/healthz
+2025-03-31 11:19:22.263 +04:00  INF  Request starting HTTP/1.1 GET https://localhost:7230/healthz - null null
+2025-03-31 11:19:22.267 +04:00  INF  Executing endpoint 'Health checks'
+2025-03-31 11:19:22.272 +04:00  INF  Executed endpoint 'Health checks'
+2025-03-31 11:19:22.274 +04:00  INF  Request finished HTTP/1.1 GET https://localhost:7230/healthz - 200 null application/json; charset=utf-8 11.7824ms
+2025-03-31 11:19:22.279 +04:00  INF  Received HTTP response headers after 10.7171ms - 200
+2025-03-31 11:19:22.282 +04:00  INF  End processing HTTP request after 24.4003ms - 200
+2025-03-31 11:19:22.284 +04:00  INF  Saved 1 entities to in-memory store.
+2025-03-31 11:19:37.288 +04:00  INF  Start processing HTTP request GET https://localhost:7230/healthz
+2025-03-31 11:19:37.291 +04:00  INF  Sending HTTP request GET https://localhost:7230/healthz
+2025-03-31 11:19:37.295 +04:00  INF  Request starting HTTP/1.1 GET https://localhost:7230/healthz - null null
+2025-03-31 11:19:37.303 +04:00  INF  Executing endpoint 'Health checks'
+2025-03-31 11:19:37.309 +04:00  INF  Executed endpoint 'Health checks'
+2025-03-31 11:19:37.312 +04:00  INF  Received HTTP response headers after 15.839ms - 200
+2025-03-31 11:19:37.316 +04:00  INF  End processing HTTP request after 28.1104ms - 200
+2025-03-31 11:19:37.320 +04:00  INF  Request finished HTTP/1.1 GET https://localhost:7230/healthz - 200 null application/json; charset=utf-8 20.8496ms
+2025-03-31 11:19:37.330 +04:00  INF  Saved 1 entities to in-memory store.
+2025-03-31 11:19:52.336 +04:00  INF  Start processing HTTP request GET https://localhost:7230/healthz
+2025-03-31 11:19:52.339 +04:00  INF  Sending HTTP request GET https://localhost:7230/healthz
+2025-03-31 11:19:52.343 +04:00  INF  Request starting HTTP/1.1 GET https://localhost:7230/healthz - null null
+2025-03-31 11:19:52.351 +04:00  INF  Executing endpoint 'Health checks'
+2025-03-31 11:19:52.357 +04:00  INF  Executed endpoint 'Health checks'
+2025-03-31 11:19:52.360 +04:00  INF  Received HTTP response headers after 15.4416ms - 200
+2025-03-31 11:19:52.363 +04:00  INF  End processing HTTP request after 27.6806ms - 200
+2025-03-31 11:19:52.363 +04:00  INF  Request finished HTTP/1.1 GET https://localhost:7230/healthz - 200 null application/json; charset=utf-8 20.2298ms
+2025-03-31 11:19:52.376 +04:00  INF  Saved 1 entities to in-memory store.
+2025-03-31 11:20:07.385 +04:00  INF  Start processing HTTP request GET https://localhost:7230/healthz
+2025-03-31 11:20:07.389 +04:00  INF  Sending HTTP request GET https://localhost:7230/healthz
+2025-03-31 11:20:07.425 +04:00  INF  Request starting HTTP/1.1 GET https://localhost:7230/healthz - null null
+2025-03-31 11:20:07.432 +04:00  INF  Executing endpoint 'Health checks'
+2025-03-31 11:20:07.436 +04:00  INF  Executed endpoint 'Health checks'
+2025-03-31 11:20:07.438 +04:00  INF  Received HTTP response headers after 44.671ms - 200
+2025-03-31 11:20:07.440 +04:00  INF  End processing HTTP request after 54.361ms - 200
+2025-03-31 11:20:07.442 +04:00  INF  Request finished HTTP/1.1 GET https://localhost:7230/healthz - 200 null application/json; charset=utf-8 15.0528ms
+2025-03-31 11:20:07.448 +04:00  INF  Saved 1 entities to in-memory store.
+2025-03-31 11:20:22.458 +04:00  INF  Start processing HTTP request GET https://localhost:7230/healthz
+2025-03-31 11:20:22.461 +04:00  INF  Sending HTTP request GET https://localhost:7230/healthz
+2025-03-31 11:20:22.465 +04:00  INF  Request starting HTTP/1.1 GET https://localhost:7230/healthz - null null
+2025-03-31 11:20:22.473 +04:00  INF  Executing endpoint 'Health checks'
+2025-03-31 11:20:22.479 +04:00  INF  Executed endpoint 'Health checks'
+2025-03-31 11:20:22.482 +04:00  INF  Received HTTP response headers after 15.745ms - 200
+2025-03-31 11:20:22.486 +04:00  INF  End processing HTTP request after 28.1178ms - 200
+2025-03-31 11:20:22.490 +04:00  INF  Request finished HTTP/1.1 GET https://localhost:7230/healthz - 200 null application/json; charset=utf-8 20.7514ms
+2025-03-31 11:20:22.498 +04:00  INF  Saved 1 entities to in-memory store.
+2025-03-31 11:20:37.508 +04:00  INF  Start processing HTTP request GET https://localhost:7230/healthz
+2025-03-31 11:20:37.509 +04:00  INF  Sending HTTP request GET https://localhost:7230/healthz
+2025-03-31 11:20:37.511 +04:00  INF  Request starting HTTP/1.1 GET https://localhost:7230/healthz - null null
+2025-03-31 11:20:37.512 +04:00  INF  Executing endpoint 'Health checks'
+2025-03-31 11:20:37.518 +04:00  INF  Executed endpoint 'Health checks'
+2025-03-31 11:20:37.525 +04:00  INF  Received HTTP response headers after 9.3245ms - 200
+2025-03-31 11:20:37.529 +04:00  INF  End processing HTTP request after 21.1072ms - 200
+2025-03-31 11:20:37.538 +04:00  INF  Request finished HTTP/1.1 GET https://localhost:7230/healthz - 200 null application/json; charset=utf-8 27.2817ms
+2025-03-31 11:20:37.551 +04:00  INF  Saved 1 entities to in-memory store.
+2025-03-31 11:20:52.563 +04:00  INF  Start processing HTTP request GET https://localhost:7230/healthz
+2025-03-31 11:20:52.565 +04:00  INF  Sending HTTP request GET https://localhost:7230/healthz
+2025-03-31 11:20:52.569 +04:00  INF  Request starting HTTP/1.1 GET https://localhost:7230/healthz - null null
+2025-03-31 11:20:52.573 +04:00  INF  Executing endpoint 'Health checks'
+2025-03-31 11:20:52.577 +04:00  INF  Executed endpoint 'Health checks'
+2025-03-31 11:20:52.579 +04:00  INF  Received HTTP response headers after 10.504ms - 200
+2025-03-31 11:20:52.581 +04:00  INF  End processing HTTP request after 18.6464ms - 200
+2025-03-31 11:20:52.581 +04:00  INF  Request finished HTTP/1.1 GET https://localhost:7230/healthz - 200 null application/json; charset=utf-8 12.8888ms
+2025-03-31 11:20:52.589 +04:00  INF  Saved 1 entities to in-memory store.
+2025-03-31 11:21:07.597 +04:00  INF  Start processing HTTP request GET https://localhost:7230/healthz
+2025-03-31 11:21:07.601 +04:00  INF  Sending HTTP request GET https://localhost:7230/healthz
+2025-03-31 11:21:07.605 +04:00  INF  Request starting HTTP/1.1 GET https://localhost:7230/healthz - null null
+2025-03-31 11:21:07.613 +04:00  INF  Executing endpoint 'Health checks'
+2025-03-31 11:21:07.620 +04:00  INF  Executed endpoint 'Health checks'
+2025-03-31 11:21:07.623 +04:00  INF  Received HTTP response headers after 15.9625ms - 200
+2025-03-31 11:21:07.626 +04:00  INF  End processing HTTP request after 29.229ms - 200
+2025-03-31 11:21:07.626 +04:00  INF  Request finished HTTP/1.1 GET https://localhost:7230/healthz - 200 null application/json; charset=utf-8 21.6757ms
+2025-03-31 11:21:07.640 +04:00  INF  Saved 1 entities to in-memory store.
+2025-03-31 11:21:22.644 +04:00  INF  Start processing HTTP request GET https://localhost:7230/healthz
+2025-03-31 11:21:22.647 +04:00  INF  Sending HTTP request GET https://localhost:7230/healthz
+2025-03-31 11:21:22.652 +04:00  INF  Request starting HTTP/1.1 GET https://localhost:7230/healthz - null null
+2025-03-31 11:21:22.665 +04:00  INF  Executing endpoint 'Health checks'
+2025-03-31 11:21:22.673 +04:00  INF  Executed endpoint 'Health checks'
+2025-03-31 11:21:22.675 +04:00  INF  Received HTTP response headers after 22.7514ms - 200
+2025-03-31 11:21:22.678 +04:00  INF  End processing HTTP request after 34.1526ms - 200
+2025-03-31 11:21:22.682 +04:00  INF  Request finished HTTP/1.1 GET https://localhost:7230/healthz - 200 null application/json; charset=utf-8 25.9485ms
+2025-03-31 11:21:22.691 +04:00  INF  Saved 1 entities to in-memory store.
+2025-03-31 11:21:37.709 +04:00  INF  Start processing HTTP request GET https://localhost:7230/healthz
+2025-03-31 11:21:37.712 +04:00  INF  Sending HTTP request GET https://localhost:7230/healthz
+2025-03-31 11:21:37.717 +04:00  INF  Request starting HTTP/1.1 GET https://localhost:7230/healthz - null null
+2025-03-31 11:21:37.725 +04:00  INF  Executing endpoint 'Health checks'
+2025-03-31 11:21:37.732 +04:00  INF  Executed endpoint 'Health checks'
+2025-03-31 11:21:37.735 +04:00  INF  Received HTTP response headers after 16.7265ms - 200
+2025-03-31 11:21:37.739 +04:00  INF  End processing HTTP request after 29.7896ms - 200
+2025-03-31 11:21:37.739 +04:00  INF  Request finished HTTP/1.1 GET https://localhost:7230/healthz - 200 null application/json; charset=utf-8 21.8547ms
+2025-03-31 11:21:37.753 +04:00  INF  Saved 1 entities to in-memory store.
+2025-03-31 11:21:52.772 +04:00  INF  Start processing HTTP request GET https://localhost:7230/healthz
+2025-03-31 11:21:52.775 +04:00  INF  Sending HTTP request GET https://localhost:7230/healthz
+2025-03-31 11:21:52.778 +04:00  INF  Request starting HTTP/1.1 GET https://localhost:7230/healthz - null null
+2025-03-31 11:21:52.783 +04:00  INF  Executing endpoint 'Health checks'
+2025-03-31 11:21:52.790 +04:00  INF  Executed endpoint 'Health checks'
+2025-03-31 11:21:52.792 +04:00  INF  Received HTTP response headers after 13.7015ms - 200
+2025-03-31 11:21:52.796 +04:00  INF  End processing HTTP request after 24.214ms - 200
+2025-03-31 11:21:52.799 +04:00  INF  Request finished HTTP/1.1 GET https://localhost:7230/healthz - 200 null application/json; charset=utf-8 18.4589ms
+2025-03-31 11:21:52.808 +04:00  INF  Saved 1 entities to in-memory store.
+2025-03-31 11:22:07.818 +04:00  INF  Start processing HTTP request GET https://localhost:7230/healthz
+2025-03-31 11:22:07.824 +04:00  INF  Sending HTTP request GET https://localhost:7230/healthz
+2025-03-31 11:22:07.873 +04:00  INF  Request starting HTTP/1.1 GET https://localhost:7230/healthz - null null
+2025-03-31 11:22:07.879 +04:00  INF  Executing endpoint 'Health checks'
+2025-03-31 11:22:07.887 +04:00  INF  Executed endpoint 'Health checks'
+2025-03-31 11:22:07.893 +04:00  INF  Received HTTP response headers after 60.3357ms - 200
+2025-03-31 11:22:07.893 +04:00  INF  End processing HTTP request after 75.1429ms - 200
+2025-03-31 11:22:07.897 +04:00  INF  Request finished HTTP/1.1 GET https://localhost:7230/healthz - 200 null application/json; charset=utf-8 21.3752ms
+2025-03-31 11:22:07.903 +04:00  INF  Saved 1 entities to in-memory store.
+2025-03-31 11:22:22.916 +04:00  INF  Start processing HTTP request GET https://localhost:7230/healthz
+2025-03-31 11:22:22.920 +04:00  INF  Sending HTTP request GET https://localhost:7230/healthz
+2025-03-31 11:22:22.925 +04:00  INF  Request starting HTTP/1.1 GET https://localhost:7230/healthz - null null
+2025-03-31 11:22:22.932 +04:00  INF  Executing endpoint 'Health checks'
+2025-03-31 11:22:22.939 +04:00  INF  Executed endpoint 'Health checks'
+2025-03-31 11:22:22.942 +04:00  INF  Received HTTP response headers after 16.0956ms - 200
+2025-03-31 11:22:22.945 +04:00  INF  End processing HTTP request after 29.3246ms - 200
+2025-03-31 11:22:22.949 +04:00  INF  Request finished HTTP/1.1 GET https://localhost:7230/healthz - 200 null application/json; charset=utf-8 21.1769ms
+2025-03-31 11:22:22.960 +04:00  INF  Saved 1 entities to in-memory store.
+2025-03-31 11:22:37.972 +04:00  INF  Start processing HTTP request GET https://localhost:7230/healthz
+2025-03-31 11:22:37.974 +04:00  INF  Sending HTTP request GET https://localhost:7230/healthz
+2025-03-31 11:22:37.977 +04:00  INF  Request starting HTTP/1.1 GET https://localhost:7230/healthz - null null
+2025-03-31 11:22:37.980 +04:00  INF  Executing endpoint 'Health checks'
+2025-03-31 11:22:37.984 +04:00  INF  Executed endpoint 'Health checks'
+2025-03-31 11:22:37.985 +04:00  INF  Received HTTP response headers after 9.1562ms - 200
+2025-03-31 11:22:37.987 +04:00  INF  End processing HTTP request after 14.846ms - 200
+2025-03-31 11:22:37.989 +04:00  INF  Request finished HTTP/1.1 GET https://localhost:7230/healthz - 200 null application/json; charset=utf-8 11.9849ms
+2025-03-31 11:22:37.994 +04:00  INF  Saved 1 entities to in-memory store.
+2025-03-31 11:22:53.011 +04:00  INF  Start processing HTTP request GET https://localhost:7230/healthz
+2025-03-31 11:22:53.013 +04:00  INF  Sending HTTP request GET https://localhost:7230/healthz
+2025-03-31 11:22:53.016 +04:00  INF  Request starting HTTP/1.1 GET https://localhost:7230/healthz - null null
+2025-03-31 11:22:53.019 +04:00  INF  Executing endpoint 'Health checks'
+2025-03-31 11:22:53.023 +04:00  INF  Executed endpoint 'Health checks'
+2025-03-31 11:22:53.025 +04:00  INF  Received HTTP response headers after 8.7693ms - 200
+2025-03-31 11:22:53.026 +04:00  INF  End processing HTTP request after 15.7817ms - 200
+2025-03-31 11:22:53.026 +04:00  INF  Request finished HTTP/1.1 GET https://localhost:7230/healthz - 200 null application/json; charset=utf-8 11.0314ms
+2025-03-31 11:22:53.033 +04:00  INF  Saved 1 entities to in-memory store.
+2025-03-31 11:23:08.037 +04:00  INF  Start processing HTTP request GET https://localhost:7230/healthz
+2025-03-31 11:23:08.041 +04:00  INF  Sending HTTP request GET https://localhost:7230/healthz
+2025-03-31 11:23:08.047 +04:00  INF  Request starting HTTP/1.1 GET https://localhost:7230/healthz - null null
+2025-03-31 11:23:08.056 +04:00  INF  Executing endpoint 'Health checks'
+2025-03-31 11:23:08.064 +04:00  INF  Executed endpoint 'Health checks'
+2025-03-31 11:23:08.067 +04:00  INF  Received HTTP response headers after 19.3075ms - 200
+2025-03-31 11:23:08.068 +04:00  INF  End processing HTTP request after 31.8184ms - 200
+2025-03-31 11:23:08.068 +04:00  INF  Request finished HTTP/1.1 GET https://localhost:7230/healthz - 200 null application/json; charset=utf-8 21.9581ms
+2025-03-31 11:23:08.077 +04:00  INF  Saved 1 entities to in-memory store.
+2025-03-31 11:23:23.069 +04:00  INF  Start processing HTTP request GET https://localhost:7230/healthz
+2025-03-31 11:23:23.070 +04:00  INF  Sending HTTP request GET https://localhost:7230/healthz
+2025-03-31 11:23:23.073 +04:00  INF  Request starting HTTP/1.1 GET https://localhost:7230/healthz - null null
+2025-03-31 11:23:23.076 +04:00  INF  Executing endpoint 'Health checks'
+2025-03-31 11:23:23.080 +04:00  INF  Executed endpoint 'Health checks'
+2025-03-31 11:23:23.082 +04:00  INF  Received HTTP response headers after 9.1221ms - 200
+2025-03-31 11:23:23.083 +04:00  INF  End processing HTTP request after 14.0623ms - 200
+2025-03-31 11:23:23.086 +04:00  INF  Request finished HTTP/1.1 GET https://localhost:7230/healthz - 200 null application/json; charset=utf-8 13.1801ms
+2025-03-31 11:23:23.097 +04:00  INF  Saved 1 entities to in-memory store.
+2025-03-31 11:23:38.105 +04:00  INF  Start processing HTTP request GET https://localhost:7230/healthz
+2025-03-31 11:23:38.108 +04:00  INF  Sending HTTP request GET https://localhost:7230/healthz
+2025-03-31 11:23:38.112 +04:00  INF  Request starting HTTP/1.1 GET https://localhost:7230/healthz - null null
+2025-03-31 11:23:38.118 +04:00  INF  Executing endpoint 'Health checks'
+2025-03-31 11:23:38.125 +04:00  INF  Executed endpoint 'Health checks'
+2025-03-31 11:23:38.127 +04:00  INF  Received HTTP response headers after 15.0702ms - 200
+2025-03-31 11:23:38.129 +04:00  INF  End processing HTTP request after 24.9093ms - 200
+2025-03-31 11:23:38.129 +04:00  INF  Request finished HTTP/1.1 GET https://localhost:7230/healthz - 200 null application/json; charset=utf-8 18.1838ms
+2025-03-31 11:23:38.142 +04:00  INF  Saved 1 entities to in-memory store.
+2025-03-31 11:23:53.149 +04:00  INF  Start processing HTTP request GET https://localhost:7230/healthz
+2025-03-31 11:23:53.151 +04:00  INF  Sending HTTP request GET https://localhost:7230/healthz
+2025-03-31 11:23:53.154 +04:00  INF  Request starting HTTP/1.1 GET https://localhost:7230/healthz - null null
+2025-03-31 11:23:53.159 +04:00  INF  Executing endpoint 'Health checks'
+2025-03-31 11:23:53.163 +04:00  INF  Executed endpoint 'Health checks'
+2025-03-31 11:23:53.165 +04:00  INF  Received HTTP response headers after 10.8132ms - 200
+2025-03-31 11:23:53.168 +04:00  INF  End processing HTTP request after 19.0057ms - 200
+2025-03-31 11:23:53.168 +04:00  INF  Request finished HTTP/1.1 GET https://localhost:7230/healthz - 200 null application/json; charset=utf-8 14.0383ms
+2025-03-31 11:23:53.175 +04:00  INF  Saved 1 entities to in-memory store.
+2025-03-31 11:24:08.171 +04:00  INF  Start processing HTTP request GET https://localhost:7230/healthz
+2025-03-31 11:24:08.175 +04:00  INF  Sending HTTP request GET https://localhost:7230/healthz
+2025-03-31 11:24:08.199 +04:00  INF  Request starting HTTP/1.1 GET https://localhost:7230/healthz - null null
+2025-03-31 11:24:08.207 +04:00  INF  Executing endpoint 'Health checks'
+2025-03-31 11:24:08.215 +04:00  INF  Executed endpoint 'Health checks'
+2025-03-31 11:24:08.218 +04:00  INF  Received HTTP response headers after 37.2866ms - 200
+2025-03-31 11:24:08.222 +04:00  INF  End processing HTTP request after 50.2456ms - 200
+2025-03-31 11:24:08.222 +04:00  INF  Request finished HTTP/1.1 GET https://localhost:7230/healthz - 200 null application/json; charset=utf-8 22.1649ms
+2025-03-31 11:24:08.236 +04:00  INF  Saved 1 entities to in-memory store.
+2025-03-31 11:24:23.248 +04:00  INF  Start processing HTTP request GET https://localhost:7230/healthz
+2025-03-31 11:24:23.250 +04:00  INF  Sending HTTP request GET https://localhost:7230/healthz
+2025-03-31 11:24:23.253 +04:00  INF  Request starting HTTP/1.1 GET https://localhost:7230/healthz - null null
+2025-03-31 11:24:23.257 +04:00  INF  Executing endpoint 'Health checks'
+2025-03-31 11:24:23.261 +04:00  INF  Executed endpoint 'Health checks'
+2025-03-31 11:24:23.262 +04:00  INF  Received HTTP response headers after 9.6489ms - 200
+2025-03-31 11:24:23.263 +04:00  INF  End processing HTTP request after 14.5619ms - 200
+2025-03-31 11:24:23.263 +04:00  INF  Request finished HTTP/1.1 GET https://localhost:7230/healthz - 200 null application/json; charset=utf-8 9.7274ms
+2025-03-31 11:24:23.275 +04:00  INF  Saved 1 entities to in-memory store.
+2025-03-31 11:24:38.283 +04:00  INF  Start processing HTTP request GET https://localhost:7230/healthz
+2025-03-31 11:24:38.287 +04:00  INF  Sending HTTP request GET https://localhost:7230/healthz
+2025-03-31 11:24:38.292 +04:00  INF  Request starting HTTP/1.1 GET https://localhost:7230/healthz - null null
+2025-03-31 11:24:38.300 +04:00  INF  Executing endpoint 'Health checks'
+2025-03-31 11:24:38.307 +04:00  INF  Executed endpoint 'Health checks'
+2025-03-31 11:24:38.310 +04:00  INF  Received HTTP response headers after 17.9256ms - 200
+2025-03-31 11:24:38.313 +04:00  INF  End processing HTTP request after 29.935ms - 200
+2025-03-31 11:24:38.313 +04:00  INF  Request finished HTTP/1.1 GET https://localhost:7230/healthz - 200 null application/json; charset=utf-8 22.1294ms
+2025-03-31 11:24:38.328 +04:00  INF  Saved 1 entities to in-memory store.
+2025-03-31 11:24:53.331 +04:00  INF  Start processing HTTP request GET https://localhost:7230/healthz
+2025-03-31 11:24:53.334 +04:00  INF  Sending HTTP request GET https://localhost:7230/healthz
+2025-03-31 11:24:53.338 +04:00  INF  Request starting HTTP/1.1 GET https://localhost:7230/healthz - null null
+2025-03-31 11:24:53.341 +04:00  INF  Executing endpoint 'Health checks'
+2025-03-31 11:24:53.346 +04:00  INF  Executed endpoint 'Health checks'
+2025-03-31 11:24:53.348 +04:00  INF  Received HTTP response headers after 10.5561ms - 200
+2025-03-31 11:24:53.349 +04:00  INF  End processing HTTP request after 18.5499ms - 200
+2025-03-31 11:24:53.351 +04:00  INF  Request finished HTTP/1.1 GET https://localhost:7230/healthz - 200 null application/json; charset=utf-8 12.149ms
+2025-03-31 11:24:53.356 +04:00  INF  Saved 1 entities to in-memory store.
+2025-03-31 11:25:08.366 +04:00  INF  Start processing HTTP request GET https://localhost:7230/healthz
+2025-03-31 11:25:08.369 +04:00  INF  Sending HTTP request GET https://localhost:7230/healthz
+2025-03-31 11:25:08.376 +04:00  INF  Request starting HTTP/1.1 GET https://localhost:7230/healthz - null null
+2025-03-31 11:25:08.383 +04:00  INF  Executing endpoint 'Health checks'
+2025-03-31 11:25:08.394 +04:00  INF  Executed endpoint 'Health checks'
+2025-03-31 11:25:08.397 +04:00  INF  Received HTTP response headers after 21.3994ms - 200
+2025-03-31 11:25:08.400 +04:00  INF  End processing HTTP request after 34.075ms - 200
+2025-03-31 11:25:08.400 +04:00  INF  Request finished HTTP/1.1 GET https://localhost:7230/healthz - 200 null application/json; charset=utf-8 24.2438ms
+2025-03-31 11:25:08.413 +04:00  INF  Saved 1 entities to in-memory store.
+2025-03-31 11:25:23.430 +04:00  INF  Start processing HTTP request GET https://localhost:7230/healthz
+2025-03-31 11:25:23.433 +04:00  INF  Sending HTTP request GET https://localhost:7230/healthz
+2025-03-31 11:25:23.437 +04:00  INF  Request starting HTTP/1.1 GET https://localhost:7230/healthz - null null
+2025-03-31 11:25:23.445 +04:00  INF  Executing endpoint 'Health checks'
+2025-03-31 11:25:23.450 +04:00  INF  Executed endpoint 'Health checks'
+2025-03-31 11:25:23.454 +04:00  INF  Received HTTP response headers after 14.1494ms - 200
+2025-03-31 11:25:23.457 +04:00  INF  End processing HTTP request after 27.0839ms - 200
+2025-03-31 11:25:23.460 +04:00  INF  Request finished HTTP/1.1 GET https://localhost:7230/healthz - 200 null application/json; charset=utf-8 23.0443ms
+2025-03-31 11:25:23.470 +04:00  INF  Saved 1 entities to in-memory store.
+2025-03-31 11:25:38.482 +04:00  INF  Start processing HTTP request GET https://localhost:7230/healthz
+2025-03-31 11:25:38.484 +04:00  INF  Sending HTTP request GET https://localhost:7230/healthz
+2025-03-31 11:25:38.487 +04:00  INF  Request starting HTTP/1.1 GET https://localhost:7230/healthz - null null
+2025-03-31 11:25:38.491 +04:00  INF  Executing endpoint 'Health checks'
+2025-03-31 11:25:38.494 +04:00  INF  Executed endpoint 'Health checks'
+2025-03-31 11:25:38.495 +04:00  INF  Received HTTP response headers after 8.0401ms - 200
+2025-03-31 11:25:38.497 +04:00  INF  End processing HTTP request after 15.1693ms - 200
+2025-03-31 11:25:38.499 +04:00  INF  Request finished HTTP/1.1 GET https://localhost:7230/healthz - 200 null application/json; charset=utf-8 10.681ms
+2025-03-31 11:25:38.504 +04:00  INF  Saved 1 entities to in-memory store.
+2025-03-31 11:25:53.507 +04:00  INF  Start processing HTTP request GET https://localhost:7230/healthz
+2025-03-31 11:25:53.508 +04:00  INF  Sending HTTP request GET https://localhost:7230/healthz
+2025-03-31 11:25:53.511 +04:00  INF  Request starting HTTP/1.1 GET https://localhost:7230/healthz - null null
+2025-03-31 11:25:53.515 +04:00  INF  Executing endpoint 'Health checks'
+2025-03-31 11:25:53.518 +04:00  INF  Executed endpoint 'Health checks'
+2025-03-31 11:25:53.520 +04:00  INF  Request finished HTTP/1.1 GET https://localhost:7230/healthz - 200 null application/json; charset=utf-8 9.5318ms
+2025-03-31 11:25:53.524 +04:00  INF  Received HTTP response headers after 8.4894ms - 200
+2025-03-31 11:25:53.527 +04:00  INF  End processing HTTP request after 20.4767ms - 200
+2025-03-31 11:25:53.529 +04:00  INF  Saved 1 entities to in-memory store.
+2025-03-31 11:26:08.535 +04:00  INF  Start processing HTTP request GET https://localhost:7230/healthz
+2025-03-31 11:26:08.537 +04:00  INF  Sending HTTP request GET https://localhost:7230/healthz
+2025-03-31 11:26:08.552 +04:00  INF  Request starting HTTP/1.1 GET https://localhost:7230/healthz - null null
+2025-03-31 11:26:08.557 +04:00  INF  Executing endpoint 'Health checks'
+2025-03-31 11:26:08.561 +04:00  INF  Executed endpoint 'Health checks'
+2025-03-31 11:26:08.563 +04:00  INF  Received HTTP response headers after 22.583ms - 200
+2025-03-31 11:26:08.565 +04:00  INF  End processing HTTP request after 30.2256ms - 200
+2025-03-31 11:26:08.565 +04:00  INF  Request finished HTTP/1.1 GET https://localhost:7230/healthz - 200 null application/json; charset=utf-8 13.7389ms
+2025-03-31 11:26:08.573 +04:00  INF  Saved 1 entities to in-memory store.
+2025-03-31 11:26:23.583 +04:00  INF  Start processing HTTP request GET https://localhost:7230/healthz
+2025-03-31 11:26:23.587 +04:00  INF  Sending HTTP request GET https://localhost:7230/healthz
+2025-03-31 11:26:23.592 +04:00  INF  Request starting HTTP/1.1 GET https://localhost:7230/healthz - null null
+2025-03-31 11:26:23.600 +04:00  INF  Executing endpoint 'Health checks'
+2025-03-31 11:26:23.606 +04:00  INF  Executed endpoint 'Health checks'
+2025-03-31 11:26:23.610 +04:00  INF  Received HTTP response headers after 14.8926ms - 200
+2025-03-31 11:26:23.614 +04:00  INF  End processing HTTP request after 30.2884ms - 200
+2025-03-31 11:26:23.614 +04:00  INF  Request finished HTTP/1.1 GET https://localhost:7230/healthz - 200 null application/json; charset=utf-8 21.548ms
+2025-03-31 11:26:23.623 +04:00  INF  Saved 1 entities to in-memory store.
+2025-03-31 11:26:38.633 +04:00  INF  Start processing HTTP request GET https://localhost:7230/healthz
+2025-03-31 11:26:38.637 +04:00  INF  Sending HTTP request GET https://localhost:7230/healthz
+2025-03-31 11:26:38.642 +04:00  INF  Request starting HTTP/1.1 GET https://localhost:7230/healthz - null null
+2025-03-31 11:26:38.649 +04:00  INF  Executing endpoint 'Health checks'
+2025-03-31 11:26:38.655 +04:00  INF  Executed endpoint 'Health checks'
+2025-03-31 11:26:38.657 +04:00  INF  Received HTTP response headers after 14.6627ms - 200
+2025-03-31 11:26:38.660 +04:00  INF  End processing HTTP request after 26.8271ms - 200
+2025-03-31 11:26:38.664 +04:00  INF  Request finished HTTP/1.1 GET https://localhost:7230/healthz - 200 null application/json; charset=utf-8 18.9259ms
+2025-03-31 11:26:38.672 +04:00  INF  Saved 1 entities to in-memory store.
+2025-03-31 11:26:53.680 +04:00  INF  Start processing HTTP request GET https://localhost:7230/healthz
+2025-03-31 11:26:53.683 +04:00  INF  Sending HTTP request GET https://localhost:7230/healthz
+2025-03-31 11:26:53.688 +04:00  INF  Request starting HTTP/1.1 GET https://localhost:7230/healthz - null null
+2025-03-31 11:26:53.696 +04:00  INF  Executing endpoint 'Health checks'
+2025-03-31 11:26:53.701 +04:00  INF  Executed endpoint 'Health checks'
+2025-03-31 11:26:53.711 +04:00  INF  Received HTTP response headers after 14.9259ms - 200
+2025-03-31 11:26:53.718 +04:00  INF  End processing HTTP request after 37.7826ms - 200
+2025-03-31 11:26:53.721 +04:00  INF  Request finished HTTP/1.1 GET https://localhost:7230/healthz - 200 null application/json; charset=utf-8 29.5111ms
+2025-03-31 11:26:53.731 +04:00  INF  Saved 1 entities to in-memory store.
+2025-03-31 11:27:08.743 +04:00  INF  Start processing HTTP request GET https://localhost:7230/healthz
+2025-03-31 11:27:08.745 +04:00  INF  Sending HTTP request GET https://localhost:7230/healthz
+2025-03-31 11:27:08.748 +04:00  INF  Request starting HTTP/1.1 GET https://localhost:7230/healthz - null null
+2025-03-31 11:27:08.752 +04:00  INF  Executing endpoint 'Health checks'
+2025-03-31 11:27:08.755 +04:00  INF  Executed endpoint 'Health checks'
+2025-03-31 11:27:08.757 +04:00  INF  Received HTTP response headers after 8.2812ms - 200
+2025-03-31 11:27:08.759 +04:00  INF  End processing HTTP request after 15.1343ms - 200
+2025-03-31 11:27:08.761 +04:00  INF  Request finished HTTP/1.1 GET https://localhost:7230/healthz - 200 null application/json; charset=utf-8 11.0134ms
+2025-03-31 11:27:08.766 +04:00  INF  Saved 1 entities to in-memory store.
+2025-03-31 11:27:23.784 +04:00  INF  Start processing HTTP request GET https://localhost:7230/healthz
+2025-03-31 11:27:23.787 +04:00  INF  Sending HTTP request GET https://localhost:7230/healthz
+2025-03-31 11:27:23.792 +04:00  INF  Request starting HTTP/1.1 GET https://localhost:7230/healthz - null null
+2025-03-31 11:27:23.800 +04:00  INF  Executing endpoint 'Health checks'
+2025-03-31 11:27:23.806 +04:00  INF  Executed endpoint 'Health checks'
+2025-03-31 11:27:23.809 +04:00  INF  Received HTTP response headers after 16.0757ms - 200
+2025-03-31 11:27:23.812 +04:00  INF  End processing HTTP request after 28.3353ms - 200
+2025-03-31 11:27:23.816 +04:00  INF  Request finished HTTP/1.1 GET https://localhost:7230/healthz - 200 null application/json; charset=utf-8 20.0526ms
+2025-03-31 11:27:23.823 +04:00  INF  Saved 1 entities to in-memory store.
+2025-03-31 11:27:38.837 +04:00  INF  Start processing HTTP request GET https://localhost:7230/healthz
+2025-03-31 11:27:38.838 +04:00  INF  Sending HTTP request GET https://localhost:7230/healthz
+2025-03-31 11:27:38.841 +04:00  INF  Request starting HTTP/1.1 GET https://localhost:7230/healthz - null null
+2025-03-31 11:27:38.850 +04:00  INF  Executing endpoint 'Health checks'
+2025-03-31 11:27:38.857 +04:00  INF  Executed endpoint 'Health checks'
+2025-03-31 11:27:38.858 +04:00  INF  Received HTTP response headers after 16.7881ms - 200
+2025-03-31 11:27:38.860 +04:00  INF  End processing HTTP request after 23.2996ms - 200
+2025-03-31 11:27:38.862 +04:00  INF  Request finished HTTP/1.1 GET https://localhost:7230/healthz - 200 null application/json; charset=utf-8 21.3509ms
+2025-03-31 11:27:38.867 +04:00  INF  Saved 1 entities to in-memory store.
+2025-03-31 21:06:17.831 +04:00  INF  Executed DbCommand (16ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2025-03-31 21:06:17.889 +04:00  INF  Acquiring an exclusive lock for migration application. See https://aka.ms/efcore-docs-migrations-lock for more information if this takes too long.
+2025-03-31 21:06:17.920 +04:00  INF  Executed DbCommand (27ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+DECLARE @result int;
+EXEC @result = sp_getapplock @Resource = '__EFMigrationsLock', @LockOwner = 'Session', @LockMode = 'Exclusive';
+SELECT @result
+2025-03-31 21:06:17.988 +04:00  INF  Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+IF OBJECT_ID(N'[__EFMigrationsHistory]') IS NULL
+BEGIN
+    CREATE TABLE [__EFMigrationsHistory] (
+        [MigrationId] nvarchar(150) NOT NULL,
+        [ProductVersion] nvarchar(32) NOT NULL,
+        CONSTRAINT [PK___EFMigrationsHistory] PRIMARY KEY ([MigrationId])
+    );
+END;
+2025-03-31 21:06:17.998 +04:00  INF  Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2025-03-31 21:06:18.001 +04:00  INF  Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2025-03-31 21:06:18.011 +04:00  INF  Executed DbCommand (6ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2025-03-31 21:06:18.020 +04:00  INF  No migrations were applied. The database is already up to date.
+2025-03-31 21:06:18.028 +04:00  INF  Executed DbCommand (6ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+DECLARE @result int;
+EXEC @result = sp_releaseapplock @Resource = '__EFMigrationsLock', @LockOwner = 'Session';
+SELECT @result
+2025-03-31 21:06:18.310 +04:00  INF  Executed DbCommand (32ms) [Parameters=[@__category_Name_0='?' (Size = 100)], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Categories] AS [c]
+        WHERE [c].[Name] = @__category_Name_0) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+2025-03-31 21:06:18.317 +04:00  INF  Executed DbCommand (0ms) [Parameters=[@__category_Name_0='?' (Size = 100)], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Categories] AS [c]
+        WHERE [c].[Name] = @__category_Name_0) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+2025-03-31 21:06:18.320 +04:00  INF  Executed DbCommand (0ms) [Parameters=[@__category_Name_0='?' (Size = 100)], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Categories] AS [c]
+        WHERE [c].[Name] = @__category_Name_0) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+2025-03-31 21:06:18.392 +04:00  INF  Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[Id], [c].[Name]
+FROM [Categories] AS [c]
+2025-03-31 21:06:18.460 +04:00  INF  Executed DbCommand (4ms) [Parameters=[@__user_UserName_0='?' (Size = 50)], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Users] AS [u]
+        WHERE [u].[UserName] = @__user_UserName_0) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+2025-03-31 21:06:18.464 +04:00  INF  Executed DbCommand (0ms) [Parameters=[@__user_UserName_0='?' (Size = 50)], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Users] AS [u]
+        WHERE [u].[UserName] = @__user_UserName_0) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+2025-03-31 21:06:18.467 +04:00  INF  Executed DbCommand (0ms) [Parameters=[@__user_UserName_0='?' (Size = 50)], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Users] AS [u]
+        WHERE [u].[UserName] = @__user_UserName_0) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+2025-03-31 21:06:18.508 +04:00  INF  Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[Email], [u].[Password], [u].[Role], [u].[UserName], [u].[Balance], [u].[ImageUrl], [u].[IsActivated]
+FROM [Users] AS [u]
+WHERE [u].[Role] = 1
+2025-03-31 21:06:18.542 +04:00  INF  Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[Id], [c].[Name]
+FROM [Categories] AS [c]
+2025-03-31 21:06:18.560 +04:00  INF  Executed DbCommand (10ms) [Parameters=[@__offer_Name_0='?' (Size = 100), @__offer_CompanyId_1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [ProductOffers] AS [p]
+        WHERE [p].[Name] = @__offer_Name_0 AND [p].[CompanyId] = @__offer_CompanyId_1) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+2025-03-31 21:06:18.580 +04:00  INF  Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [u].[Id], [u].[Email], [u].[Password], [u].[Role], [u].[UserName], [u].[Balance]
+FROM [Users] AS [u]
+WHERE [u].[Role] = 2
+2025-03-31 21:06:18.595 +04:00  INF  Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[CategoryId], [p].[CompanyId], [p].[CreateTime], [p].[Description], [p].[ExpirationTime], [p].[ImageUrl], [p].[Name], [p].[Price], [p].[Quantity], [p].[Status]
+FROM [ProductOffers] AS [p]
+2025-03-31 21:06:18.645 +04:00  INF  Executed DbCommand (11ms) [Parameters=[@__purchase_CustomerId_0='?' (DbType = Int32), @__purchase_ProductOfferId_1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Purchases] AS [p]
+        WHERE [p].[CustomerId] = @__purchase_CustomerId_0 AND [p].[ProductOfferId] = @__purchase_ProductOfferId_1) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+2025-03-31 21:06:18.843 +04:00  INF  User profile is available. Using 'C:\Users\irakl\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-03-31 21:06:18.884 +04:00  INF  Initializing UI Database
+2025-03-31 21:06:18.987 +04:00  INF  Saving healthchecks configuration to database
+2025-03-31 21:06:19.047 +04:00  INF  Saved 1 entities to in-memory store.
+2025-03-31 21:06:19.177 +04:00  INF  Now listening on: https://localhost:7230
+2025-03-31 21:06:19.179 +04:00  INF  Now listening on: http://localhost:5229
+2025-03-31 21:06:19.436 +04:00  INF  Start processing HTTP request GET https://localhost:7230/healthz
+2025-03-31 21:06:19.442 +04:00  INF  Sending HTTP request GET https://localhost:7230/healthz
+2025-03-31 21:06:19.514 +04:00  INF  Application started. Press Ctrl+C to shut down.
+2025-03-31 21:06:19.516 +04:00  INF  Hosting environment: Development
+2025-03-31 21:06:19.522 +04:00  INF  Content root path: C:\Users\irakl\Desktop\TBC .Net Course\Final Project\offers.itacademy.ge.API
+2025-03-31 21:06:19.537 +04:00  INF  Request starting HTTP/2 GET https://localhost:7230/swagger/index.html - null null
+2025-03-31 21:06:19.557 +04:00  INF  Request starting HTTP/1.1 GET https://localhost:7230/healthz - null null
+2025-03-31 21:06:19.673 +04:00  INF  Request finished HTTP/2 GET https://localhost:7230/swagger/index.html - 200 null text/html;charset=utf-8 151.0926ms
+2025-03-31 21:06:19.705 +04:00  INF  Request starting HTTP/2 GET https://localhost:7230/_vs/browserLink - null null
+2025-03-31 21:06:19.709 +04:00  INF  Request starting HTTP/2 GET https://localhost:7230/_framework/aspnetcore-browser-refresh.js - null null
+2025-03-31 21:06:19.712 +04:00  INF  Request starting HTTP/2 GET https://localhost:7230/swagger/index.js - null null
+2025-03-31 21:06:19.718 +04:00  INF  Executing endpoint 'Health checks'
+2025-03-31 21:06:19.732 +04:00  INF  Request finished HTTP/2 GET https://localhost:7230/swagger/index.js - 200 null application/javascript;charset=utf-8 24.7423ms
+2025-03-31 21:06:19.749 +04:00  INF  Request finished HTTP/2 GET https://localhost:7230/_framework/aspnetcore-browser-refresh.js - 200 16531 application/javascript; charset=utf-8 44.5229ms
+2025-03-31 21:06:19.789 +04:00  INF  Request finished HTTP/2 GET https://localhost:7230/_vs/browserLink - 200 null text/javascript; charset=UTF-8 83.5164ms
+2025-03-31 21:06:19.822 +04:00  INF  Executed endpoint 'Health checks'
+2025-03-31 21:06:19.825 +04:00  INF  Request finished HTTP/1.1 GET https://localhost:7230/healthz - 200 null application/json; charset=utf-8 267.7331ms
+2025-03-31 21:06:19.829 +04:00  INF  Received HTTP response headers after 378.4075ms - 200
+2025-03-31 21:06:19.831 +04:00  INF  End processing HTTP request after 400.992ms - 200
+2025-03-31 21:06:19.927 +04:00  INF  Request starting HTTP/2 GET https://localhost:7230/swagger/v1/swagger.json - null null
+2025-03-31 21:06:19.972 +04:00  INF  Request finished HTTP/2 GET https://localhost:7230/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 45.2275ms
+2025-03-31 21:06:19.983 +04:00  INF  Saved 1 entities to in-memory store.
+2025-03-31 21:06:25.436 +04:00  INF  Request starting HTTP/2 GET https://localhost:7230/api/Users/companies?pageNumber=1&pageSize=10 - null null
+2025-03-31 21:06:25.469 +04:00  INF  Authorization failed. These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (Admin)
+2025-03-31 21:06:25.478 +04:00  INF  AuthenticationScheme: Bearer was challenged.
+2025-03-31 21:06:25.480 +04:00  INF  Request finished HTTP/2 GET https://localhost:7230/api/Users/companies?pageNumber=1&pageSize=10 - 401 0 null 44.2456ms
+2025-03-31 21:06:33.174 +04:00  INF  Request starting HTTP/2 POST https://localhost:7230/api/Users/login - application/json 49
+2025-03-31 21:06:33.188 +04:00  INF  Executing endpoint 'offers.itacademy.ge.API.Controllers.UsersController.Login (offers.itacademy.ge.API)'
+2025-03-31 21:06:33.251 +04:00  INF  Route matched with {action = "Login", controller = "Users"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.String]] Login(offers.itacademy.ge.Application.Models.Users.UserLoginRequestModel, System.Threading.CancellationToken) on controller offers.itacademy.ge.API.Controllers.UsersController (offers.itacademy.ge.API).
+2025-03-31 21:06:33.500 +04:00  INF  Executed DbCommand (17ms) [Parameters=[@__model_UserName_0='?' (Size = 50)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [u].[Id], [u].[Email], [u].[Password], [u].[Role], [u].[UserName], [u].[Balance], [u].[ImageUrl], [u].[IsActivated]
+FROM [Users] AS [u]
+WHERE [u].[UserName] = @__model_UserName_0
+2025-03-31 21:06:34.161 +04:00  INF  Executing OkObjectResult, writing value of type 'System.String'.
+2025-03-31 21:06:34.174 +04:00  INF  Executed action offers.itacademy.ge.API.Controllers.UsersController.Login (offers.itacademy.ge.API) in 913.868ms
+2025-03-31 21:06:34.177 +04:00  INF  Executed endpoint 'offers.itacademy.ge.API.Controllers.UsersController.Login (offers.itacademy.ge.API)'
+2025-03-31 21:06:34.181 +04:00  INF  Request finished HTTP/2 POST https://localhost:7230/api/Users/login - 200 null text/plain; charset=utf-8 1007.9045ms
+2025-03-31 21:06:35.041 +04:00  INF  Start processing HTTP request GET https://localhost:7230/healthz
+2025-03-31 21:06:35.043 +04:00  INF  Sending HTTP request GET https://localhost:7230/healthz
+2025-03-31 21:06:35.047 +04:00  INF  Request starting HTTP/1.1 GET https://localhost:7230/healthz - null null
+2025-03-31 21:06:35.053 +04:00  INF  Executing endpoint 'Health checks'
+2025-03-31 21:06:35.059 +04:00  INF  Executed endpoint 'Health checks'
+2025-03-31 21:06:35.062 +04:00  INF  Received HTTP response headers after 15.3284ms - 200
+2025-03-31 21:06:35.064 +04:00  INF  End processing HTTP request after 22.3359ms - 200
+2025-03-31 21:06:35.064 +04:00  INF  Request finished HTTP/1.1 GET https://localhost:7230/healthz - 200 null application/json; charset=utf-8 16.3745ms
+2025-03-31 21:06:35.082 +04:00  INF  Saved 1 entities to in-memory store.
+2025-03-31 21:06:42.108 +04:00  INF  Request starting HTTP/2 GET https://localhost:7230/api/Users/companies?pageNumber=1&pageSize=10 - null null
+2025-03-31 21:06:42.175 +04:00  INF  Executing endpoint 'offers.itacademy.ge.API.Controllers.UsersController.GetAllCompaniesAsync (offers.itacademy.ge.API)'
+2025-03-31 21:06:42.185 +04:00  INF  Route matched with {action = "GetAllCompanies", controller = "Users"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[offers.itacademy.ge.Application.Models.Users.Company.CompanyResponseModel]]] GetAllCompaniesAsync(Int32, Int32, System.Threading.CancellationToken) on controller offers.itacademy.ge.API.Controllers.UsersController (offers.itacademy.ge.API).
+2025-03-31 21:06:42.297 +04:00  WRN  The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2025-03-31 21:06:42.300 +04:00  WRN  The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2025-03-31 21:06:42.317 +04:00  INF  Executed DbCommand (4ms) [Parameters=[@__p_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [u].[Id], [u].[Email], [u].[Password], [u].[Role], [u].[UserName], [u].[Balance], [u].[ImageUrl], [u].[IsActivated]
+FROM [Users] AS [u]
+WHERE [u].[Role] = 1
+ORDER BY (SELECT 1)
+OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY
+2025-03-31 21:06:42.440 +04:00  INF  Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[offers.itacademy.ge.Application.Models.Users.Company.CompanyResponseModel, offers.itacademy.ge.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-03-31 21:06:42.459 +04:00  INF  Executed action offers.itacademy.ge.API.Controllers.UsersController.GetAllCompaniesAsync (offers.itacademy.ge.API) in 270.6117ms
+2025-03-31 21:06:42.462 +04:00  INF  Executed endpoint 'offers.itacademy.ge.API.Controllers.UsersController.GetAllCompaniesAsync (offers.itacademy.ge.API)'
+2025-03-31 21:06:42.465 +04:00  INF  Request finished HTTP/2 GET https://localhost:7230/api/Users/companies?pageNumber=1&pageSize=10 - 200 null application/json; charset=utf-8 357.3021ms
+2025-03-31 21:06:50.097 +04:00  INF  Start processing HTTP request GET https://localhost:7230/healthz
+2025-03-31 21:06:50.100 +04:00  INF  Sending HTTP request GET https://localhost:7230/healthz
+2025-03-31 21:06:50.104 +04:00  INF  Request starting HTTP/1.1 GET https://localhost:7230/healthz - null null
+2025-03-31 21:06:50.108 +04:00  INF  Executing endpoint 'Health checks'
+2025-03-31 21:06:50.113 +04:00  INF  Executed endpoint 'Health checks'
+2025-03-31 21:06:50.115 +04:00  INF  Received HTTP response headers after 11.8095ms - 200
+2025-03-31 21:06:50.117 +04:00  INF  End processing HTTP request after 20.3886ms - 200
+2025-03-31 21:06:50.118 +04:00  INF  Request finished HTTP/1.1 GET https://localhost:7230/healthz - 200 null application/json; charset=utf-8 14.173ms
+2025-03-31 21:06:50.126 +04:00  INF  Saved 1 entities to in-memory store.
+2025-03-31 21:07:05.130 +04:00  INF  Start processing HTTP request GET https://localhost:7230/healthz
+2025-03-31 21:07:05.134 +04:00  INF  Sending HTTP request GET https://localhost:7230/healthz
+2025-03-31 21:07:05.140 +04:00  INF  Request starting HTTP/1.1 GET https://localhost:7230/healthz - null null
+2025-03-31 21:07:05.153 +04:00  INF  Executing endpoint 'Health checks'
+2025-03-31 21:07:05.166 +04:00  INF  Executed endpoint 'Health checks'
+2025-03-31 21:07:05.170 +04:00  INF  Received HTTP response headers after 30.273ms - 200
+2025-03-31 21:07:05.173 +04:00  INF  End processing HTTP request after 43.1736ms - 200
+2025-03-31 21:07:05.173 +04:00  INF  Request finished HTTP/1.1 GET https://localhost:7230/healthz - 200 null application/json; charset=utf-8 34.416ms
+2025-03-31 21:07:05.182 +04:00  INF  Saved 1 entities to in-memory store.
+2025-03-31 21:07:20.200 +04:00  INF  Start processing HTTP request GET https://localhost:7230/healthz
+2025-03-31 21:07:20.203 +04:00  INF  Sending HTTP request GET https://localhost:7230/healthz
+2025-03-31 21:07:20.207 +04:00  INF  Request starting HTTP/1.1 GET https://localhost:7230/healthz - null null
+2025-03-31 21:07:20.211 +04:00  INF  Executing endpoint 'Health checks'
+2025-03-31 21:07:20.216 +04:00  INF  Executed endpoint 'Health checks'
+2025-03-31 21:07:20.219 +04:00  INF  Received HTTP response headers after 11.961ms - 200
+2025-03-31 21:07:20.221 +04:00  INF  End processing HTTP request after 21.2267ms - 200
+2025-03-31 21:07:20.223 +04:00  INF  Request finished HTTP/1.1 GET https://localhost:7230/healthz - 200 null application/json; charset=utf-8 14.7771ms
+2025-03-31 21:07:20.231 +04:00  INF  Saved 1 entities to in-memory store.
+2025-03-31 21:07:35.241 +04:00  INF  Start processing HTTP request GET https://localhost:7230/healthz
+2025-03-31 21:07:35.244 +04:00  INF  Sending HTTP request GET https://localhost:7230/healthz
+2025-03-31 21:07:35.247 +04:00  INF  Request starting HTTP/1.1 GET https://localhost:7230/healthz - null null
+2025-03-31 21:07:35.253 +04:00  INF  Executing endpoint 'Health checks'
+2025-03-31 21:07:35.260 +04:00  INF  Executed endpoint 'Health checks'
+2025-03-31 21:07:35.262 +04:00  INF  Received HTTP response headers after 15.1077ms - 200
+2025-03-31 21:07:35.264 +04:00  INF  End processing HTTP request after 22.1384ms - 200
+2025-03-31 21:07:35.265 +04:00  INF  Request finished HTTP/1.1 GET https://localhost:7230/healthz - 200 null application/json; charset=utf-8 16.4713ms
+2025-03-31 21:07:35.272 +04:00  INF  Saved 1 entities to in-memory store.
+2025-03-31 21:07:50.291 +04:00  INF  Start processing HTTP request GET https://localhost:7230/healthz
+2025-03-31 21:07:50.294 +04:00  INF  Sending HTTP request GET https://localhost:7230/healthz
+2025-03-31 21:07:50.298 +04:00  INF  Request starting HTTP/1.1 GET https://localhost:7230/healthz - null null
+2025-03-31 21:07:50.303 +04:00  INF  Executing endpoint 'Health checks'
+2025-03-31 21:07:50.308 +04:00  INF  Executed endpoint 'Health checks'
+2025-03-31 21:07:50.311 +04:00  INF  Received HTTP response headers after 13.4502ms - 200
+2025-03-31 21:07:50.313 +04:00  INF  End processing HTTP request after 22.4458ms - 200
+2025-03-31 21:07:50.313 +04:00  INF  Request finished HTTP/1.1 GET https://localhost:7230/healthz - 200 null application/json; charset=utf-8 15.4896ms
+2025-03-31 21:07:50.321 +04:00  INF  Saved 1 entities to in-memory store.
+2025-03-31 21:08:05.336 +04:00  INF  Start processing HTTP request GET https://localhost:7230/healthz
+2025-03-31 21:08:05.338 +04:00  INF  Sending HTTP request GET https://localhost:7230/healthz
+2025-03-31 21:08:05.343 +04:00  INF  Request starting HTTP/1.1 GET https://localhost:7230/healthz - null null
+2025-03-31 21:08:05.348 +04:00  INF  Executing endpoint 'Health checks'
+2025-03-31 21:08:05.361 +04:00  INF  Executed endpoint 'Health checks'
+2025-03-31 21:08:05.364 +04:00  INF  Received HTTP response headers after 21.2485ms - 200
+2025-03-31 21:08:05.367 +04:00  INF  End processing HTTP request after 31.0425ms - 200
+2025-03-31 21:08:05.370 +04:00  INF  Request finished HTTP/1.1 GET https://localhost:7230/healthz - 200 null application/json; charset=utf-8 24.3386ms
+2025-03-31 21:08:05.383 +04:00  INF  Saved 1 entities to in-memory store.
+2025-03-31 21:08:20.402 +04:00  INF  Start processing HTTP request GET https://localhost:7230/healthz
+2025-03-31 21:08:20.405 +04:00  INF  Sending HTTP request GET https://localhost:7230/healthz
+2025-03-31 21:08:20.445 +04:00  INF  Request starting HTTP/1.1 GET https://localhost:7230/healthz - null null
+2025-03-31 21:08:20.453 +04:00  INF  Executing endpoint 'Health checks'
+2025-03-31 21:08:20.460 +04:00  INF  Executed endpoint 'Health checks'
+2025-03-31 21:08:20.463 +04:00  INF  Received HTTP response headers after 52.5043ms - 200
+2025-03-31 21:08:20.467 +04:00  INF  End processing HTTP request after 65.1351ms - 200
+2025-03-31 21:08:20.470 +04:00  INF  Request finished HTTP/1.1 GET https://localhost:7230/healthz - 200 null application/json; charset=utf-8 21.7734ms
+2025-03-31 21:08:20.481 +04:00  INF  Saved 1 entities to in-memory store.
+2025-03-31 21:53:18.999 +04:00  INF  Executed DbCommand (11ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2025-03-31 21:53:19.045 +04:00  INF  Acquiring an exclusive lock for migration application. See https://aka.ms/efcore-docs-migrations-lock for more information if this takes too long.
+2025-03-31 21:53:19.061 +04:00  INF  Executed DbCommand (11ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+DECLARE @result int;
+EXEC @result = sp_getapplock @Resource = '__EFMigrationsLock', @LockOwner = 'Session', @LockMode = 'Exclusive';
+SELECT @result
+2025-03-31 21:53:19.121 +04:00  INF  Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+IF OBJECT_ID(N'[__EFMigrationsHistory]') IS NULL
+BEGIN
+    CREATE TABLE [__EFMigrationsHistory] (
+        [MigrationId] nvarchar(150) NOT NULL,
+        [ProductVersion] nvarchar(32) NOT NULL,
+        CONSTRAINT [PK___EFMigrationsHistory] PRIMARY KEY ([MigrationId])
+    );
+END;
+2025-03-31 21:53:19.130 +04:00  INF  Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2025-03-31 21:53:19.133 +04:00  INF  Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2025-03-31 21:53:19.138 +04:00  INF  Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2025-03-31 21:53:19.146 +04:00  INF  No migrations were applied. The database is already up to date.
+2025-03-31 21:53:19.149 +04:00  INF  Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+DECLARE @result int;
+EXEC @result = sp_releaseapplock @Resource = '__EFMigrationsLock', @LockOwner = 'Session';
+SELECT @result
+2025-03-31 21:53:19.406 +04:00  INF  Executed DbCommand (13ms) [Parameters=[@__category_Name_0='?' (Size = 100)], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Categories] AS [c]
+        WHERE [c].[Name] = @__category_Name_0) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+2025-03-31 21:53:19.413 +04:00  INF  Executed DbCommand (1ms) [Parameters=[@__category_Name_0='?' (Size = 100)], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Categories] AS [c]
+        WHERE [c].[Name] = @__category_Name_0) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+2025-03-31 21:53:19.417 +04:00  INF  Executed DbCommand (0ms) [Parameters=[@__category_Name_0='?' (Size = 100)], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Categories] AS [c]
+        WHERE [c].[Name] = @__category_Name_0) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+2025-03-31 21:53:19.461 +04:00  INF  Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[Id], [c].[Name]
+FROM [Categories] AS [c]
+2025-03-31 21:53:19.499 +04:00  INF  Executed DbCommand (3ms) [Parameters=[@__user_UserName_0='?' (Size = 50)], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Users] AS [u]
+        WHERE [u].[UserName] = @__user_UserName_0) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+2025-03-31 21:53:19.503 +04:00  INF  Executed DbCommand (0ms) [Parameters=[@__user_UserName_0='?' (Size = 50)], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Users] AS [u]
+        WHERE [u].[UserName] = @__user_UserName_0) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+2025-03-31 21:53:19.507 +04:00  INF  Executed DbCommand (0ms) [Parameters=[@__user_UserName_0='?' (Size = 50)], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Users] AS [u]
+        WHERE [u].[UserName] = @__user_UserName_0) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+2025-03-31 21:53:19.536 +04:00  INF  Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[Email], [u].[Password], [u].[Role], [u].[UserName], [u].[Balance], [u].[ImageUrl], [u].[IsActivated]
+FROM [Users] AS [u]
+WHERE [u].[Role] = 1
+2025-03-31 21:53:19.562 +04:00  INF  Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[Id], [c].[Name]
+FROM [Categories] AS [c]
+2025-03-31 21:53:19.576 +04:00  INF  Executed DbCommand (2ms) [Parameters=[@__offer_Name_0='?' (Size = 100), @__offer_CompanyId_1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [ProductOffers] AS [p]
+        WHERE [p].[Name] = @__offer_Name_0 AND [p].[CompanyId] = @__offer_CompanyId_1) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+2025-03-31 21:53:19.594 +04:00  INF  Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [u].[Id], [u].[Email], [u].[Password], [u].[Role], [u].[UserName], [u].[Balance]
+FROM [Users] AS [u]
+WHERE [u].[Role] = 2
+2025-03-31 21:53:19.607 +04:00  INF  Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[CategoryId], [p].[CompanyId], [p].[CreateTime], [p].[Description], [p].[ExpirationTime], [p].[ImageUrl], [p].[Name], [p].[Price], [p].[Quantity], [p].[Status]
+FROM [ProductOffers] AS [p]
+2025-03-31 21:53:19.648 +04:00  INF  Executed DbCommand (2ms) [Parameters=[@__purchase_CustomerId_0='?' (DbType = Int32), @__purchase_ProductOfferId_1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Purchases] AS [p]
+        WHERE [p].[CustomerId] = @__purchase_CustomerId_0 AND [p].[ProductOfferId] = @__purchase_ProductOfferId_1) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+2025-03-31 21:53:19.795 +04:00  INF  User profile is available. Using 'C:\Users\irakl\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-03-31 21:53:19.836 +04:00  INF  Initializing UI Database
+2025-03-31 21:53:19.944 +04:00  INF  Saving healthchecks configuration to database
+2025-03-31 21:53:19.988 +04:00  INF  Saved 1 entities to in-memory store.
+2025-03-31 21:53:20.139 +04:00  INF  Now listening on: https://localhost:7230
+2025-03-31 21:53:20.140 +04:00  INF  Now listening on: http://localhost:5229
+2025-03-31 21:53:20.410 +04:00  INF  Start processing HTTP request GET https://localhost:7230/healthz
+2025-03-31 21:53:20.417 +04:00  INF  Sending HTTP request GET https://localhost:7230/healthz
+2025-03-31 21:53:20.493 +04:00  INF  Application started. Press Ctrl+C to shut down.
+2025-03-31 21:53:20.494 +04:00  INF  Hosting environment: Development
+2025-03-31 21:53:20.496 +04:00  INF  Content root path: C:\Users\irakl\Desktop\TBC .Net Course\Final Project\offers.itacademy.ge.API
+2025-03-31 21:53:20.624 +04:00  INF  Request starting HTTP/1.1 GET https://localhost:7230/healthz - null null
+2025-03-31 21:53:20.772 +04:00  INF  Executing endpoint 'Health checks'
+2025-03-31 21:53:20.800 +04:00  INF  Request starting HTTP/2 GET https://localhost:7230/swagger/index.html - null null
+2025-03-31 21:53:20.846 +04:00  INF  Executed endpoint 'Health checks'
+2025-03-31 21:53:20.848 +04:00  INF  Received HTTP response headers after 428.006ms - 200
+2025-03-31 21:53:20.851 +04:00  INF  End processing HTTP request after 449.3524ms - 200
+2025-03-31 21:53:20.853 +04:00  INF  Request finished HTTP/1.1 GET https://localhost:7230/healthz - 200 null application/json; charset=utf-8 237.4219ms
+2025-03-31 21:53:20.891 +04:00  INF  Request finished HTTP/2 GET https://localhost:7230/swagger/index.html - 200 null text/html;charset=utf-8 90.7329ms
+2025-03-31 21:53:20.941 +04:00  INF  Request starting HTTP/2 GET https://localhost:7230/swagger/index.js - null null
+2025-03-31 21:53:20.945 +04:00  INF  Request starting HTTP/2 GET https://localhost:7230/_framework/aspnetcore-browser-refresh.js - null null
+2025-03-31 21:53:20.948 +04:00  INF  Request starting HTTP/2 GET https://localhost:7230/_vs/browserLink - null null
+2025-03-31 21:53:20.952 +04:00  INF  Request finished HTTP/2 GET https://localhost:7230/swagger/index.js - 200 null application/javascript;charset=utf-8 8.9834ms
+2025-03-31 21:53:20.967 +04:00  INF  Request finished HTTP/2 GET https://localhost:7230/_framework/aspnetcore-browser-refresh.js - 200 16531 application/javascript; charset=utf-8 25.738ms
+2025-03-31 21:53:20.998 +04:00  INF  Saved 1 entities to in-memory store.
+2025-03-31 21:53:21.001 +04:00  INF  Request finished HTTP/2 GET https://localhost:7230/_vs/browserLink - 200 null text/javascript; charset=UTF-8 56.5528ms
+2025-03-31 21:53:21.292 +04:00  INF  Request starting HTTP/2 GET https://localhost:7230/swagger/v1/swagger.json - null null
+2025-03-31 21:53:21.344 +04:00  INF  Request finished HTTP/2 GET https://localhost:7230/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 52.2793ms
+2025-03-31 21:53:36.042 +04:00  INF  Start processing HTTP request GET https://localhost:7230/healthz
+2025-03-31 21:53:36.045 +04:00  INF  Sending HTTP request GET https://localhost:7230/healthz
+2025-03-31 21:53:36.047 +04:00  INF  Request starting HTTP/1.1 GET https://localhost:7230/healthz - null null
+2025-03-31 21:53:36.053 +04:00  INF  Executing endpoint 'Health checks'
+2025-03-31 21:53:36.061 +04:00  INF  Executed endpoint 'Health checks'
+2025-03-31 21:53:36.062 +04:00  INF  Received HTTP response headers after 15.3097ms - 200
+2025-03-31 21:53:36.063 +04:00  INF  End processing HTTP request after 20.7742ms - 200
+2025-03-31 21:53:36.063 +04:00  INF  Request finished HTTP/1.1 GET https://localhost:7230/healthz - 200 null application/json; charset=utf-8 15.5877ms
+2025-03-31 21:53:36.074 +04:00  INF  Saved 1 entities to in-memory store.
+2025-03-31 21:53:51.089 +04:00  INF  Start processing HTTP request GET https://localhost:7230/healthz
+2025-03-31 21:53:51.092 +04:00  INF  Sending HTTP request GET https://localhost:7230/healthz
+2025-03-31 21:53:51.094 +04:00  INF  Request starting HTTP/1.1 GET https://localhost:7230/healthz - null null
+2025-03-31 21:53:51.099 +04:00  INF  Executing endpoint 'Health checks'
+2025-03-31 21:53:51.102 +04:00  INF  Executed endpoint 'Health checks'
+2025-03-31 21:53:51.104 +04:00  INF  Received HTTP response headers after 9.8333ms - 200
+2025-03-31 21:53:51.105 +04:00  INF  End processing HTTP request after 16.1509ms - 200
+2025-03-31 21:53:51.105 +04:00  INF  Request finished HTTP/1.1 GET https://localhost:7230/healthz - 200 null application/json; charset=utf-8 11.122ms
+2025-03-31 21:53:51.110 +04:00  INF  Saved 1 entities to in-memory store.
+2025-03-31 22:06:16.683 +04:00  INF  Executed DbCommand (12ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2025-03-31 22:06:16.727 +04:00  INF  Acquiring an exclusive lock for migration application. See https://aka.ms/efcore-docs-migrations-lock for more information if this takes too long.
+2025-03-31 22:06:16.742 +04:00  INF  Executed DbCommand (10ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+DECLARE @result int;
+EXEC @result = sp_getapplock @Resource = '__EFMigrationsLock', @LockOwner = 'Session', @LockMode = 'Exclusive';
+SELECT @result
+2025-03-31 22:06:16.809 +04:00  INF  Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+IF OBJECT_ID(N'[__EFMigrationsHistory]') IS NULL
+BEGIN
+    CREATE TABLE [__EFMigrationsHistory] (
+        [MigrationId] nvarchar(150) NOT NULL,
+        [ProductVersion] nvarchar(32) NOT NULL,
+        CONSTRAINT [PK___EFMigrationsHistory] PRIMARY KEY ([MigrationId])
+    );
+END;
+2025-03-31 22:06:16.820 +04:00  INF  Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2025-03-31 22:06:16.822 +04:00  INF  Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2025-03-31 22:06:16.830 +04:00  INF  Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2025-03-31 22:06:16.838 +04:00  INF  No migrations were applied. The database is already up to date.
+2025-03-31 22:06:16.841 +04:00  INF  Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+DECLARE @result int;
+EXEC @result = sp_releaseapplock @Resource = '__EFMigrationsLock', @LockOwner = 'Session';
+SELECT @result
+2025-03-31 22:06:17.187 +04:00  INF  Executed DbCommand (17ms) [Parameters=[@__category_Name_0='?' (Size = 100)], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Categories] AS [c]
+        WHERE [c].[Name] = @__category_Name_0) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+2025-03-31 22:06:17.195 +04:00  INF  Executed DbCommand (0ms) [Parameters=[@__category_Name_0='?' (Size = 100)], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Categories] AS [c]
+        WHERE [c].[Name] = @__category_Name_0) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+2025-03-31 22:06:17.198 +04:00  INF  Executed DbCommand (0ms) [Parameters=[@__category_Name_0='?' (Size = 100)], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Categories] AS [c]
+        WHERE [c].[Name] = @__category_Name_0) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+2025-03-31 22:06:17.252 +04:00  INF  Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[Id], [c].[Name]
+FROM [Categories] AS [c]
+2025-03-31 22:06:17.295 +04:00  INF  Executed DbCommand (2ms) [Parameters=[@__user_UserName_0='?' (Size = 50)], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Users] AS [u]
+        WHERE [u].[UserName] = @__user_UserName_0) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+2025-03-31 22:06:17.298 +04:00  INF  Executed DbCommand (0ms) [Parameters=[@__user_UserName_0='?' (Size = 50)], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Users] AS [u]
+        WHERE [u].[UserName] = @__user_UserName_0) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+2025-03-31 22:06:17.301 +04:00  INF  Executed DbCommand (0ms) [Parameters=[@__user_UserName_0='?' (Size = 50)], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Users] AS [u]
+        WHERE [u].[UserName] = @__user_UserName_0) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+2025-03-31 22:06:17.331 +04:00  INF  Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[Email], [u].[Password], [u].[Role], [u].[UserName], [u].[Balance], [u].[ImageUrl], [u].[IsActivated]
+FROM [Users] AS [u]
+WHERE [u].[Role] = 1
+2025-03-31 22:06:17.360 +04:00  INF  Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[Id], [c].[Name]
+FROM [Categories] AS [c]
+2025-03-31 22:06:17.370 +04:00  INF  Executed DbCommand (2ms) [Parameters=[@__offer_Name_0='?' (Size = 100), @__offer_CompanyId_1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [ProductOffers] AS [p]
+        WHERE [p].[Name] = @__offer_Name_0 AND [p].[CompanyId] = @__offer_CompanyId_1) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+2025-03-31 22:06:17.389 +04:00  INF  Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [u].[Id], [u].[Email], [u].[Password], [u].[Role], [u].[UserName], [u].[Balance]
+FROM [Users] AS [u]
+WHERE [u].[Role] = 2
+2025-03-31 22:06:17.402 +04:00  INF  Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[CategoryId], [p].[CompanyId], [p].[CreateTime], [p].[Description], [p].[ExpirationTime], [p].[ImageUrl], [p].[Name], [p].[Price], [p].[Quantity], [p].[Status]
+FROM [ProductOffers] AS [p]
+2025-03-31 22:06:17.445 +04:00  INF  Executed DbCommand (2ms) [Parameters=[@__purchase_CustomerId_0='?' (DbType = Int32), @__purchase_ProductOfferId_1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Purchases] AS [p]
+        WHERE [p].[CustomerId] = @__purchase_CustomerId_0 AND [p].[ProductOfferId] = @__purchase_ProductOfferId_1) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+2025-03-31 22:06:17.601 +04:00  INF  User profile is available. Using 'C:\Users\irakl\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-03-31 22:06:17.638 +04:00  INF  Initializing UI Database
+2025-03-31 22:06:17.729 +04:00  INF  Saving healthchecks configuration to database
+2025-03-31 22:06:17.775 +04:00  INF  Saved 1 entities to in-memory store.
+2025-03-31 22:06:17.916 +04:00  INF  Now listening on: https://localhost:7230
+2025-03-31 22:06:17.917 +04:00  INF  Now listening on: http://localhost:5229
+2025-03-31 22:06:18.068 +04:00  INF  Start processing HTTP request GET https://localhost:7230/healthz
+2025-03-31 22:06:18.073 +04:00  INF  Sending HTTP request GET https://localhost:7230/healthz
+2025-03-31 22:06:18.121 +04:00  INF  Application started. Press Ctrl+C to shut down.
+2025-03-31 22:06:18.125 +04:00  INF  Hosting environment: Development
+2025-03-31 22:06:18.126 +04:00  INF  Content root path: C:\Users\irakl\Desktop\TBC .Net Course\Final Project\offers.itacademy.ge.API
+2025-03-31 22:06:18.220 +04:00  INF  Request starting HTTP/1.1 GET https://localhost:7230/healthz - null null
+2025-03-31 22:06:18.343 +04:00  INF  Executing endpoint 'Health checks'
+2025-03-31 22:06:18.410 +04:00  INF  Executed endpoint 'Health checks'
+2025-03-31 22:06:18.422 +04:00  INF  Received HTTP response headers after 341.0132ms - 200
+2025-03-31 22:06:18.424 +04:00  INF  Request finished HTTP/1.1 GET https://localhost:7230/healthz - 200 null application/json; charset=utf-8 211.5176ms
+2025-03-31 22:06:18.424 +04:00  INF  End processing HTTP request after 360.2627ms - 200
+2025-03-31 22:06:18.515 +04:00  INF  Saved 1 entities to in-memory store.
+2025-03-31 22:06:18.837 +04:00  INF  Request starting HTTP/2 GET https://localhost:7230/swagger/index.html - null null
+2025-03-31 22:06:18.902 +04:00  INF  Request finished HTTP/2 GET https://localhost:7230/swagger/index.html - 200 null text/html;charset=utf-8 65.5817ms
+2025-03-31 22:06:18.928 +04:00  INF  Request starting HTTP/2 GET https://localhost:7230/swagger/index.js - null null
+2025-03-31 22:06:18.928 +04:00  INF  Request starting HTTP/2 GET https://localhost:7230/_vs/browserLink - null null
+2025-03-31 22:06:18.934 +04:00  INF  Request starting HTTP/2 GET https://localhost:7230/_framework/aspnetcore-browser-refresh.js - null null
+2025-03-31 22:06:18.937 +04:00  INF  Request finished HTTP/2 GET https://localhost:7230/swagger/index.js - 200 null application/javascript;charset=utf-8 7.8891ms
+2025-03-31 22:06:18.949 +04:00  INF  Request finished HTTP/2 GET https://localhost:7230/_framework/aspnetcore-browser-refresh.js - 200 16531 application/javascript; charset=utf-8 16.133ms
+2025-03-31 22:06:18.985 +04:00  INF  Request finished HTTP/2 GET https://localhost:7230/_vs/browserLink - 200 null text/javascript; charset=UTF-8 57.6535ms
+2025-03-31 22:06:19.104 +04:00  INF  Request starting HTTP/2 GET https://localhost:7230/swagger/v1/swagger.json - null null
+2025-03-31 22:06:19.192 +04:00  INF  Request finished HTTP/2 GET https://localhost:7230/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 88.2449ms
+2025-03-31 22:06:33.564 +04:00  INF  Start processing HTTP request GET https://localhost:7230/healthz
+2025-03-31 22:06:33.565 +04:00  INF  Sending HTTP request GET https://localhost:7230/healthz
+2025-03-31 22:06:33.568 +04:00  INF  Request starting HTTP/1.1 GET https://localhost:7230/healthz - null null
+2025-03-31 22:06:33.573 +04:00  INF  Executing endpoint 'Health checks'
+2025-03-31 22:06:33.580 +04:00  INF  Executed endpoint 'Health checks'
+2025-03-31 22:06:33.581 +04:00  INF  Received HTTP response headers after 13.9007ms - 200
+2025-03-31 22:06:33.582 +04:00  INF  End processing HTTP request after 18.4095ms - 200
+2025-03-31 22:06:33.583 +04:00  INF  Request finished HTTP/1.1 GET https://localhost:7230/healthz - 200 null application/json; charset=utf-8 14.026ms
+2025-03-31 22:06:33.593 +04:00  INF  Saved 1 entities to in-memory store.

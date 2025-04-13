@@ -1,0 +1,22 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome to Offers IT Academy</h1>
+    <p>Explore opportunities, manage your profile, and more.</p>
+
+    @if (!User.Identity.IsAuthenticated)
+    {
+        <div class="mt-4">
+            <a asp-controller="Login" asp-action="Login" class="btn btn-primary btn-lg">Login to Get Started</a>
+        </div>
+    }
+    else
+    {
+        <p>Hello, @User.Identity.Name! You're already logged in.</p>
+        <div class="mt-4">
+            <a asp-controller="ProductOffer" asp-action="ActiveOffers" class="btn btn-primary">View Active Offers</a>
+        </div>
+    }
+</div>

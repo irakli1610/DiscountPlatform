@@ -1,0 +1,77 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\irakl\\Desktop\\TBC .Net Course\\Final Project\\offers.itacademy.ge.API\\wwwroot\\uploads\\companies\\2726fa70-c6c6-4c5e-80d7-0f9581cb8c82.png",
+      "PackagePath": "staticwebassets\\uploads\\companies\\2726fa70-c6c6-4c5e-80d7-0f9581cb8c82.png"
+    },
+    {
+      "Id": "C:\\Users\\irakl\\Desktop\\TBC .Net Course\\Final Project\\offers.itacademy.ge.API\\wwwroot\\uploads\\companies\\3e52cbeb-4faf-448a-bf19-3b9b1412e7c5.png",
+      "PackagePath": "staticwebassets\\uploads\\companies\\3e52cbeb-4faf-448a-bf19-3b9b1412e7c5.png"
+    },
+    {
+      "Id": "C:\\Users\\irakl\\Desktop\\TBC .Net Course\\Final Project\\offers.itacademy.ge.API\\wwwroot\\uploads\\companies\\55c46445-5b45-43db-8044-c1e98b739b41.png",
+      "PackagePath": "staticwebassets\\uploads\\companies\\55c46445-5b45-43db-8044-c1e98b739b41.png"
+    },
+    {
+      "Id": "C:\\Users\\irakl\\Desktop\\TBC .Net Course\\Final Project\\offers.itacademy.ge.API\\wwwroot\\uploads\\companies\\daf58c59-e8db-4b4c-ab5a-4888a9f2d2e6.png",
+      "PackagePath": "staticwebassets\\uploads\\companies\\daf58c59-e8db-4b4c-ab5a-4888a9f2d2e6.png"
+    },
+    {
+      "Id": "C:\\Users\\irakl\\Desktop\\TBC .Net Course\\Final Project\\offers.itacademy.ge.API\\wwwroot\\uploads\\companies\\defaultCompanyImage.png",
+      "PackagePath": "staticwebassets\\uploads\\companies\\defaultCompanyImage.png"
+    },
+    {
+      "Id": "C:\\Users\\irakl\\Desktop\\TBC .Net Course\\Final Project\\offers.itacademy.ge.API\\wwwroot\\uploads\\offers\\2dd362d9-66f1-4b48-8256-3cccdd5af215.png",
+      "PackagePath": "staticwebassets\\uploads\\offers\\2dd362d9-66f1-4b48-8256-3cccdd5af215.png"
+    },
+    {
+      "Id": "C:\\Users\\irakl\\Desktop\\TBC .Net Course\\Final Project\\offers.itacademy.ge.API\\wwwroot\\uploads\\offers\\8106975e-b3a7-4cc6-829b-a38c4df010a2.png",
+      "PackagePath": "staticwebassets\\uploads\\offers\\8106975e-b3a7-4cc6-829b-a38c4df010a2.png"
+    },
+    {
+      "Id": "C:\\Users\\irakl\\Desktop\\TBC .Net Course\\Final Project\\offers.itacademy.ge.API\\wwwroot\\uploads\\offers\\84e82583-5f39-4618-b4a1-cc07c8c99134.png",
+      "PackagePath": "staticwebassets\\uploads\\offers\\84e82583-5f39-4618-b4a1-cc07c8c99134.png"
+    },
+    {
+      "Id": "C:\\Users\\irakl\\Desktop\\TBC .Net Course\\Final Project\\offers.itacademy.ge.API\\wwwroot\\uploads\\offers\\8bb7b69f-dafe-434d-8723-a26418f79888.png",
+      "PackagePath": "staticwebassets\\uploads\\offers\\8bb7b69f-dafe-434d-8723-a26418f79888.png"
+    },
+    {
+      "Id": "C:\\Users\\irakl\\Desktop\\TBC .Net Course\\Final Project\\offers.itacademy.ge.API\\wwwroot\\uploads\\offers\\a709e8f5-5fb5-43f1-a5f7-2a05aa1aed9d.png",
+      "PackagePath": "staticwebassets\\uploads\\offers\\a709e8f5-5fb5-43f1-a5f7-2a05aa1aed9d.png"
+    },
+    {
+      "Id": "C:\\Users\\irakl\\Desktop\\TBC .Net Course\\Final Project\\offers.itacademy.ge.API\\wwwroot\\uploads\\offers\\defaultOfferImage.png",
+      "PackagePath": "staticwebassets\\uploads\\offers\\defaultOfferImage.png"
+    },
+    {
+      "Id": "C:\\Users\\irakl\\Desktop\\TBC .Net Course\\Final Project\\offers.itacademy.ge.API\\wwwroot\\uploads\\offers\\edb7adc9-1696-4c91-84c4-6ed912867d0c.png",
+      "PackagePath": "staticwebassets\\uploads\\offers\\edb7adc9-1696-4c91-84c4-6ed912867d0c.png"
+    },
+    {
+      "Id": "C:\\Users\\irakl\\Desktop\\TBC .Net Course\\Final Project\\offers.itacademy.ge.API\\wwwroot\\uploads\\offers\\f2395832-d83d-4c33-abe8-c444745b7812.png",
+      "PackagePath": "staticwebassets\\uploads\\offers\\f2395832-d83d-4c33-abe8-c444745b7812.png"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.offers.itacademy.ge.API.props",
+      "PackagePath": "build\\offers.itacademy.ge.API.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.offers.itacademy.ge.API.props",
+      "PackagePath": "buildMultiTargeting\\offers.itacademy.ge.API.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.offers.itacademy.ge.API.props",
+      "PackagePath": "buildTransitive\\offers.itacademy.ge.API.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.offers.itacademy.ge.API.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.offers.itacademy.ge.API.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

@@ -1,0 +1,181 @@
+is_global = true
+build_property.TargetFramework = net8.0
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = offers.itacademy.ge.Web1
+build_property.RootNamespace = offers.itacademy.ge.Web1
+build_property.ProjectDir = C:\Users\irakl\Desktop\TBC .Net Course\Final Project\offers.itacademy.ge.Web\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 8.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\irakl\Desktop\TBC .Net Course\Final Project\offers.itacademy.ge.Web
+build_property._RazorSourceGeneratorDebug = 
+build_property.EffectiveAnalysisLevelStyle = 8.0
+build_property.EnableCodeStyleSeverity = 
+
+[C:/Users/irakl/Desktop/TBC .Net Course/Final Project/offers.itacademy.ge.Web/Views/Admin/Profile.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cUHJvZmlsZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/irakl/Desktop/TBC .Net Course/Final Project/offers.itacademy.ge.Web/Views/Category/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcnlcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/irakl/Desktop/TBC .Net Course/Final Project/offers.itacademy.ge.Web/Views/Category/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcnlcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/irakl/Desktop/TBC .Net Course/Final Project/offers.itacademy.ge.Web/Views/Category/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcnlcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/irakl/Desktop/TBC .Net Course/Final Project/offers.itacademy.ge.Web/Views/Category/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcnlcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/irakl/Desktop/TBC .Net Course/Final Project/offers.itacademy.ge.Web/Views/Category/GetAll.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcnlcR2V0QWxsLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/irakl/Desktop/TBC .Net Course/Final Project/offers.itacademy.ge.Web/Views/Company/Profile.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tcGFueVxQcm9maWxlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/irakl/Desktop/TBC .Net Course/Final Project/offers.itacademy.ge.Web/Views/Customer/ManageSubscriptions.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3VzdG9tZXJcTWFuYWdlU3Vic2NyaXB0aW9ucy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/irakl/Desktop/TBC .Net Course/Final Project/offers.itacademy.ge.Web/Views/Customer/Profile.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3VzdG9tZXJcUHJvZmlsZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/irakl/Desktop/TBC .Net Course/Final Project/offers.itacademy.ge.Web/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/irakl/Desktop/TBC .Net Course/Final Project/offers.itacademy.ge.Web/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/irakl/Desktop/TBC .Net Course/Final Project/offers.itacademy.ge.Web/Views/Login/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9naW5cTG9naW4uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/irakl/Desktop/TBC .Net Course/Final Project/offers.itacademy.ge.Web/Views/Login/Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9naW5cUmVnaXN0ZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/irakl/Desktop/TBC .Net Course/Final Project/offers.itacademy.ge.Web/Views/Login/RegisterAdmin.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9naW5cUmVnaXN0ZXJBZG1pbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/irakl/Desktop/TBC .Net Course/Final Project/offers.itacademy.ge.Web/Views/Login/RegisterCompany.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9naW5cUmVnaXN0ZXJDb21wYW55LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/irakl/Desktop/TBC .Net Course/Final Project/offers.itacademy.ge.Web/Views/Login/RegisterCustomer.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9naW5cUmVnaXN0ZXJDdXN0b21lci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/irakl/Desktop/TBC .Net Course/Final Project/offers.itacademy.ge.Web/Views/ProductOffer/ActiveOffers.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdE9mZmVyXEFjdGl2ZU9mZmVycy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/irakl/Desktop/TBC .Net Course/Final Project/offers.itacademy.ge.Web/Views/ProductOffer/Cancel.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdE9mZmVyXENhbmNlbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/irakl/Desktop/TBC .Net Course/Final Project/offers.itacademy.ge.Web/Views/ProductOffer/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdE9mZmVyXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/irakl/Desktop/TBC .Net Course/Final Project/offers.itacademy.ge.Web/Views/ProductOffer/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdE9mZmVyXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/irakl/Desktop/TBC .Net Course/Final Project/offers.itacademy.ge.Web/Views/ProductOffer/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdE9mZmVyXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/irakl/Desktop/TBC .Net Course/Final Project/offers.itacademy.ge.Web/Views/ProductOffer/GetAll.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdE9mZmVyXEdldEFsbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/irakl/Desktop/TBC .Net Course/Final Project/offers.itacademy.ge.Web/Views/ProductOffer/MyOffers.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdE9mZmVyXE15T2ZmZXJzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/irakl/Desktop/TBC .Net Course/Final Project/offers.itacademy.ge.Web/Views/Purchase/Buy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHVyY2hhc2VcQnV5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/irakl/Desktop/TBC .Net Course/Final Project/offers.itacademy.ge.Web/Views/Purchase/Cancel.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHVyY2hhc2VcQ2FuY2VsLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/irakl/Desktop/TBC .Net Course/Final Project/offers.itacademy.ge.Web/Views/Purchase/MyPurchases.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHVyY2hhc2VcTXlQdXJjaGFzZXMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/irakl/Desktop/TBC .Net Course/Final Project/offers.itacademy.ge.Web/Views/Purchase/OfferPurchases.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHVyY2hhc2VcT2ZmZXJQdXJjaGFzZXMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/irakl/Desktop/TBC .Net Course/Final Project/offers.itacademy.ge.Web/Views/Purchase/UserPurchases.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHVyY2hhc2VcVXNlclB1cmNoYXNlcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/irakl/Desktop/TBC .Net Course/Final Project/offers.itacademy.ge.Web/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/irakl/Desktop/TBC .Net Course/Final Project/offers.itacademy.ge.Web/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/irakl/Desktop/TBC .Net Course/Final Project/offers.itacademy.ge.Web/Views/User/Admins.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxBZG1pbnMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/irakl/Desktop/TBC .Net Course/Final Project/offers.itacademy.ge.Web/Views/User/Companies.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxDb21wYW5pZXMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/irakl/Desktop/TBC .Net Course/Final Project/offers.itacademy.ge.Web/Views/User/Customers.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxDdXN0b21lcnMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/irakl/Desktop/TBC .Net Course/Final Project/offers.itacademy.ge.Web/Views/User/UpdateCompany.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxVcGRhdGVDb21wYW55LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/irakl/Desktop/TBC .Net Course/Final Project/offers.itacademy.ge.Web/Views/User/UpdateCustomer.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxVcGRhdGVDdXN0b21lci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/irakl/Desktop/TBC .Net Course/Final Project/offers.itacademy.ge.Web/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/irakl/Desktop/TBC .Net Course/Final Project/offers.itacademy.ge.Web/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/irakl/Desktop/TBC .Net Course/Final Project/offers.itacademy.ge.Web/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-urdnnnx3gd

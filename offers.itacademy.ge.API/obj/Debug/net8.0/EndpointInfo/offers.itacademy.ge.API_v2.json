@@ -1,0 +1,2708 @@
+{
+  "openapi": "3.0.1",
+  "info": {
+    "title": "Discount Products Management API v2",
+    "description": "Discount Products Management API v2 with global exception handling, versioning, and fluent validation.",
+    "contact": {
+      "name": "DiscountProductsAPI",
+      "url": "https://SomeRandomUrl/RandomPath",
+      "email": "DiscountProductsAPI@gmail.com"
+    },
+    "version": "v2"
+  },
+  "paths": {
+    "/api/v2/Categories": {
+      "get": {
+        "tags": [
+          "Categories"
+        ],
+        "summary": "Get all categories, paginated",
+        "parameters": [
+          {
+            "name": "page",
+            "in": "query",
+            "description": "",
+            "schema": {
+              "maximum": 2147483647,
+              "minimum": 1,
+              "type": "integer",
+              "format": "int32",
+              "default": 1
+            }
+          },
+          {
+            "name": "pageSize",
+            "in": "query",
+            "description": "",
+            "schema": {
+              "maximum": 100,
+              "minimum": 1,
+              "type": "integer",
+              "format": "int32",
+              "default": 10
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/CategoryResponseModel"
+                  }
+                },
+                "example": [{"id":1,"name":"Electronics"},{"id":2,"name":"Books"},{"id":3,"name":"Plants"},{"id":4,"name":"Tickets"},{"id":5,"name":"Equipment"}]
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/CategoryResponseModel"
+                  }
+                },
+                "example": [{"id":1,"name":"Electronics"},{"id":2,"name":"Books"},{"id":3,"name":"Plants"},{"id":4,"name":"Tickets"},{"id":5,"name":"Equipment"}]
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/CategoryResponseModel"
+                  }
+                },
+                "example": [{"id":1,"name":"Electronics"},{"id":2,"name":"Books"},{"id":3,"name":"Plants"},{"id":4,"name":"Tickets"},{"id":5,"name":"Equipment"}]
+              }
+            }
+          }
+        }
+      },
+      "post": {
+        "tags": [
+          "Categories"
+        ],
+        "summary": "Admin - Create category",
+        "requestBody": {
+          "description": "",
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/CategoryRequestModel"
+              },
+              "examples": {
+                "Electronics": {
+                  "value": {"name":"Electronics"}
+                },
+                "Books": {
+                  "value": {"name":"Books"}
+                },
+                "Plants": {
+                  "value": {"name":"Plants"}
+                },
+                "Tickets": {
+                  "value": {"name":"Tickets"}
+                },
+                "Equipment": {
+                  "value": {"name":"Equipment"}
+                }
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/CategoryRequestModel"
+              },
+              "examples": {
+                "Electronics": {
+                  "value": {"name":"Electronics"}
+                },
+                "Books": {
+                  "value": {"name":"Books"}
+                },
+                "Plants": {
+                  "value": {"name":"Plants"}
+                },
+                "Tickets": {
+                  "value": {"name":"Tickets"}
+                },
+                "Equipment": {
+                  "value": {"name":"Equipment"}
+                }
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/CategoryRequestModel"
+              },
+              "examples": {
+                "Electronics": {
+                  "value": {"name":"Electronics"}
+                },
+                "Books": {
+                  "value": {"name":"Books"}
+                },
+                "Plants": {
+                  "value": {"name":"Plants"}
+                },
+                "Tickets": {
+                  "value": {"name":"Tickets"}
+                },
+                "Equipment": {
+                  "value": {"name":"Equipment"}
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/CategoryResponseModel"
+                },
+                "example": {"id":1,"name":"Electronics"}
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/CategoryResponseModel"
+                },
+                "example": {"id":1,"name":"Electronics"}
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/CategoryResponseModel"
+                },
+                "example": {"id":1,"name":"Electronics"}
+              }
+            }
+          },
+          "400": {
+            "description": "Bad Request",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/ProblemDetails"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ProblemDetails"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ProblemDetails"
+                }
+              }
+            }
+          },
+          "401": {
+            "description": "Unauthorized",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/ProblemDetails"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ProblemDetails"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ProblemDetails"
+                }
+              }
+            }
+          },
+          "403": {
+            "description": "Forbidden",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/ProblemDetails"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ProblemDetails"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ProblemDetails"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/v2/Categories/{id}": {
+      "get": {
+        "tags": [
+          "Categories"
+        ],
+        "summary": "Get category by id",
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "description": "",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/CategoryResponseModel"
+                },
+                "example": {"id":1,"name":"Electronics"}
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/CategoryResponseModel"
+                },
+                "example": {"id":1,"name":"Electronics"}
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/CategoryResponseModel"
+                },
+                "example": {"id":1,"name":"Electronics"}
+              }
+            }
+          },
+          "404": {
+            "description": "Not Found",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/ProblemDetails"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ProblemDetails"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ProblemDetails"
+                }
+              }
+            }
+          }
+        }
+      },
+      "put": {
+        "tags": [
+          "Categories"
+        ],
+        "summary": "Admin - Update category",
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "description": "",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "requestBody": {
+          "description": "",
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/CategoryRequestModel"
+              },
+              "examples": {
+                "Electronics": {
+                  "value": {"name":"Electronics"}
+                },
+                "Books": {
+                  "value": {"name":"Books"}
+                },
+                "Plants": {
+                  "value": {"name":"Plants"}
+                },
+                "Tickets": {
+                  "value": {"name":"Tickets"}
+                },
+                "Equipment": {
+                  "value": {"name":"Equipment"}
+                }
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/CategoryRequestModel"
+              },
+              "examples": {
+                "Electronics": {
+                  "value": {"name":"Electronics"}
+                },
+                "Books": {
+                  "value": {"name":"Books"}
+                },
+                "Plants": {
+                  "value": {"name":"Plants"}
+                },
+                "Tickets": {
+                  "value": {"name":"Tickets"}
+                },
+                "Equipment": {
+                  "value": {"name":"Equipment"}
+                }
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/CategoryRequestModel"
+              },
+              "examples": {
+                "Electronics": {
+                  "value": {"name":"Electronics"}
+                },
+                "Books": {
+                  "value": {"name":"Books"}
+                },
+                "Plants": {
+                  "value": {"name":"Plants"}
+                },
+                "Tickets": {
+                  "value": {"name":"Tickets"}
+                },
+                "Equipment": {
+                  "value": {"name":"Equipment"}
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/CategoryResponseModel"
+                },
+                "example": {"id":1,"name":"Electronics"}
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/CategoryResponseModel"
+                },
+                "example": {"id":1,"name":"Electronics"}
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/CategoryResponseModel"
+                },
+                "example": {"id":1,"name":"Electronics"}
+              }
+            }
+          },
+          "400": {
+            "description": "Bad Request",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/ProblemDetails"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ProblemDetails"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ProblemDetails"
+                }
+              }
+            }
+          },
+          "404": {
+            "description": "Not Found",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/ProblemDetails"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ProblemDetails"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ProblemDetails"
+                }
+              }
+            }
+          }
+        }
+      },
+      "delete": {
+        "tags": [
+          "Categories"
+        ],
+        "summary": "Admin - Delete category",
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "description": "",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "204": {
+            "description": "No Content"
+          },
+          "404": {
+            "description": "Not Found",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/ProblemDetails"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ProblemDetails"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ProblemDetails"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/v2/ProductOffers": {
+      "get": {
+        "tags": [
+          "ProductOffers"
+        ],
+        "summary": "Admin - Get all offers, paginated",
+        "parameters": [
+          {
+            "name": "page",
+            "in": "query",
+            "description": "",
+            "schema": {
+              "type": "integer",
+              "format": "int32",
+              "default": 1
+            }
+          },
+          {
+            "name": "pageSize",
+            "in": "query",
+            "description": "",
+            "schema": {
+              "type": "integer",
+              "format": "int32",
+              "default": 10
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/ProductOfferResponseModel"
+                  }
+                },
+                "example": [{"id":1,"name":"Laptop","description":"High-performance gaming laptop with RGB lighting","price":1200.00,"quantity":10,"createTime":"2025-04-06T07:09:59.3017228Z","expirationTime":"2025-05-11T07:09:59.3017245Z","categoryId":1,"category":{"id":1,"name":"Electronics"},"companyId":1,"company":{"isActivated":true,"imageUrl":null,"balance":5000.00,"id":1,"userName":"TechCorp","email":"contact@techcorp.com","role":0},"status":0,"imageUrl":"https://example.com/images/laptop.jpg"},{"id":2,"name":"Smartphone","description":"Latest model smartphone with 5G support","price":800.00,"quantity":15,"createTime":"2025-04-08T07:09:59.3017283Z","expirationTime":"2025-05-26T07:09:59.3017284Z","categoryId":1,"category":{"id":1,"name":"Electronics"},"companyId":2,"company":{"isActivated":true,"imageUrl":null,"balance":3000.00,"id":2,"userName":"MobileInc","email":"support@mobileinc.com","role":0},"status":0,"imageUrl":"https://example.com/images/smartphone.jpg"}]
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/ProductOfferResponseModel"
+                  }
+                },
+                "example": [{"id":1,"name":"Laptop","description":"High-performance gaming laptop with RGB lighting","price":1200.00,"quantity":10,"createTime":"2025-04-06T07:09:59.3017228Z","expirationTime":"2025-05-11T07:09:59.3017245Z","categoryId":1,"category":{"id":1,"name":"Electronics"},"companyId":1,"company":{"isActivated":true,"imageUrl":null,"balance":5000.00,"id":1,"userName":"TechCorp","email":"contact@techcorp.com","role":0},"status":0,"imageUrl":"https://example.com/images/laptop.jpg"},{"id":2,"name":"Smartphone","description":"Latest model smartphone with 5G support","price":800.00,"quantity":15,"createTime":"2025-04-08T07:09:59.3017283Z","expirationTime":"2025-05-26T07:09:59.3017284Z","categoryId":1,"category":{"id":1,"name":"Electronics"},"companyId":2,"company":{"isActivated":true,"imageUrl":null,"balance":3000.00,"id":2,"userName":"MobileInc","email":"support@mobileinc.com","role":0},"status":0,"imageUrl":"https://example.com/images/smartphone.jpg"}]
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/ProductOfferResponseModel"
+                  }
+                },
+                "example": [{"id":1,"name":"Laptop","description":"High-performance gaming laptop with RGB lighting","price":1200.00,"quantity":10,"createTime":"2025-04-06T07:09:59.3017228Z","expirationTime":"2025-05-11T07:09:59.3017245Z","categoryId":1,"category":{"id":1,"name":"Electronics"},"companyId":1,"company":{"isActivated":true,"imageUrl":null,"balance":5000.00,"id":1,"userName":"TechCorp","email":"contact@techcorp.com","role":0},"status":0,"imageUrl":"https://example.com/images/laptop.jpg"},{"id":2,"name":"Smartphone","description":"Latest model smartphone with 5G support","price":800.00,"quantity":15,"createTime":"2025-04-08T07:09:59.3017283Z","expirationTime":"2025-05-26T07:09:59.3017284Z","categoryId":1,"category":{"id":1,"name":"Electronics"},"companyId":2,"company":{"isActivated":true,"imageUrl":null,"balance":3000.00,"id":2,"userName":"MobileInc","email":"support@mobileinc.com","role":0},"status":0,"imageUrl":"https://example.com/images/smartphone.jpg"}]
+              }
+            }
+          }
+        }
+      },
+      "post": {
+        "tags": [
+          "ProductOffers"
+        ],
+        "summary": "Company - Create offer",
+        "requestBody": {
+          "description": "",
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/ProductOfferRequestModel"
+              },
+              "examples": {
+                "Laptop": {
+                  "value": {"name":"Laptop","description":"High-performance gaming laptop","price":1200.00,"quantity":10,"expirationTime":"2025-05-11T07:09:59.3147585Z","categoryId":1}
+                },
+                "Smartphone": {
+                  "value": {"name":"Smartphone","description":"Latest model smartphone with 5G","price":800.00,"quantity":15,"expirationTime":"2025-05-26T07:09:59.3263242Z","categoryId":1}
+                },
+                "Book": {
+                  "value": {"name":"Programming Book","description":"Guide to C# programming","price":29.99,"quantity":50,"expirationTime":"2025-06-10T07:09:59.3306266Z","categoryId":2}
+                }
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/ProductOfferRequestModel"
+              },
+              "examples": {
+                "Laptop": {
+                  "value": {"name":"Laptop","description":"High-performance gaming laptop","price":1200.00,"quantity":10,"expirationTime":"2025-05-11T07:09:59.3147585Z","categoryId":1}
+                },
+                "Smartphone": {
+                  "value": {"name":"Smartphone","description":"Latest model smartphone with 5G","price":800.00,"quantity":15,"expirationTime":"2025-05-26T07:09:59.3263242Z","categoryId":1}
+                },
+                "Book": {
+                  "value": {"name":"Programming Book","description":"Guide to C# programming","price":29.99,"quantity":50,"expirationTime":"2025-06-10T07:09:59.3306266Z","categoryId":2}
+                }
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/ProductOfferRequestModel"
+              },
+              "examples": {
+                "Laptop": {
+                  "value": {"name":"Laptop","description":"High-performance gaming laptop","price":1200.00,"quantity":10,"expirationTime":"2025-05-11T07:09:59.3147585Z","categoryId":1}
+                },
+                "Smartphone": {
+                  "value": {"name":"Smartphone","description":"Latest model smartphone with 5G","price":800.00,"quantity":15,"expirationTime":"2025-05-26T07:09:59.3263242Z","categoryId":1}
+                },
+                "Book": {
+                  "value": {"name":"Programming Book","description":"Guide to C# programming","price":29.99,"quantity":50,"expirationTime":"2025-06-10T07:09:59.3306266Z","categoryId":2}
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/ProductOfferResponseModel"
+                },
+                "example": {"id":1,"name":"Laptop","description":"High-performance gaming laptop with RGB lighting","price":1200.00,"quantity":10,"createTime":"2025-04-06T07:09:59.3325654Z","expirationTime":"2025-05-11T07:09:59.3325672Z","categoryId":1,"category":{"id":1,"name":"Electronics"},"companyId":1,"company":{"isActivated":true,"imageUrl":null,"balance":5000.00,"id":1,"userName":"TechCorp","email":"contact@techcorp.com","role":0},"status":0,"imageUrl":"https://example.com/images/laptop.jpg"}
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ProductOfferResponseModel"
+                },
+                "example": {"id":1,"name":"Laptop","description":"High-performance gaming laptop with RGB lighting","price":1200.00,"quantity":10,"createTime":"2025-04-06T07:09:59.3325654Z","expirationTime":"2025-05-11T07:09:59.3325672Z","categoryId":1,"category":{"id":1,"name":"Electronics"},"companyId":1,"company":{"isActivated":true,"imageUrl":null,"balance":5000.00,"id":1,"userName":"TechCorp","email":"contact@techcorp.com","role":0},"status":0,"imageUrl":"https://example.com/images/laptop.jpg"}
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ProductOfferResponseModel"
+                },
+                "example": {"id":1,"name":"Laptop","description":"High-performance gaming laptop with RGB lighting","price":1200.00,"quantity":10,"createTime":"2025-04-06T07:09:59.3325654Z","expirationTime":"2025-05-11T07:09:59.3325672Z","categoryId":1,"category":{"id":1,"name":"Electronics"},"companyId":1,"company":{"isActivated":true,"imageUrl":null,"balance":5000.00,"id":1,"userName":"TechCorp","email":"contact@techcorp.com","role":0},"status":0,"imageUrl":"https://example.com/images/laptop.jpg"}
+              }
+            }
+          },
+          "400": {
+            "description": "Bad Request",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/ProblemDetails"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ProblemDetails"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ProblemDetails"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/v2/ProductOffers/active": {
+      "get": {
+        "tags": [
+          "ProductOffers"
+        ],
+        "summary": "Get currently active offers, paginated",
+        "parameters": [
+          {
+            "name": "page",
+            "in": "query",
+            "description": "",
+            "schema": {
+              "type": "integer",
+              "format": "int32",
+              "default": 1
+            }
+          },
+          {
+            "name": "pageSize",
+            "in": "query",
+            "description": "",
+            "schema": {
+              "type": "integer",
+              "format": "int32",
+              "default": 10
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/ProductOfferResponseModel"
+                  }
+                },
+                "example": [{"id":1,"name":"Laptop","description":"High-performance gaming laptop with RGB lighting","price":1200.00,"quantity":10,"createTime":"2025-04-06T07:09:59.3434366Z","expirationTime":"2025-05-11T07:09:59.3434371Z","categoryId":1,"category":{"id":1,"name":"Electronics"},"companyId":1,"company":{"isActivated":true,"imageUrl":null,"balance":5000.00,"id":1,"userName":"TechCorp","email":"contact@techcorp.com","role":0},"status":0,"imageUrl":"https://example.com/images/laptop.jpg"},{"id":2,"name":"Smartphone","description":"Latest model smartphone with 5G support","price":800.00,"quantity":15,"createTime":"2025-04-08T07:09:59.3434379Z","expirationTime":"2025-05-26T07:09:59.3434379Z","categoryId":1,"category":{"id":1,"name":"Electronics"},"companyId":2,"company":{"isActivated":true,"imageUrl":null,"balance":3000.00,"id":2,"userName":"MobileInc","email":"support@mobileinc.com","role":0},"status":0,"imageUrl":"https://example.com/images/smartphone.jpg"}]
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/ProductOfferResponseModel"
+                  }
+                },
+                "example": [{"id":1,"name":"Laptop","description":"High-performance gaming laptop with RGB lighting","price":1200.00,"quantity":10,"createTime":"2025-04-06T07:09:59.3434366Z","expirationTime":"2025-05-11T07:09:59.3434371Z","categoryId":1,"category":{"id":1,"name":"Electronics"},"companyId":1,"company":{"isActivated":true,"imageUrl":null,"balance":5000.00,"id":1,"userName":"TechCorp","email":"contact@techcorp.com","role":0},"status":0,"imageUrl":"https://example.com/images/laptop.jpg"},{"id":2,"name":"Smartphone","description":"Latest model smartphone with 5G support","price":800.00,"quantity":15,"createTime":"2025-04-08T07:09:59.3434379Z","expirationTime":"2025-05-26T07:09:59.3434379Z","categoryId":1,"category":{"id":1,"name":"Electronics"},"companyId":2,"company":{"isActivated":true,"imageUrl":null,"balance":3000.00,"id":2,"userName":"MobileInc","email":"support@mobileinc.com","role":0},"status":0,"imageUrl":"https://example.com/images/smartphone.jpg"}]
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/ProductOfferResponseModel"
+                  }
+                },
+                "example": [{"id":1,"name":"Laptop","description":"High-performance gaming laptop with RGB lighting","price":1200.00,"quantity":10,"createTime":"2025-04-06T07:09:59.3434366Z","expirationTime":"2025-05-11T07:09:59.3434371Z","categoryId":1,"category":{"id":1,"name":"Electronics"},"companyId":1,"company":{"isActivated":true,"imageUrl":null,"balance":5000.00,"id":1,"userName":"TechCorp","email":"contact@techcorp.com","role":0},"status":0,"imageUrl":"https://example.com/images/laptop.jpg"},{"id":2,"name":"Smartphone","description":"Latest model smartphone with 5G support","price":800.00,"quantity":15,"createTime":"2025-04-08T07:09:59.3434379Z","expirationTime":"2025-05-26T07:09:59.3434379Z","categoryId":1,"category":{"id":1,"name":"Electronics"},"companyId":2,"company":{"isActivated":true,"imageUrl":null,"balance":3000.00,"id":2,"userName":"MobileInc","email":"support@mobileinc.com","role":0},"status":0,"imageUrl":"https://example.com/images/smartphone.jpg"}]
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/v2/ProductOffers/{id}": {
+      "get": {
+        "tags": [
+          "ProductOffers"
+        ],
+        "summary": "Get offer by id",
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "description": "",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/ProductOfferResponseModel"
+                },
+                "example": {"id":1,"name":"Laptop","description":"High-performance gaming laptop with RGB lighting","price":1200.00,"quantity":10,"createTime":"2025-04-06T07:09:59.3511329Z","expirationTime":"2025-05-11T07:09:59.3511333Z","categoryId":1,"category":{"id":1,"name":"Electronics"},"companyId":1,"company":{"isActivated":true,"imageUrl":null,"balance":5000.00,"id":1,"userName":"TechCorp","email":"contact@techcorp.com","role":0},"status":0,"imageUrl":"https://example.com/images/laptop.jpg"}
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ProductOfferResponseModel"
+                },
+                "example": {"id":1,"name":"Laptop","description":"High-performance gaming laptop with RGB lighting","price":1200.00,"quantity":10,"createTime":"2025-04-06T07:09:59.3511329Z","expirationTime":"2025-05-11T07:09:59.3511333Z","categoryId":1,"category":{"id":1,"name":"Electronics"},"companyId":1,"company":{"isActivated":true,"imageUrl":null,"balance":5000.00,"id":1,"userName":"TechCorp","email":"contact@techcorp.com","role":0},"status":0,"imageUrl":"https://example.com/images/laptop.jpg"}
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ProductOfferResponseModel"
+                },
+                "example": {"id":1,"name":"Laptop","description":"High-performance gaming laptop with RGB lighting","price":1200.00,"quantity":10,"createTime":"2025-04-06T07:09:59.3511329Z","expirationTime":"2025-05-11T07:09:59.3511333Z","categoryId":1,"category":{"id":1,"name":"Electronics"},"companyId":1,"company":{"isActivated":true,"imageUrl":null,"balance":5000.00,"id":1,"userName":"TechCorp","email":"contact@techcorp.com","role":0},"status":0,"imageUrl":"https://example.com/images/laptop.jpg"}
+              }
+            }
+          },
+          "404": {
+            "description": "Not Found",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/ProblemDetails"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ProblemDetails"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ProblemDetails"
+                }
+              }
+            }
+          }
+        }
+      },
+      "put": {
+        "tags": [
+          "ProductOffers"
+        ],
+        "summary": "Company - Update existing offer",
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "description": "",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "requestBody": {
+          "description": "",
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/ProductOfferRequestModel"
+              },
+              "examples": {
+                "Laptop": {
+                  "value": {"name":"Laptop","description":"High-performance gaming laptop","price":1200.00,"quantity":10,"expirationTime":"2025-05-11T07:09:59.3571169Z","categoryId":1}
+                },
+                "Smartphone": {
+                  "value": {"name":"Smartphone","description":"Latest model smartphone with 5G","price":800.00,"quantity":15,"expirationTime":"2025-05-26T07:09:59.35859Z","categoryId":1}
+                },
+                "Book": {
+                  "value": {"name":"Programming Book","description":"Guide to C# programming","price":29.99,"quantity":50,"expirationTime":"2025-06-10T07:09:59.3591806Z","categoryId":2}
+                }
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/ProductOfferRequestModel"
+              },
+              "examples": {
+                "Laptop": {
+                  "value": {"name":"Laptop","description":"High-performance gaming laptop","price":1200.00,"quantity":10,"expirationTime":"2025-05-11T07:09:59.3571169Z","categoryId":1}
+                },
+                "Smartphone": {
+                  "value": {"name":"Smartphone","description":"Latest model smartphone with 5G","price":800.00,"quantity":15,"expirationTime":"2025-05-26T07:09:59.35859Z","categoryId":1}
+                },
+                "Book": {
+                  "value": {"name":"Programming Book","description":"Guide to C# programming","price":29.99,"quantity":50,"expirationTime":"2025-06-10T07:09:59.3591806Z","categoryId":2}
+                }
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/ProductOfferRequestModel"
+              },
+              "examples": {
+                "Laptop": {
+                  "value": {"name":"Laptop","description":"High-performance gaming laptop","price":1200.00,"quantity":10,"expirationTime":"2025-05-11T07:09:59.3571169Z","categoryId":1}
+                },
+                "Smartphone": {
+                  "value": {"name":"Smartphone","description":"Latest model smartphone with 5G","price":800.00,"quantity":15,"expirationTime":"2025-05-26T07:09:59.35859Z","categoryId":1}
+                },
+                "Book": {
+                  "value": {"name":"Programming Book","description":"Guide to C# programming","price":29.99,"quantity":50,"expirationTime":"2025-06-10T07:09:59.3591806Z","categoryId":2}
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/ProductOfferResponseModel"
+                },
+                "example": {"id":1,"name":"Laptop","description":"High-performance gaming laptop with RGB lighting","price":1200.00,"quantity":10,"createTime":"2025-04-06T07:09:59.3598695Z","expirationTime":"2025-05-11T07:09:59.3598715Z","categoryId":1,"category":{"id":1,"name":"Electronics"},"companyId":1,"company":{"isActivated":true,"imageUrl":null,"balance":5000.00,"id":1,"userName":"TechCorp","email":"contact@techcorp.com","role":0},"status":0,"imageUrl":"https://example.com/images/laptop.jpg"}
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ProductOfferResponseModel"
+                },
+                "example": {"id":1,"name":"Laptop","description":"High-performance gaming laptop with RGB lighting","price":1200.00,"quantity":10,"createTime":"2025-04-06T07:09:59.3598695Z","expirationTime":"2025-05-11T07:09:59.3598715Z","categoryId":1,"category":{"id":1,"name":"Electronics"},"companyId":1,"company":{"isActivated":true,"imageUrl":null,"balance":5000.00,"id":1,"userName":"TechCorp","email":"contact@techcorp.com","role":0},"status":0,"imageUrl":"https://example.com/images/laptop.jpg"}
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ProductOfferResponseModel"
+                },
+                "example": {"id":1,"name":"Laptop","description":"High-performance gaming laptop with RGB lighting","price":1200.00,"quantity":10,"createTime":"2025-04-06T07:09:59.3598695Z","expirationTime":"2025-05-11T07:09:59.3598715Z","categoryId":1,"category":{"id":1,"name":"Electronics"},"companyId":1,"company":{"isActivated":true,"imageUrl":null,"balance":5000.00,"id":1,"userName":"TechCorp","email":"contact@techcorp.com","role":0},"status":0,"imageUrl":"https://example.com/images/laptop.jpg"}
+              }
+            }
+          },
+          "404": {
+            "description": "Not Found",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/ProblemDetails"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ProblemDetails"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ProblemDetails"
+                }
+              }
+            }
+          }
+        }
+      },
+      "delete": {
+        "tags": [
+          "ProductOffers"
+        ],
+        "summary": "Company - Delete offer",
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "description": "",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "204": {
+            "description": "No Content"
+          },
+          "404": {
+            "description": "Not Found",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/ProblemDetails"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ProblemDetails"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ProblemDetails"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/v2/ProductOffers/{id}/cancel": {
+      "post": {
+        "tags": [
+          "ProductOffers"
+        ],
+        "summary": "Company - Cancell offer",
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "description": "",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "boolean"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "boolean"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "boolean"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/v2/ProductOffers/relevant": {
+      "get": {
+        "tags": [
+          "ProductOffers"
+        ],
+        "summary": "Customer - Get relevant offers for current customer, paginated",
+        "parameters": [
+          {
+            "name": "page",
+            "in": "query",
+            "description": "",
+            "schema": {
+              "type": "integer",
+              "format": "int32",
+              "default": 1
+            }
+          },
+          {
+            "name": "pageSize",
+            "in": "query",
+            "description": "",
+            "schema": {
+              "type": "integer",
+              "format": "int32",
+              "default": 10
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/ProductOfferResponseModel"
+                  }
+                },
+                "example": [{"id":1,"name":"Laptop","description":"High-performance gaming laptop with RGB lighting","price":1200.00,"quantity":10,"createTime":"2025-04-06T07:09:59.3713802Z","expirationTime":"2025-05-11T07:09:59.3713809Z","categoryId":1,"category":{"id":1,"name":"Electronics"},"companyId":1,"company":{"isActivated":true,"imageUrl":null,"balance":5000.00,"id":1,"userName":"TechCorp","email":"contact@techcorp.com","role":0},"status":0,"imageUrl":"https://example.com/images/laptop.jpg"},{"id":2,"name":"Smartphone","description":"Latest model smartphone with 5G support","price":800.00,"quantity":15,"createTime":"2025-04-08T07:09:59.3713819Z","expirationTime":"2025-05-26T07:09:59.371382Z","categoryId":1,"category":{"id":1,"name":"Electronics"},"companyId":2,"company":{"isActivated":true,"imageUrl":null,"balance":3000.00,"id":2,"userName":"MobileInc","email":"support@mobileinc.com","role":0},"status":0,"imageUrl":"https://example.com/images/smartphone.jpg"}]
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/ProductOfferResponseModel"
+                  }
+                },
+                "example": [{"id":1,"name":"Laptop","description":"High-performance gaming laptop with RGB lighting","price":1200.00,"quantity":10,"createTime":"2025-04-06T07:09:59.3713802Z","expirationTime":"2025-05-11T07:09:59.3713809Z","categoryId":1,"category":{"id":1,"name":"Electronics"},"companyId":1,"company":{"isActivated":true,"imageUrl":null,"balance":5000.00,"id":1,"userName":"TechCorp","email":"contact@techcorp.com","role":0},"status":0,"imageUrl":"https://example.com/images/laptop.jpg"},{"id":2,"name":"Smartphone","description":"Latest model smartphone with 5G support","price":800.00,"quantity":15,"createTime":"2025-04-08T07:09:59.3713819Z","expirationTime":"2025-05-26T07:09:59.371382Z","categoryId":1,"category":{"id":1,"name":"Electronics"},"companyId":2,"company":{"isActivated":true,"imageUrl":null,"balance":3000.00,"id":2,"userName":"MobileInc","email":"support@mobileinc.com","role":0},"status":0,"imageUrl":"https://example.com/images/smartphone.jpg"}]
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/ProductOfferResponseModel"
+                  }
+                },
+                "example": [{"id":1,"name":"Laptop","description":"High-performance gaming laptop with RGB lighting","price":1200.00,"quantity":10,"createTime":"2025-04-06T07:09:59.3713802Z","expirationTime":"2025-05-11T07:09:59.3713809Z","categoryId":1,"category":{"id":1,"name":"Electronics"},"companyId":1,"company":{"isActivated":true,"imageUrl":null,"balance":5000.00,"id":1,"userName":"TechCorp","email":"contact@techcorp.com","role":0},"status":0,"imageUrl":"https://example.com/images/laptop.jpg"},{"id":2,"name":"Smartphone","description":"Latest model smartphone with 5G support","price":800.00,"quantity":15,"createTime":"2025-04-08T07:09:59.3713819Z","expirationTime":"2025-05-26T07:09:59.371382Z","categoryId":1,"category":{"id":1,"name":"Electronics"},"companyId":2,"company":{"isActivated":true,"imageUrl":null,"balance":3000.00,"id":2,"userName":"MobileInc","email":"support@mobileinc.com","role":0},"status":0,"imageUrl":"https://example.com/images/smartphone.jpg"}]
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/v2/ProductOffers/{id}/image": {
+      "post": {
+        "tags": [
+          "ProductOffers"
+        ],
+        "summary": "Company - Upload image for offer",
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "description": "",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "multipart/form-data": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "File": {
+                    "type": "string",
+                    "format": "binary"
+                  }
+                }
+              },
+              "encoding": {
+                "File": {
+                  "style": "form"
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "string"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "string"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "string"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/v2/ProductOffers/company": {
+      "get": {
+        "tags": [
+          "ProductOffers"
+        ],
+        "summary": "Company - Get offers by current company, paginated",
+        "parameters": [
+          {
+            "name": "page",
+            "in": "query",
+            "description": "",
+            "schema": {
+              "type": "integer",
+              "format": "int32",
+              "default": 1
+            }
+          },
+          {
+            "name": "pageSize",
+            "in": "query",
+            "description": "",
+            "schema": {
+              "type": "integer",
+              "format": "int32",
+              "default": 10
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/ProductOfferResponseModel"
+                  }
+                },
+                "example": [{"id":1,"name":"Laptop","description":"High-performance gaming laptop with RGB lighting","price":1200.00,"quantity":10,"createTime":"2025-04-06T07:09:59.3782379Z","expirationTime":"2025-05-11T07:09:59.3782381Z","categoryId":1,"category":{"id":1,"name":"Electronics"},"companyId":1,"company":{"isActivated":true,"imageUrl":null,"balance":5000.00,"id":1,"userName":"TechCorp","email":"contact@techcorp.com","role":0},"status":0,"imageUrl":"https://example.com/images/laptop.jpg"},{"id":2,"name":"Smartphone","description":"Latest model smartphone with 5G support","price":800.00,"quantity":15,"createTime":"2025-04-08T07:09:59.3782386Z","expirationTime":"2025-05-26T07:09:59.3782386Z","categoryId":1,"category":{"id":1,"name":"Electronics"},"companyId":2,"company":{"isActivated":true,"imageUrl":null,"balance":3000.00,"id":2,"userName":"MobileInc","email":"support@mobileinc.com","role":0},"status":0,"imageUrl":"https://example.com/images/smartphone.jpg"}]
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/ProductOfferResponseModel"
+                  }
+                },
+                "example": [{"id":1,"name":"Laptop","description":"High-performance gaming laptop with RGB lighting","price":1200.00,"quantity":10,"createTime":"2025-04-06T07:09:59.3782379Z","expirationTime":"2025-05-11T07:09:59.3782381Z","categoryId":1,"category":{"id":1,"name":"Electronics"},"companyId":1,"company":{"isActivated":true,"imageUrl":null,"balance":5000.00,"id":1,"userName":"TechCorp","email":"contact@techcorp.com","role":0},"status":0,"imageUrl":"https://example.com/images/laptop.jpg"},{"id":2,"name":"Smartphone","description":"Latest model smartphone with 5G support","price":800.00,"quantity":15,"createTime":"2025-04-08T07:09:59.3782386Z","expirationTime":"2025-05-26T07:09:59.3782386Z","categoryId":1,"category":{"id":1,"name":"Electronics"},"companyId":2,"company":{"isActivated":true,"imageUrl":null,"balance":3000.00,"id":2,"userName":"MobileInc","email":"support@mobileinc.com","role":0},"status":0,"imageUrl":"https://example.com/images/smartphone.jpg"}]
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/ProductOfferResponseModel"
+                  }
+                },
+                "example": [{"id":1,"name":"Laptop","description":"High-performance gaming laptop with RGB lighting","price":1200.00,"quantity":10,"createTime":"2025-04-06T07:09:59.3782379Z","expirationTime":"2025-05-11T07:09:59.3782381Z","categoryId":1,"category":{"id":1,"name":"Electronics"},"companyId":1,"company":{"isActivated":true,"imageUrl":null,"balance":5000.00,"id":1,"userName":"TechCorp","email":"contact@techcorp.com","role":0},"status":0,"imageUrl":"https://example.com/images/laptop.jpg"},{"id":2,"name":"Smartphone","description":"Latest model smartphone with 5G support","price":800.00,"quantity":15,"createTime":"2025-04-08T07:09:59.3782386Z","expirationTime":"2025-05-26T07:09:59.3782386Z","categoryId":1,"category":{"id":1,"name":"Electronics"},"companyId":2,"company":{"isActivated":true,"imageUrl":null,"balance":3000.00,"id":2,"userName":"MobileInc","email":"support@mobileinc.com","role":0},"status":0,"imageUrl":"https://example.com/images/smartphone.jpg"}]
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/v2/Purchases/buy": {
+      "post": {
+        "tags": [
+          "Purchases"
+        ],
+        "summary": "Customer - Purchase offer",
+        "parameters": [
+          {
+            "name": "offerId",
+            "in": "query",
+            "description": "",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          },
+          {
+            "name": "quantity",
+            "in": "query",
+            "description": "",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/PurchaseResponseModel"
+                },
+                "example": {"id":1,"customerId":1,"customer":{"balance":500.00,"id":1,"userName":"john_doe","email":"john.doe@example.com","role":0},"productOfferId":1,"productOffer":{"id":1,"name":"Laptop","description":"High-performance gaming laptop","price":1200.00,"quantity":10,"createTime":"2025-04-06T07:09:59.3907313Z","expirationTime":"2025-05-11T07:09:59.390733Z","categoryId":1,"category":{"id":1,"name":"Electronics"},"companyId":1,"company":{"isActivated":true,"imageUrl":null,"balance":5000.00,"id":1,"userName":"TechCorp","email":"contact@techcorp.com","role":0},"status":0,"imageUrl":"https://example.com/images/laptop.jpg"},"quantity":1,"purchaseDate":"2025-04-11T05:09:59.3907341Z","status":0,"totalPrice":1200.00}
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/PurchaseResponseModel"
+                },
+                "example": {"id":1,"customerId":1,"customer":{"balance":500.00,"id":1,"userName":"john_doe","email":"john.doe@example.com","role":0},"productOfferId":1,"productOffer":{"id":1,"name":"Laptop","description":"High-performance gaming laptop","price":1200.00,"quantity":10,"createTime":"2025-04-06T07:09:59.3907313Z","expirationTime":"2025-05-11T07:09:59.390733Z","categoryId":1,"category":{"id":1,"name":"Electronics"},"companyId":1,"company":{"isActivated":true,"imageUrl":null,"balance":5000.00,"id":1,"userName":"TechCorp","email":"contact@techcorp.com","role":0},"status":0,"imageUrl":"https://example.com/images/laptop.jpg"},"quantity":1,"purchaseDate":"2025-04-11T05:09:59.3907341Z","status":0,"totalPrice":1200.00}
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/PurchaseResponseModel"
+                },
+                "example": {"id":1,"customerId":1,"customer":{"balance":500.00,"id":1,"userName":"john_doe","email":"john.doe@example.com","role":0},"productOfferId":1,"productOffer":{"id":1,"name":"Laptop","description":"High-performance gaming laptop","price":1200.00,"quantity":10,"createTime":"2025-04-06T07:09:59.3907313Z","expirationTime":"2025-05-11T07:09:59.390733Z","categoryId":1,"category":{"id":1,"name":"Electronics"},"companyId":1,"company":{"isActivated":true,"imageUrl":null,"balance":5000.00,"id":1,"userName":"TechCorp","email":"contact@techcorp.com","role":0},"status":0,"imageUrl":"https://example.com/images/laptop.jpg"},"quantity":1,"purchaseDate":"2025-04-11T05:09:59.3907341Z","status":0,"totalPrice":1200.00}
+              }
+            }
+          },
+          "400": {
+            "description": "Bad Request",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/ProblemDetails"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ProblemDetails"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ProblemDetails"
+                }
+              }
+            }
+          },
+          "401": {
+            "description": "Unauthorized",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/ProblemDetails"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ProblemDetails"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ProblemDetails"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/v2/Purchases/{purchaseId}/cancel": {
+      "post": {
+        "tags": [
+          "Purchases"
+        ],
+        "summary": "Customer - Cancell purchase",
+        "parameters": [
+          {
+            "name": "purchaseId",
+            "in": "path",
+            "description": "",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "204": {
+            "description": "No Content"
+          },
+          "400": {
+            "description": "Bad Request",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/ProblemDetails"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ProblemDetails"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ProblemDetails"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/v2/Purchases/my": {
+      "get": {
+        "tags": [
+          "Purchases"
+        ],
+        "summary": "Customer,Company - Get purchases of current user, paginated",
+        "parameters": [
+          {
+            "name": "pageNumber",
+            "in": "query",
+            "description": "",
+            "schema": {
+              "type": "integer",
+              "format": "int32",
+              "default": 1
+            }
+          },
+          {
+            "name": "pageSize",
+            "in": "query",
+            "description": "",
+            "schema": {
+              "type": "integer",
+              "format": "int32",
+              "default": 10
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/PurchaseResponseModel"
+                  }
+                },
+                "example": [{"id":1,"customerId":1,"customer":{"balance":500.00,"id":1,"userName":"john_doe","email":"john.doe@example.com","role":0},"productOfferId":1,"productOffer":{"id":1,"name":"Laptop","description":"High-performance gaming laptop","price":1200.00,"quantity":10,"createTime":"2025-04-06T07:09:59.396122Z","expirationTime":"2025-05-11T07:09:59.3961235Z","categoryId":1,"category":{"id":1,"name":"Electronics"},"companyId":1,"company":{"isActivated":true,"imageUrl":null,"balance":5000.00,"id":1,"userName":"TechCorp","email":"contact@techcorp.com","role":0},"status":0,"imageUrl":"https://example.com/images/laptop.jpg"},"quantity":1,"purchaseDate":"2025-04-11T05:09:59.3961241Z","status":0,"totalPrice":1200.00},{"id":2,"customerId":2,"customer":{"balance":300.00,"id":2,"userName":"jane_smith","email":"jane.smith@example.com","role":0},"productOfferId":2,"productOffer":{"id":2,"name":"Smartphone","description":"Latest model smartphone with 5G","price":800.00,"quantity":15,"createTime":"2025-04-08T07:09:59.3961249Z","expirationTime":"2025-05-26T07:09:59.396125Z","categoryId":1,"category":{"id":1,"name":"Electronics"},"companyId":2,"company":{"isActivated":true,"imageUrl":null,"balance":3000.00,"id":2,"userName":"MobileInc","email":"support@mobileinc.com","role":0},"status":0,"imageUrl":"https://example.com/images/smartphone.jpg"},"quantity":2,"purchaseDate":"2025-04-11T06:09:59.3961252Z","status":1,"totalPrice":1600.00}]
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/PurchaseResponseModel"
+                  }
+                },
+                "example": [{"id":1,"customerId":1,"customer":{"balance":500.00,"id":1,"userName":"john_doe","email":"john.doe@example.com","role":0},"productOfferId":1,"productOffer":{"id":1,"name":"Laptop","description":"High-performance gaming laptop","price":1200.00,"quantity":10,"createTime":"2025-04-06T07:09:59.396122Z","expirationTime":"2025-05-11T07:09:59.3961235Z","categoryId":1,"category":{"id":1,"name":"Electronics"},"companyId":1,"company":{"isActivated":true,"imageUrl":null,"balance":5000.00,"id":1,"userName":"TechCorp","email":"contact@techcorp.com","role":0},"status":0,"imageUrl":"https://example.com/images/laptop.jpg"},"quantity":1,"purchaseDate":"2025-04-11T05:09:59.3961241Z","status":0,"totalPrice":1200.00},{"id":2,"customerId":2,"customer":{"balance":300.00,"id":2,"userName":"jane_smith","email":"jane.smith@example.com","role":0},"productOfferId":2,"productOffer":{"id":2,"name":"Smartphone","description":"Latest model smartphone with 5G","price":800.00,"quantity":15,"createTime":"2025-04-08T07:09:59.3961249Z","expirationTime":"2025-05-26T07:09:59.396125Z","categoryId":1,"category":{"id":1,"name":"Electronics"},"companyId":2,"company":{"isActivated":true,"imageUrl":null,"balance":3000.00,"id":2,"userName":"MobileInc","email":"support@mobileinc.com","role":0},"status":0,"imageUrl":"https://example.com/images/smartphone.jpg"},"quantity":2,"purchaseDate":"2025-04-11T06:09:59.3961252Z","status":1,"totalPrice":1600.00}]
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/PurchaseResponseModel"
+                  }
+                },
+                "example": [{"id":1,"customerId":1,"customer":{"balance":500.00,"id":1,"userName":"john_doe","email":"john.doe@example.com","role":0},"productOfferId":1,"productOffer":{"id":1,"name":"Laptop","description":"High-performance gaming laptop","price":1200.00,"quantity":10,"createTime":"2025-04-06T07:09:59.396122Z","expirationTime":"2025-05-11T07:09:59.3961235Z","categoryId":1,"category":{"id":1,"name":"Electronics"},"companyId":1,"company":{"isActivated":true,"imageUrl":null,"balance":5000.00,"id":1,"userName":"TechCorp","email":"contact@techcorp.com","role":0},"status":0,"imageUrl":"https://example.com/images/laptop.jpg"},"quantity":1,"purchaseDate":"2025-04-11T05:09:59.3961241Z","status":0,"totalPrice":1200.00},{"id":2,"customerId":2,"customer":{"balance":300.00,"id":2,"userName":"jane_smith","email":"jane.smith@example.com","role":0},"productOfferId":2,"productOffer":{"id":2,"name":"Smartphone","description":"Latest model smartphone with 5G","price":800.00,"quantity":15,"createTime":"2025-04-08T07:09:59.3961249Z","expirationTime":"2025-05-26T07:09:59.396125Z","categoryId":1,"category":{"id":1,"name":"Electronics"},"companyId":2,"company":{"isActivated":true,"imageUrl":null,"balance":3000.00,"id":2,"userName":"MobileInc","email":"support@mobileinc.com","role":0},"status":0,"imageUrl":"https://example.com/images/smartphone.jpg"},"quantity":2,"purchaseDate":"2025-04-11T06:09:59.3961252Z","status":1,"totalPrice":1600.00}]
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/v2/Purchases/user/{userId}": {
+      "get": {
+        "tags": [
+          "Purchases"
+        ],
+        "summary": "Admin - Get purchases of user by user id, paginated",
+        "parameters": [
+          {
+            "name": "userId",
+            "in": "path",
+            "description": "",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          },
+          {
+            "name": "pageNumber",
+            "in": "query",
+            "description": "",
+            "schema": {
+              "type": "integer",
+              "format": "int32",
+              "default": 1
+            }
+          },
+          {
+            "name": "pageSize",
+            "in": "query",
+            "description": "",
+            "schema": {
+              "type": "integer",
+              "format": "int32",
+              "default": 10
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/PurchaseResponseModel"
+                  }
+                },
+                "example": [{"id":1,"customerId":1,"customer":{"balance":500.00,"id":1,"userName":"john_doe","email":"john.doe@example.com","role":0},"productOfferId":1,"productOffer":{"id":1,"name":"Laptop","description":"High-performance gaming laptop","price":1200.00,"quantity":10,"createTime":"2025-04-06T07:09:59.3977606Z","expirationTime":"2025-05-11T07:09:59.3977607Z","categoryId":1,"category":{"id":1,"name":"Electronics"},"companyId":1,"company":{"isActivated":true,"imageUrl":null,"balance":5000.00,"id":1,"userName":"TechCorp","email":"contact@techcorp.com","role":0},"status":0,"imageUrl":"https://example.com/images/laptop.jpg"},"quantity":1,"purchaseDate":"2025-04-11T05:09:59.397761Z","status":0,"totalPrice":1200.00},{"id":2,"customerId":2,"customer":{"balance":300.00,"id":2,"userName":"jane_smith","email":"jane.smith@example.com","role":0},"productOfferId":2,"productOffer":{"id":2,"name":"Smartphone","description":"Latest model smartphone with 5G","price":800.00,"quantity":15,"createTime":"2025-04-08T07:09:59.3977616Z","expirationTime":"2025-05-26T07:09:59.3977616Z","categoryId":1,"category":{"id":1,"name":"Electronics"},"companyId":2,"company":{"isActivated":true,"imageUrl":null,"balance":3000.00,"id":2,"userName":"MobileInc","email":"support@mobileinc.com","role":0},"status":0,"imageUrl":"https://example.com/images/smartphone.jpg"},"quantity":2,"purchaseDate":"2025-04-11T06:09:59.3977618Z","status":1,"totalPrice":1600.00}]
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/PurchaseResponseModel"
+                  }
+                },
+                "example": [{"id":1,"customerId":1,"customer":{"balance":500.00,"id":1,"userName":"john_doe","email":"john.doe@example.com","role":0},"productOfferId":1,"productOffer":{"id":1,"name":"Laptop","description":"High-performance gaming laptop","price":1200.00,"quantity":10,"createTime":"2025-04-06T07:09:59.3977606Z","expirationTime":"2025-05-11T07:09:59.3977607Z","categoryId":1,"category":{"id":1,"name":"Electronics"},"companyId":1,"company":{"isActivated":true,"imageUrl":null,"balance":5000.00,"id":1,"userName":"TechCorp","email":"contact@techcorp.com","role":0},"status":0,"imageUrl":"https://example.com/images/laptop.jpg"},"quantity":1,"purchaseDate":"2025-04-11T05:09:59.397761Z","status":0,"totalPrice":1200.00},{"id":2,"customerId":2,"customer":{"balance":300.00,"id":2,"userName":"jane_smith","email":"jane.smith@example.com","role":0},"productOfferId":2,"productOffer":{"id":2,"name":"Smartphone","description":"Latest model smartphone with 5G","price":800.00,"quantity":15,"createTime":"2025-04-08T07:09:59.3977616Z","expirationTime":"2025-05-26T07:09:59.3977616Z","categoryId":1,"category":{"id":1,"name":"Electronics"},"companyId":2,"company":{"isActivated":true,"imageUrl":null,"balance":3000.00,"id":2,"userName":"MobileInc","email":"support@mobileinc.com","role":0},"status":0,"imageUrl":"https://example.com/images/smartphone.jpg"},"quantity":2,"purchaseDate":"2025-04-11T06:09:59.3977618Z","status":1,"totalPrice":1600.00}]
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/PurchaseResponseModel"
+                  }
+                },
+                "example": [{"id":1,"customerId":1,"customer":{"balance":500.00,"id":1,"userName":"john_doe","email":"john.doe@example.com","role":0},"productOfferId":1,"productOffer":{"id":1,"name":"Laptop","description":"High-performance gaming laptop","price":1200.00,"quantity":10,"createTime":"2025-04-06T07:09:59.3977606Z","expirationTime":"2025-05-11T07:09:59.3977607Z","categoryId":1,"category":{"id":1,"name":"Electronics"},"companyId":1,"company":{"isActivated":true,"imageUrl":null,"balance":5000.00,"id":1,"userName":"TechCorp","email":"contact@techcorp.com","role":0},"status":0,"imageUrl":"https://example.com/images/laptop.jpg"},"quantity":1,"purchaseDate":"2025-04-11T05:09:59.397761Z","status":0,"totalPrice":1200.00},{"id":2,"customerId":2,"customer":{"balance":300.00,"id":2,"userName":"jane_smith","email":"jane.smith@example.com","role":0},"productOfferId":2,"productOffer":{"id":2,"name":"Smartphone","description":"Latest model smartphone with 5G","price":800.00,"quantity":15,"createTime":"2025-04-08T07:09:59.3977616Z","expirationTime":"2025-05-26T07:09:59.3977616Z","categoryId":1,"category":{"id":1,"name":"Electronics"},"companyId":2,"company":{"isActivated":true,"imageUrl":null,"balance":3000.00,"id":2,"userName":"MobileInc","email":"support@mobileinc.com","role":0},"status":0,"imageUrl":"https://example.com/images/smartphone.jpg"},"quantity":2,"purchaseDate":"2025-04-11T06:09:59.3977618Z","status":1,"totalPrice":1600.00}]
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/v2/Purchases/offer/{offerId}": {
+      "get": {
+        "tags": [
+          "Purchases"
+        ],
+        "summary": "Company, Admin - Get purchases of concrete offer, paginated",
+        "parameters": [
+          {
+            "name": "offerId",
+            "in": "path",
+            "description": "",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          },
+          {
+            "name": "pageNumber",
+            "in": "query",
+            "description": "",
+            "schema": {
+              "type": "integer",
+              "format": "int32",
+              "default": 1
+            }
+          },
+          {
+            "name": "pageSize",
+            "in": "query",
+            "description": "",
+            "schema": {
+              "type": "integer",
+              "format": "int32",
+              "default": 10
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/PurchaseResponseModel"
+                  }
+                },
+                "example": [{"id":1,"customerId":1,"customer":{"balance":500.00,"id":1,"userName":"john_doe","email":"john.doe@example.com","role":0},"productOfferId":1,"productOffer":{"id":1,"name":"Laptop","description":"High-performance gaming laptop","price":1200.00,"quantity":10,"createTime":"2025-04-06T07:09:59.4001174Z","expirationTime":"2025-05-11T07:09:59.4001176Z","categoryId":1,"category":{"id":1,"name":"Electronics"},"companyId":1,"company":{"isActivated":true,"imageUrl":null,"balance":5000.00,"id":1,"userName":"TechCorp","email":"contact@techcorp.com","role":0},"status":0,"imageUrl":"https://example.com/images/laptop.jpg"},"quantity":1,"purchaseDate":"2025-04-11T05:09:59.400118Z","status":0,"totalPrice":1200.00},{"id":2,"customerId":2,"customer":{"balance":300.00,"id":2,"userName":"jane_smith","email":"jane.smith@example.com","role":0},"productOfferId":2,"productOffer":{"id":2,"name":"Smartphone","description":"Latest model smartphone with 5G","price":800.00,"quantity":15,"createTime":"2025-04-08T07:09:59.4001183Z","expirationTime":"2025-05-26T07:09:59.4001184Z","categoryId":1,"category":{"id":1,"name":"Electronics"},"companyId":2,"company":{"isActivated":true,"imageUrl":null,"balance":3000.00,"id":2,"userName":"MobileInc","email":"support@mobileinc.com","role":0},"status":0,"imageUrl":"https://example.com/images/smartphone.jpg"},"quantity":2,"purchaseDate":"2025-04-11T06:09:59.4001185Z","status":1,"totalPrice":1600.00}]
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/PurchaseResponseModel"
+                  }
+                },
+                "example": [{"id":1,"customerId":1,"customer":{"balance":500.00,"id":1,"userName":"john_doe","email":"john.doe@example.com","role":0},"productOfferId":1,"productOffer":{"id":1,"name":"Laptop","description":"High-performance gaming laptop","price":1200.00,"quantity":10,"createTime":"2025-04-06T07:09:59.4001174Z","expirationTime":"2025-05-11T07:09:59.4001176Z","categoryId":1,"category":{"id":1,"name":"Electronics"},"companyId":1,"company":{"isActivated":true,"imageUrl":null,"balance":5000.00,"id":1,"userName":"TechCorp","email":"contact@techcorp.com","role":0},"status":0,"imageUrl":"https://example.com/images/laptop.jpg"},"quantity":1,"purchaseDate":"2025-04-11T05:09:59.400118Z","status":0,"totalPrice":1200.00},{"id":2,"customerId":2,"customer":{"balance":300.00,"id":2,"userName":"jane_smith","email":"jane.smith@example.com","role":0},"productOfferId":2,"productOffer":{"id":2,"name":"Smartphone","description":"Latest model smartphone with 5G","price":800.00,"quantity":15,"createTime":"2025-04-08T07:09:59.4001183Z","expirationTime":"2025-05-26T07:09:59.4001184Z","categoryId":1,"category":{"id":1,"name":"Electronics"},"companyId":2,"company":{"isActivated":true,"imageUrl":null,"balance":3000.00,"id":2,"userName":"MobileInc","email":"support@mobileinc.com","role":0},"status":0,"imageUrl":"https://example.com/images/smartphone.jpg"},"quantity":2,"purchaseDate":"2025-04-11T06:09:59.4001185Z","status":1,"totalPrice":1600.00}]
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/PurchaseResponseModel"
+                  }
+                },
+                "example": [{"id":1,"customerId":1,"customer":{"balance":500.00,"id":1,"userName":"john_doe","email":"john.doe@example.com","role":0},"productOfferId":1,"productOffer":{"id":1,"name":"Laptop","description":"High-performance gaming laptop","price":1200.00,"quantity":10,"createTime":"2025-04-06T07:09:59.4001174Z","expirationTime":"2025-05-11T07:09:59.4001176Z","categoryId":1,"category":{"id":1,"name":"Electronics"},"companyId":1,"company":{"isActivated":true,"imageUrl":null,"balance":5000.00,"id":1,"userName":"TechCorp","email":"contact@techcorp.com","role":0},"status":0,"imageUrl":"https://example.com/images/laptop.jpg"},"quantity":1,"purchaseDate":"2025-04-11T05:09:59.400118Z","status":0,"totalPrice":1200.00},{"id":2,"customerId":2,"customer":{"balance":300.00,"id":2,"userName":"jane_smith","email":"jane.smith@example.com","role":0},"productOfferId":2,"productOffer":{"id":2,"name":"Smartphone","description":"Latest model smartphone with 5G","price":800.00,"quantity":15,"createTime":"2025-04-08T07:09:59.4001183Z","expirationTime":"2025-05-26T07:09:59.4001184Z","categoryId":1,"category":{"id":1,"name":"Electronics"},"companyId":2,"company":{"isActivated":true,"imageUrl":null,"balance":3000.00,"id":2,"userName":"MobileInc","email":"support@mobileinc.com","role":0},"status":0,"imageUrl":"https://example.com/images/smartphone.jpg"},"quantity":2,"purchaseDate":"2025-04-11T06:09:59.4001185Z","status":1,"totalPrice":1600.00}]
+              }
+            }
+          },
+          "403": {
+            "description": "Forbidden",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/ProblemDetails"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ProblemDetails"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ProblemDetails"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/v2/Purchases/{id}": {
+      "get": {
+        "tags": [
+          "Purchases"
+        ],
+        "summary": "Customer - Get purchase by id for current customer user.",
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "description": "",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/PurchaseResponseModel"
+                },
+                "example": {"id":1,"customerId":1,"customer":{"balance":500.00,"id":1,"userName":"john_doe","email":"john.doe@example.com","role":0},"productOfferId":1,"productOffer":{"id":1,"name":"Laptop","description":"High-performance gaming laptop","price":1200.00,"quantity":10,"createTime":"2025-04-06T07:09:59.4029727Z","expirationTime":"2025-05-11T07:09:59.4029728Z","categoryId":1,"category":{"id":1,"name":"Electronics"},"companyId":1,"company":{"isActivated":true,"imageUrl":null,"balance":5000.00,"id":1,"userName":"TechCorp","email":"contact@techcorp.com","role":0},"status":0,"imageUrl":"https://example.com/images/laptop.jpg"},"quantity":1,"purchaseDate":"2025-04-11T05:09:59.4029733Z","status":0,"totalPrice":1200.00}
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/PurchaseResponseModel"
+                },
+                "example": {"id":1,"customerId":1,"customer":{"balance":500.00,"id":1,"userName":"john_doe","email":"john.doe@example.com","role":0},"productOfferId":1,"productOffer":{"id":1,"name":"Laptop","description":"High-performance gaming laptop","price":1200.00,"quantity":10,"createTime":"2025-04-06T07:09:59.4029727Z","expirationTime":"2025-05-11T07:09:59.4029728Z","categoryId":1,"category":{"id":1,"name":"Electronics"},"companyId":1,"company":{"isActivated":true,"imageUrl":null,"balance":5000.00,"id":1,"userName":"TechCorp","email":"contact@techcorp.com","role":0},"status":0,"imageUrl":"https://example.com/images/laptop.jpg"},"quantity":1,"purchaseDate":"2025-04-11T05:09:59.4029733Z","status":0,"totalPrice":1200.00}
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/PurchaseResponseModel"
+                },
+                "example": {"id":1,"customerId":1,"customer":{"balance":500.00,"id":1,"userName":"john_doe","email":"john.doe@example.com","role":0},"productOfferId":1,"productOffer":{"id":1,"name":"Laptop","description":"High-performance gaming laptop","price":1200.00,"quantity":10,"createTime":"2025-04-06T07:09:59.4029727Z","expirationTime":"2025-05-11T07:09:59.4029728Z","categoryId":1,"category":{"id":1,"name":"Electronics"},"companyId":1,"company":{"isActivated":true,"imageUrl":null,"balance":5000.00,"id":1,"userName":"TechCorp","email":"contact@techcorp.com","role":0},"status":0,"imageUrl":"https://example.com/images/laptop.jpg"},"quantity":1,"purchaseDate":"2025-04-11T05:09:59.4029733Z","status":0,"totalPrice":1200.00}
+              }
+            }
+          },
+          "404": {
+            "description": "Not Found",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/ProblemDetails"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ProblemDetails"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ProblemDetails"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/v2/Users/companies": {
+      "get": {
+        "tags": [
+          "Users"
+        ],
+        "summary": "Admin - Get all companies, paginated",
+        "parameters": [
+          {
+            "name": "pageNumber",
+            "in": "query",
+            "description": "",
+            "schema": {
+              "type": "integer",
+              "format": "int32",
+              "default": 1
+            }
+          },
+          {
+            "name": "pageSize",
+            "in": "query",
+            "description": "",
+            "schema": {
+              "type": "integer",
+              "format": "int32",
+              "default": 10
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/CompanyResponseModel"
+                  }
+                },
+                "example": [{"isActivated":true,"imageUrl":"https://example.com/images/techcorp-logo.jpg","balance":5000.00,"id":1,"userName":"TechCorp","email":"contact@techcorp.com","role":1},{"isActivated":false,"imageUrl":null,"balance":3000.00,"id":2,"userName":"MobileInc","email":"support@mobileinc.com","role":1}]
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/v2/Users/customers": {
+      "get": {
+        "tags": [
+          "Users"
+        ],
+        "summary": "Admin - Get all customers, paginated",
+        "parameters": [
+          {
+            "name": "pageNumber",
+            "in": "query",
+            "description": "",
+            "schema": {
+              "type": "integer",
+              "format": "int32",
+              "default": 1
+            }
+          },
+          {
+            "name": "pageSize",
+            "in": "query",
+            "description": "",
+            "schema": {
+              "type": "integer",
+              "format": "int32",
+              "default": 10
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/CustomerResponseModel"
+                  }
+                },
+                "example": [{"balance":500.00,"id":1,"userName":"john_doe","email":"john.doe@example.com","role":2},{"balance":300.00,"id":2,"userName":"jane_smith","email":"jane.smith@example.com","role":2}]
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/v2/Users/admins": {
+      "get": {
+        "tags": [
+          "Users"
+        ],
+        "summary": "Admin - Get all admins, paginated",
+        "parameters": [
+          {
+            "name": "pageNumber",
+            "in": "query",
+            "description": "",
+            "schema": {
+              "type": "integer",
+              "format": "int32",
+              "default": 1
+            }
+          },
+          {
+            "name": "pageSize",
+            "in": "query",
+            "description": "",
+            "schema": {
+              "type": "integer",
+              "format": "int32",
+              "default": 10
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/AdminResponseModel"
+                  }
+                },
+                "example": [{"id":1,"userName":"admin1","email":"admin1@example.com","role":0},{"id":2,"userName":"admin2","email":"admin2@example.com","role":0}]
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/v2/Users/login": {
+      "post": {
+        "tags": [
+          "Users"
+        ],
+        "summary": "Login to system",
+        "requestBody": {
+          "description": "",
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/UserLoginRequestModel"
+              },
+              "examples": {
+                "Admin": {
+                  "value": {"userName":"admin","password":"admin123"}
+                },
+                "TechCorp (Company)": {
+                  "value": {"userName":"techCorp","password":"tech123"}
+                },
+                "FashionOutlet (Company)": {
+                  "value": {"userName":"fashionOutlet","password":"fashion123"}
+                },
+                "JohnDoe (Customer)": {
+                  "value": {"userName":"johnDoe","password":"john123"}
+                },
+                "JaneSmith (Customer)": {
+                  "value": {"userName":"janeSmith","password":"jane123"}
+                },
+                "BobWilson (Customer)": {
+                  "value": {"userName":"bobWilson","password":"bob123"}
+                }
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/UserLoginRequestModel"
+              },
+              "examples": {
+                "Admin": {
+                  "value": {"userName":"admin","password":"admin123"}
+                },
+                "TechCorp (Company)": {
+                  "value": {"userName":"techCorp","password":"tech123"}
+                },
+                "FashionOutlet (Company)": {
+                  "value": {"userName":"fashionOutlet","password":"fashion123"}
+                },
+                "JohnDoe (Customer)": {
+                  "value": {"userName":"johnDoe","password":"john123"}
+                },
+                "JaneSmith (Customer)": {
+                  "value": {"userName":"janeSmith","password":"jane123"}
+                },
+                "BobWilson (Customer)": {
+                  "value": {"userName":"bobWilson","password":"bob123"}
+                }
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/UserLoginRequestModel"
+              },
+              "examples": {
+                "Admin": {
+                  "value": {"userName":"admin","password":"admin123"}
+                },
+                "TechCorp (Company)": {
+                  "value": {"userName":"techCorp","password":"tech123"}
+                },
+                "FashionOutlet (Company)": {
+                  "value": {"userName":"fashionOutlet","password":"fashion123"}
+                },
+                "JohnDoe (Customer)": {
+                  "value": {"userName":"johnDoe","password":"john123"}
+                },
+                "JaneSmith (Customer)": {
+                  "value": {"userName":"janeSmith","password":"jane123"}
+                },
+                "BobWilson (Customer)": {
+                  "value": {"userName":"bobWilson","password":"bob123"}
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "string"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/v2/Users/register/admin": {
+      "post": {
+        "tags": [
+          "Users"
+        ],
+        "summary": "Admin - Register new admin to system",
+        "requestBody": {
+          "description": "",
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/AdminRequestModel"
+              },
+              "example": {"password":"AdminPass123!","confirmPassword":"AdminPass123!","userName":"admin1","email":"admin1@example.com"}
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/AdminRequestModel"
+              },
+              "example": {"password":"AdminPass123!","confirmPassword":"AdminPass123!","userName":"admin1","email":"admin1@example.com"}
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/AdminRequestModel"
+              },
+              "example": {"password":"AdminPass123!","confirmPassword":"AdminPass123!","userName":"admin1","email":"admin1@example.com"}
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/AdminResponseModel"
+                },
+                "example": {"id":1,"userName":"admin1","email":"admin1@example.com","role":0}
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/v2/Users/register/company": {
+      "post": {
+        "tags": [
+          "Users"
+        ],
+        "summary": "Register new company to system",
+        "requestBody": {
+          "description": "",
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/CompanyRequestModel"
+              },
+              "example": {"balance":5000.00,"password":"CompanyPass123!","confirmPassword":"CompanyPass123!","userName":"TechCorp","email":"contact@techcorp.com"}
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/CompanyRequestModel"
+              },
+              "example": {"balance":5000.00,"password":"CompanyPass123!","confirmPassword":"CompanyPass123!","userName":"TechCorp","email":"contact@techcorp.com"}
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/CompanyRequestModel"
+              },
+              "example": {"balance":5000.00,"password":"CompanyPass123!","confirmPassword":"CompanyPass123!","userName":"TechCorp","email":"contact@techcorp.com"}
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/CompanyResponseModel"
+                },
+                "example": {"isActivated":true,"imageUrl":"https://example.com/images/techcorp-logo.jpg","balance":5000.00,"id":1,"userName":"TechCorp","email":"contact@techcorp.com","role":1}
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/v2/Users/register/customer": {
+      "post": {
+        "tags": [
+          "Users"
+        ],
+        "summary": "Register new customer to system",
+        "requestBody": {
+          "description": "",
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/CustomerRequestModel"
+              },
+              "example": {"balance":500.00,"password":"CustomerPass123!","confirmPassword":"CustomerPass123!","userName":"john_doe","email":"john.doe@example.com"}
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/CustomerRequestModel"
+              },
+              "example": {"balance":500.00,"password":"CustomerPass123!","confirmPassword":"CustomerPass123!","userName":"john_doe","email":"john.doe@example.com"}
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/CustomerRequestModel"
+              },
+              "example": {"balance":500.00,"password":"CustomerPass123!","confirmPassword":"CustomerPass123!","userName":"john_doe","email":"john.doe@example.com"}
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/CustomerResponseModel"
+                },
+                "example": {"balance":500.00,"id":1,"userName":"john_doe","email":"john.doe@example.com","role":2}
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/v2/Users/upload-company-image": {
+      "post": {
+        "tags": [
+          "Users"
+        ],
+        "summary": "Company - Upload image for company",
+        "requestBody": {
+          "content": {
+            "multipart/form-data": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "File": {
+                    "type": "string",
+                    "format": "binary"
+                  }
+                }
+              },
+              "encoding": {
+                "File": {
+                  "style": "form"
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "string"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/v2/Users/companies/{companyId}/activate": {
+      "put": {
+        "tags": [
+          "Users"
+        ],
+        "summary": "Admin - Activate company",
+        "parameters": [
+          {
+            "name": "companyId",
+            "in": "path",
+            "description": "",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "boolean"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/v2/Users/customers/update-categories": {
+      "put": {
+        "tags": [
+          "Users"
+        ],
+        "summary": "Customer - Update preferred categories for current customer",
+        "requestBody": {
+          "description": "",
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "array",
+                "items": {
+                  "type": "integer",
+                  "format": "int32"
+                }
+              }
+            },
+            "text/json": {
+              "schema": {
+                "type": "array",
+                "items": {
+                  "type": "integer",
+                  "format": "int32"
+                }
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "type": "array",
+                "items": {
+                  "type": "integer",
+                  "format": "int32"
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "boolean"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/v2/Users/update/admin": {
+      "put": {
+        "tags": [
+          "Users"
+        ],
+        "summary": "Admin - Update current admin",
+        "requestBody": {
+          "description": "",
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/AdminRequestUpdateModel"
+              },
+              "example": {"userName":"admin1_updated","email":"admin1.updated@example.com"}
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/AdminRequestUpdateModel"
+              },
+              "example": {"userName":"admin1_updated","email":"admin1.updated@example.com"}
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/AdminRequestUpdateModel"
+              },
+              "example": {"userName":"admin1_updated","email":"admin1.updated@example.com"}
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/AdminResponseModel"
+                },
+                "example": {"id":1,"userName":"admin1","email":"admin1@example.com","role":0}
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/v2/Users/update/company": {
+      "put": {
+        "tags": [
+          "Users"
+        ],
+        "summary": "Company - Update current company",
+        "requestBody": {
+          "description": "",
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/CompanyRequestUpdateModel"
+              },
+              "example": {"balance":6000.00,"userName":"TechCorpUpdated","email":"contact.updated@techcorp.com"}
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/CompanyRequestUpdateModel"
+              },
+              "example": {"balance":6000.00,"userName":"TechCorpUpdated","email":"contact.updated@techcorp.com"}
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/CompanyRequestUpdateModel"
+              },
+              "example": {"balance":6000.00,"userName":"TechCorpUpdated","email":"contact.updated@techcorp.com"}
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/CompanyResponseModel"
+                },
+                "example": {"isActivated":true,"imageUrl":"https://example.com/images/techcorp-logo.jpg","balance":5000.00,"id":1,"userName":"TechCorp","email":"contact@techcorp.com","role":1}
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/v2/Users/update/customer": {
+      "put": {
+        "tags": [
+          "Users"
+        ],
+        "summary": "Customer - Update current customer",
+        "requestBody": {
+          "description": "",
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/CustomerRequestUpdateModel"
+              },
+              "example": {"balance":600.00,"userName":"john_doe_updated","email":"john.doe.updated@example.com"}
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/CustomerRequestUpdateModel"
+              },
+              "example": {"balance":600.00,"userName":"john_doe_updated","email":"john.doe.updated@example.com"}
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/CustomerRequestUpdateModel"
+              },
+              "example": {"balance":600.00,"userName":"john_doe_updated","email":"john.doe.updated@example.com"}
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/CustomerResponseModel"
+                },
+                "example": {"balance":500.00,"id":1,"userName":"john_doe","email":"john.doe@example.com","role":2}
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "AdminRequestModel": {
+        "type": "object",
+        "properties": {
+          "userName": {
+            "type": "string",
+            "nullable": true
+          },
+          "email": {
+            "type": "string",
+            "nullable": true
+          },
+          "password": {
+            "type": "string",
+            "nullable": true
+          },
+          "confirmPassword": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "AdminRequestUpdateModel": {
+        "type": "object",
+        "properties": {
+          "userName": {
+            "type": "string",
+            "nullable": true
+          },
+          "email": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "AdminResponseModel": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "userName": {
+            "type": "string",
+            "nullable": true
+          },
+          "email": {
+            "type": "string",
+            "nullable": true
+          },
+          "role": {
+            "$ref": "#/components/schemas/UserRole"
+          }
+        },
+        "additionalProperties": false
+      },
+      "CategoryRequestModel": {
+        "type": "object",
+        "properties": {
+          "name": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "CategoryResponseModel": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "name": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "CompanyRequestModel": {
+        "type": "object",
+        "properties": {
+          "userName": {
+            "type": "string",
+            "nullable": true
+          },
+          "email": {
+            "type": "string",
+            "nullable": true
+          },
+          "password": {
+            "type": "string",
+            "nullable": true
+          },
+          "confirmPassword": {
+            "type": "string",
+            "nullable": true
+          },
+          "balance": {
+            "type": "number",
+            "format": "double"
+          }
+        },
+        "additionalProperties": false
+      },
+      "CompanyRequestUpdateModel": {
+        "type": "object",
+        "properties": {
+          "userName": {
+            "type": "string",
+            "nullable": true
+          },
+          "email": {
+            "type": "string",
+            "nullable": true
+          },
+          "balance": {
+            "type": "number",
+            "format": "double"
+          }
+        },
+        "additionalProperties": false
+      },
+      "CompanyResponseModel": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "userName": {
+            "type": "string",
+            "nullable": true
+          },
+          "email": {
+            "type": "string",
+            "nullable": true
+          },
+          "role": {
+            "$ref": "#/components/schemas/UserRole"
+          },
+          "isActivated": {
+            "type": "boolean"
+          },
+          "imageUrl": {
+            "type": "string",
+            "nullable": true
+          },
+          "balance": {
+            "type": "number",
+            "format": "double"
+          }
+        },
+        "additionalProperties": false
+      },
+      "CustomerRequestModel": {
+        "type": "object",
+        "properties": {
+          "userName": {
+            "type": "string",
+            "nullable": true
+          },
+          "email": {
+            "type": "string",
+            "nullable": true
+          },
+          "password": {
+            "type": "string",
+            "nullable": true
+          },
+          "confirmPassword": {
+            "type": "string",
+            "nullable": true
+          },
+          "balance": {
+            "type": "number",
+            "format": "double"
+          }
+        },
+        "additionalProperties": false
+      },
+      "CustomerRequestUpdateModel": {
+        "type": "object",
+        "properties": {
+          "userName": {
+            "type": "string",
+            "nullable": true
+          },
+          "email": {
+            "type": "string",
+            "nullable": true
+          },
+          "balance": {
+            "type": "number",
+            "format": "double"
+          }
+        },
+        "additionalProperties": false
+      },
+      "CustomerResponseModel": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "userName": {
+            "type": "string",
+            "nullable": true
+          },
+          "email": {
+            "type": "string",
+            "nullable": true
+          },
+          "role": {
+            "$ref": "#/components/schemas/UserRole"
+          },
+          "balance": {
+            "type": "number",
+            "format": "double"
+          }
+        },
+        "additionalProperties": false
+      },
+      "OfferStatus": {
+        "enum": [
+          0,
+          1,
+          2
+        ],
+        "type": "integer",
+        "format": "int32"
+      },
+      "ProblemDetails": {
+        "type": "object",
+        "properties": {
+          "type": {
+            "type": "string",
+            "nullable": true
+          },
+          "title": {
+            "type": "string",
+            "nullable": true
+          },
+          "status": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "detail": {
+            "type": "string",
+            "nullable": true
+          },
+          "instance": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": { }
+      },
+      "ProductOfferRequestModel": {
+        "type": "object",
+        "properties": {
+          "name": {
+            "type": "string",
+            "nullable": true
+          },
+          "description": {
+            "type": "string",
+            "nullable": true
+          },
+          "price": {
+            "type": "number",
+            "format": "double"
+          },
+          "quantity": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "expirationTime": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "categoryId": {
+            "type": "integer",
+            "format": "int32"
+          }
+        },
+        "additionalProperties": false
+      },
+      "ProductOfferResponseModel": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "name": {
+            "type": "string",
+            "nullable": true
+          },
+          "description": {
+            "type": "string",
+            "nullable": true
+          },
+          "price": {
+            "type": "number",
+            "format": "double"
+          },
+          "quantity": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "createTime": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "expirationTime": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "categoryId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "category": {
+            "$ref": "#/components/schemas/CategoryResponseModel"
+          },
+          "companyId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "company": {
+            "$ref": "#/components/schemas/CompanyResponseModel"
+          },
+          "status": {
+            "$ref": "#/components/schemas/OfferStatus"
+          },
+          "imageUrl": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "PurchaseResponseModel": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "customerId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "customer": {
+            "$ref": "#/components/schemas/CustomerResponseModel"
+          },
+          "productOfferId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "productOffer": {
+            "$ref": "#/components/schemas/ProductOfferResponseModel"
+          },
+          "quantity": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "purchaseDate": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "status": {
+            "$ref": "#/components/schemas/PurchaseStatus"
+          },
+          "totalPrice": {
+            "type": "number",
+            "format": "double"
+          }
+        },
+        "additionalProperties": false
+      },
+      "PurchaseStatus": {
+        "enum": [
+          0,
+          1
+        ],
+        "type": "integer",
+        "format": "int32"
+      },
+      "UserLoginRequestModel": {
+        "type": "object",
+        "properties": {
+          "userName": {
+            "type": "string",
+            "nullable": true
+          },
+          "password": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "UserRole": {
+        "enum": [
+          0,
+          1,
+          2
+        ],
+        "type": "integer",
+        "format": "int32"
+      }
+    },
+    "securitySchemes": {
+      "Bearer": {
+        "type": "http",
+        "description": "Enter 'Bearer {your JWT token}' to authenticate.",
+        "scheme": "Bearer",
+        "bearerFormat": "JWT"
+      }
+    }
+  },
+  "security": [
+    {
+      "Bearer": [ ]
+    }
+  ],
+  "tags": [
+    {
+      "name": "Categories",
+      "description": "Controller for managing product categories. \r\nProvides endpoints for retrieving, creating, updating, and deleting categories."
+    },
+    {
+      "name": "ProductOffers",
+      "description": "Controller for managing product offers. \r\nAllows companies to create, update, and delete offers, and customers to browse and purchase them."
+    },
+    {
+      "name": "Purchases",
+      "description": "Controller for managing purchases. \r\nAllows customers and companies to view and interact with purchase data."
+    },
+    {
+      "name": "Users",
+      "description": "Controller for managing user-related operations such as viewing profiles or managing roles."
+    }
+  ]
+}

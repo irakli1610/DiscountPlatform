@@ -1,0 +1,19 @@
+[
+  {
+    "Name": "New Profile",
+    "Projects": [
+      {
+        "Path": "offers.itacademy.ge.API.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "..\\offers.itacatemy.ge.ExpirationMonitorWorker\\offers.itacatemy.ge.ExpirationMonitorWorker.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "..\\offers.itacademy.ge.Web\\offers.itacademy.ge.Web.csproj",
+        "Action": "Start"
+      }
+    ]
+  }
+]

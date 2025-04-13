@@ -1,0 +1,71 @@
+﻿@model IEnumerable<offers.itacademy.ge.Application.Models.Purchases.PurchaseResponseModel>
+
+@{
+    ViewData["Title"] = "My Purchases";
+    int pageNumber = ViewBag.PageNumber ?? 1;
+    int pageSize = ViewBag.PageSize ?? 10;
+}
+
+<div class="container">
+    <h2 class="mt-4">My Purchases</h2>
+
+    @if (TempData["Success"] != null)
+    {
+        <div class="alert alert-success">@TempData["Success"]</div>
+    }
+    @if (TempData["Error"] != null)
+    {
+        <div class="alert alert-danger">@TempData["Error"]</div>
+    }
+
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Offer</th>
+                <th>Quantity</th>
+                <th>Total Price</th>
+                <th>Status</th>
+                <th>Purchase Date</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+            @if (!Model.Any())
+            {
+                <tr>
+                    <td colspan="6">No purchases found.</td>
+                </tr>
+            }
+            else
+            {
+                @foreach (var purchase in Model)
+                {
+                    <tr>
+                        <td>@(purchase.ProductOffer?.Name ?? "")</td>
+                        <td>@purchase.Quantity</td>
+                        <td>@purchase.TotalPrice</td>
+                        <td>@purchase.Status</td>
+                        <td>@purchase.PurchaseDate.ToString("g")</td>
+                        <td>
+                            @if (User.IsInRole("Customer") && purchase.Status == offers.itacademy.ge.Domain.Purchases.PurchaseStatus.Active && (DateTime.UtcNow - purchase.PurchaseDate).TotalMinutes <= 5)
+                            {
+                                <a asp-action="Cancel" asp-route-purchaseId="@purchase.Id" class="btn btn-danger btn-sm">Cancel</a>
+                            }
+                        </td>
+                    </tr>
+                }
+            }
+        </tbody>
+    </table>
+
+    <nav aria-label="Page navigation" class="mt-3">
+        <ul class="pagination justify-content-end">
+            <li class="page-item @(pageNumber == 1 ? "disabled" : "")">
+                <a class="page-link" asp-action="MyPurchases" asp-route-pageNumber="@(pageNumber - 1)" asp-route-pageSize="@pageSize">Previous</a>
+            </li>
+            <li class="page-item @(Model.Count() < pageSize ? "disabled" : "")">
+                <a class="page-link" asp-action="MyPurchases" asp-route-pageNumber="@(pageNumber + 1)" asp-route-pageSize="@pageSize">Next</a>
+            </li>
+        </ul>
+    </nav>
+</div>

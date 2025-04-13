@@ -1,0 +1,85 @@
+﻿@using System.Security.Claims
+@model IEnumerable<offers.itacademy.ge.Application.Models.ProductOffers.ProductOfferResponseModel>
+
+@{
+    ViewData["Title"] = "Active Product Offers";
+    int pageNumber = ViewBag.PageNumber ?? 1;
+    int pageSize = ViewBag.PageSize ?? 10;
+}
+
+<div class="container">
+    <h2 class="mt-4">Active Product Offers</h2>
+    <p>Explore all currently active offers on the platform.</p>
+
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Image</th>
+                <th>Name</th>
+                <th>Description</th>
+                <th>Price</th>
+                <th>Quantity</th>
+                <th>Expires</th>
+                <th>Company</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+            @if (!Model.Any())
+            {
+                <tr>
+                    <td colspan="8">No active offers found.</td>
+                </tr>
+            }
+            else
+            {
+                @foreach (var offer in Model)
+                {
+                    <tr>
+                        <td>
+                            @if (!string.IsNullOrEmpty(offer.ImageUrl))
+                            {
+                                <img src="/uploads/offers/@offer.ImageUrl" alt="@offer.Name" style="max-height: 50px;" />
+                            }
+                            else
+                            {
+                                <span>-</span>
+                            }
+                        </td>
+                        <td>@offer.Name</td>
+                        <td>@offer.Description</td>
+                        <td>@offer.Price.ToString("C")</td>
+                        <td>@offer.Quantity</td>
+                        <td>@offer.ExpirationTime.ToString("g")</td>
+                        <td>@offer.Company.UserName</td>
+                        <td>
+                            @if (User.IsInRole("Customer"))
+                            {
+                                <a asp-controller="Purchase" asp-action="Buy" asp-route-offerId="@offer.Id" class="btn btn-success btn-sm">Buy</a>
+                            }
+                            @if (User.IsInRole("Company") && offer.CompanyId == int.Parse(User.FindFirstValue("UserId")))
+                            {
+                                <a asp-controller="Purchase" asp-action="OfferPurchases" asp-route-offerId="@offer.Id" class="btn btn-info btn-sm">View Purchases</a>
+                            }
+                            @if (User.IsInRole("Admin"))
+                            {
+                                <a asp-controller="Purchase" asp-action="OfferPurchases" asp-route-offerId="@offer.Id" class="btn btn-info btn-sm">View Purchases</a>
+                            }
+                        </td>
+                    </tr>
+                }
+            }
+        </tbody>
+    </table>
+
+    <nav aria-label="Page navigation" class="mt-3">
+        <ul class="pagination justify-content-end">
+            <li class="page-item @(pageNumber == 1 ? "disabled" : "")">
+                <a class="page-link" asp-action="ActiveOffers" asp-route-pageNumber="@(pageNumber - 1)" asp-route-pageSize="@pageSize">Previous</a>
+            </li>
+            <li class="page-item @(Model.Count() < pageSize ? "disabled" : "")">
+                <a class="page-link" asp-action="ActiveOffers" asp-route-pageNumber="@(pageNumber + 1)" asp-route-pageSize="@pageSize">Next</a>
+            </li>
+        </ul>
+    </nav>
+</div>

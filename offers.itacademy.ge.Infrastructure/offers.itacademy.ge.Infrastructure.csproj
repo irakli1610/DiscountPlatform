@@ -1,0 +1,24 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="FileStorage\**" />
+    <EmbeddedResource Remove="FileStorage\**" />
+    <None Remove="FileStorage\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="FluentValidation.AspNetCore" Version="11.3.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\offers.itacademy.ge.Application\offers.itacademy.ge.Application.csproj" />
+    <ProjectReference Include="..\offers.itacademy.ge.Persistance\offers.itacademy.ge.Persistance.csproj" />
+  </ItemGroup>
+
+</Project>

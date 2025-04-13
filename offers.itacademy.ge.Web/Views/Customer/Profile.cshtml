@@ -1,0 +1,75 @@
+﻿@model offers.itacademy.ge.Application.Models.Users.Customer.CustomerResponseModel
+
+@{
+    ViewData["Title"] = "Customer Profile";
+}
+
+<div class="container">
+    <h2 class="mt-4">Customer Dashboard</h2>
+    <p>Welcome, @User.Identity.Name! This is your customer profile.</p>
+
+    @if (TempData["Success"] != null)
+    {
+        <div class="alert alert-success">@TempData["Success"]</div>
+    }
+
+    <div class="card mb-4">
+        <div class="card-header">
+            <h5>Your Details</h5>
+        </div>
+        <div class="card-body">
+            <dl class="row">
+                <dt class="col-sm-3">Username</dt>
+                <dd class="col-sm-9">@Model.UserName</dd>
+                <dt class="col-sm-3">Email</dt>
+                <dd class="col-sm-9">@Model.Email</dd>
+                <dt class="col-sm-3">Balance</dt>
+                <dd class="col-sm-9">@Model.Balance.ToString("C")</dd>
+            </dl>
+        </div>
+    </div>
+
+    <div class="row mt-4">
+        <div class="col-md-6">
+            <div class="card">
+                <div class="card-header">
+                    <h5>View Your Offers</h5>
+                </div>
+                <div class="card-body">
+                    <p>Explore and buy offers from your subscribed categories.</p>
+                    <a asp-controller="ProductOffer" asp-action="RelevantOffers" class="btn btn-primary">View Your Offers</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div class="card">
+                <div class="card-header">
+                    <h5>My Purchases</h5>
+                </div>
+                <div class="card-body">
+                    <p>View and manage your purchase history.</p>
+                    <a asp-controller="Purchase" asp-action="MyPurchases" class="btn btn-primary">View Purchases</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row mt-4">
+        <div class="col-md-6">
+            <div class="card">
+                <div class="card-header">
+                    <h5>Account Settings</h5>
+                </div>
+                <div class="card-body">
+                    <p>Update your profile details or manage subscriptions.</p>
+                    <a asp-controller="User" asp-action="UpdateProfile" class="btn btn-primary mb-2">Update Profile</a>
+                    <a asp-action="ManageSubscriptions" class="btn btn-primary">Manage Subscriptions</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="mt-4">
+        <a asp-controller="Login" asp-action="Logout" class="btn btn-danger">Logout</a>
+    </div>
+</div>

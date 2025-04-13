@@ -1,0 +1,77 @@
+﻿@model IEnumerable<offers.itacademy.ge.Application.Models.ProductOffers.ProductOfferResponseModel>
+
+@{
+    ViewData["Title"] = "All Product Offers";
+    int pageNumber = ViewBag.PageNumber ?? 1;
+    int pageSize = ViewBag.PageSize ?? 10;
+}
+
+<div class="container">
+    <h2 class="mt-4">All Product Offers</h2>
+
+    @if (TempData["Success"] != null)
+    {
+        <div class="alert alert-success">@TempData["Success"]</div>
+    }
+    @if (TempData["Error"] != null)
+    {
+        <div class="alert alert-danger">@TempData["Error"]</div>
+    }
+
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Image</th>
+                <th>Name</th>
+                <th>Price</th>
+                <th>Quantity</th>
+                <th>Status</th>
+                <th>Company</th>
+                <th>Expires</th>
+            </tr>
+        </thead>
+        <tbody>
+            @if (!Model.Any())
+            {
+                <tr>
+                    <td colspan="7">No offers found.</td>
+                </tr>
+            }
+            else
+            {
+                @foreach (var offer in Model)
+                {
+                    <tr>
+                        <td>
+                            @if (!string.IsNullOrEmpty(offer.ImageUrl))
+                            {
+                                <img src="/uploads/offers/@offer.ImageUrl" alt="@offer.Name" style="max-height: 50px;" />
+                            }
+                            else
+                            {
+                                <span>-</span>
+                            }
+                        </td>
+                        <td>@offer.Name</td>
+                        <td>@offer.Price.ToString("C")</td>
+                        <td>@offer.Quantity</td>
+                        <td>@offer.Status</td>
+                        <td>@offer.Company.UserName</td>
+                        <td>@offer.ExpirationTime.ToString("g")</td>
+                    </tr>
+                }
+            }
+        </tbody>
+    </table>
+
+    <nav aria-label="Page navigation" class="mt-3">
+        <ul class="pagination justify-content-end">
+            <li class="page-item @(pageNumber == 1 ? "disabled" : "")">
+                <a class="page-link" asp-action="GetAll" asp-route-pageNumber="@(pageNumber - 1)" asp-route-pageSize="@pageSize">Previous</a>
+            </li>
+            <li class="page-item @(Model.Count() < pageSize ? "disabled" : "")">
+                <a class="page-link" asp-action="GetAll" asp-route-pageNumber="@(pageNumber + 1)" asp-route-pageSize="@pageSize">Next</a>
+            </li>
+        </ul>
+    </nav>
+</div>

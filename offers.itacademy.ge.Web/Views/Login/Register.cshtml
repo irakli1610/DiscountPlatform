@@ -1,0 +1,47 @@
+﻿@{
+    ViewData["Title"] = "Register";
+    bool isAdmin = ViewBag.IsAdmin ?? false;
+}
+
+<div class="container">
+    <h2 class="mt-4">Choose Registration Type</h2>
+    <p>Please select the type of account you want to create:</p>
+
+    <form asp-action="Register" method="post" class="mt-3">
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Customer</h5>
+                        <p class="card-text">Register as a customer to explore offers.</p>
+                        <button type="submit" name="role" value="Customer" class="btn btn-primary">Select</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Company</h5>
+                        <p class="card-text">Register as a company to list your offers.</p>
+                        <button type="submit" name="role" value="Company" class="btn btn-primary">Select</button>
+                    </div>
+                </div>
+            </div>
+            @if (isAdmin)
+            {
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Admin</h5>
+                            <p class="card-text">Register a new admin (Admin only).</p>
+                            <button type="submit" name="role" value="Admin" class="btn btn-primary">Select</button>
+                        </div>
+                    </div>
+                </div>
+            }
+        </div>
+        <div class="mt-3">
+            <a asp-controller="Home" asp-action="Index" class="btn btn-secondary">Cancel</a>
+        </div>
+    </form>
+</div>

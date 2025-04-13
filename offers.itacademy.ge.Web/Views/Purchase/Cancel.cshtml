@@ -1,0 +1,32 @@
+﻿@model offers.itacademy.ge.Application.Models.Purchases.PurchaseResponseModel
+
+@{
+    ViewData["Title"] = "Cancel Purchase";
+}
+
+<div class="container">
+    <h2 class="mt-4">Cancel Purchase</h2>
+    <p>Are you sure you want to cancel this purchase? This is only possible within 5 minutes.</p>
+
+    @if (TempData["Error"] != null)
+    {
+        <div class="alert alert-danger">@TempData["Error"]</div>
+    }
+
+    <dl class="row">
+        <dt class="col-sm-2">Offer</dt>
+        <dd class="col-sm-10">@Model.ProductOffer.Name</dd>
+        <dt class="col-sm-2">Quantity</dt>
+        <dd class="col-sm-10">@Model.Quantity</dd>
+        <dt class="col-sm-2">Total Price</dt>
+        <dd class="col-sm-10">@Model.TotalPrice</dd>
+        <dt class="col-sm-2">Purchased</dt>
+        <dd class="col-sm-10">@Model.PurchaseDate.ToString("g")</dd>
+    </dl>
+
+    <form asp-action="CancelConfirmed" method="post">
+        <input type="hidden" name="purchaseId" value="@Model.Id" />
+        <button type="submit" class="btn btn-danger">Cancel Purchase</button>
+        <a asp-action="MyPurchases" class="btn btn-secondary ms-2">Back</a>
+    </form>
+</div>

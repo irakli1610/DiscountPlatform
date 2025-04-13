@@ -1,0 +1,64 @@
+﻿@{
+    ViewData["Title"] = "Company Profile";
+    string imageUrl = ViewBag.ImageUrl;
+}
+
+<div class="container">
+    <h2 class="mt-4">Company Dashboard</h2>
+    <p>Welcome, @User.Identity.Name! This is your company profile.</p>
+
+    @if (TempData["Success"] != null)
+    {
+        <div class="alert alert-success">@TempData["Success"]</div>
+    }
+    @if (TempData["Error"] != null)
+    {
+        <div class="alert alert-danger">@TempData["Error"]</div>
+    }
+
+    <div class="row mt-4">
+        <div class="col-md-6">
+            <div class="card">
+                <div class="card-header">
+                    <h5>Manage Offers</h5>
+                </div>
+                <div class="card-body">
+                    <p>Create, edit, or delete your product offers.</p>
+                    <a asp-controller="ProductOffer" asp-action="MyOffers" class="btn btn-primary">Go to Offers</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div class="card">
+                <div class="card-header">
+                    <h5>Company Settings</h5>
+                </div>
+                <div class="card-body">
+                    <p>Update your company details or manage your image.</p>
+                    @if (!string.IsNullOrEmpty(imageUrl))
+                    {
+                        <div class="mb-3">
+                            <img src="/uploads/companies/@imageUrl" alt="Company Image" class="img-fluid" style="max-height: 200px;" />
+                        </div>
+                    }
+                    else
+                    {
+                        <p class="text-muted">No image uploaded yet.</p>
+                    }
+                    <a asp-controller="User" asp-action="UpdateProfile" class="btn btn-primary mb-2">Update Profile</a>
+                    <form asp-controller="User" asp-action="UploadCompanyImage" method="post" enctype="multipart/form-data">
+                        <div class="form-group mb-3">
+                            <label class="form-label">Upload Company Image</label>
+                            <input type="file" name="File" class="form-control" accept="image/*" required />
+                        </div>
+                        <button type="submit" class="btn btn-primary">Upload</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="mt-4">
+        <a asp-controller="Login" asp-action="Logout" class="btn btn-danger">Logout</a>
+    </div>
+</div>

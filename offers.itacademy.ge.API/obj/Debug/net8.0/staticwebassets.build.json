@@ -1,0 +1,1361 @@
+{
+  "Version": 1,
+  "Hash": "ml3xvkkhu2JCurCSPYn/Btx9eSPF8XY0KbR0mEFh8B8=",
+  "Source": "offers.itacademy.ge.API",
+  "BasePath": "_content/offers.itacademy.ge.API",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "offers.itacademy.ge.API\\wwwroot",
+      "Source": "offers.itacademy.ge.API",
+      "ContentRoot": "C:\\Users\\irakl\\Desktop\\TBC .Net Course\\Final Project\\offers.itacademy.ge.API\\wwwroot\\",
+      "BasePath": "_content/offers.itacademy.ge.API",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\irakl\\Desktop\\TBC .Net Course\\Final Project\\offers.itacademy.ge.API\\wwwroot\\uploads\\companies\\2726fa70-c6c6-4c5e-80d7-0f9581cb8c82.png",
+      "SourceId": "offers.itacademy.ge.API",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\irakl\\Desktop\\TBC .Net Course\\Final Project\\offers.itacademy.ge.API\\wwwroot\\",
+      "BasePath": "_content/offers.itacademy.ge.API",
+      "RelativePath": "uploads/companies/2726fa70-c6c6-4c5e-80d7-0f9581cb8c82#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "4xklf6t0rb",
+      "Integrity": "2IuUXUsPaQ/KsaUT3sV+DY7i0qap40R1c+xOErHB+Bs=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\companies\\2726fa70-c6c6-4c5e-80d7-0f9581cb8c82.png"
+    },
+    {
+      "Identity": "C:\\Users\\irakl\\Desktop\\TBC .Net Course\\Final Project\\offers.itacademy.ge.API\\wwwroot\\uploads\\companies\\3e52cbeb-4faf-448a-bf19-3b9b1412e7c5.png",
+      "SourceId": "offers.itacademy.ge.API",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\irakl\\Desktop\\TBC .Net Course\\Final Project\\offers.itacademy.ge.API\\wwwroot\\",
+      "BasePath": "_content/offers.itacademy.ge.API",
+      "RelativePath": "uploads/companies/3e52cbeb-4faf-448a-bf19-3b9b1412e7c5#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "4xklf6t0rb",
+      "Integrity": "2IuUXUsPaQ/KsaUT3sV+DY7i0qap40R1c+xOErHB+Bs=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\companies\\3e52cbeb-4faf-448a-bf19-3b9b1412e7c5.png"
+    },
+    {
+      "Identity": "C:\\Users\\irakl\\Desktop\\TBC .Net Course\\Final Project\\offers.itacademy.ge.API\\wwwroot\\uploads\\companies\\55c46445-5b45-43db-8044-c1e98b739b41.png",
+      "SourceId": "offers.itacademy.ge.API",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\irakl\\Desktop\\TBC .Net Course\\Final Project\\offers.itacademy.ge.API\\wwwroot\\",
+      "BasePath": "_content/offers.itacademy.ge.API",
+      "RelativePath": "uploads/companies/55c46445-5b45-43db-8044-c1e98b739b41#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "5w9p3r8by1",
+      "Integrity": "q5JW6+6x39XZr0YzrIybcZirMuc/Yt+k0bqi5Fns+7c=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\companies\\55c46445-5b45-43db-8044-c1e98b739b41.png"
+    },
+    {
+      "Identity": "C:\\Users\\irakl\\Desktop\\TBC .Net Course\\Final Project\\offers.itacademy.ge.API\\wwwroot\\uploads\\companies\\daf58c59-e8db-4b4c-ab5a-4888a9f2d2e6.png",
+      "SourceId": "offers.itacademy.ge.API",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\irakl\\Desktop\\TBC .Net Course\\Final Project\\offers.itacademy.ge.API\\wwwroot\\",
+      "BasePath": "_content/offers.itacademy.ge.API",
+      "RelativePath": "uploads/companies/daf58c59-e8db-4b4c-ab5a-4888a9f2d2e6#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "4xklf6t0rb",
+      "Integrity": "2IuUXUsPaQ/KsaUT3sV+DY7i0qap40R1c+xOErHB+Bs=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\companies\\daf58c59-e8db-4b4c-ab5a-4888a9f2d2e6.png"
+    },
+    {
+      "Identity": "C:\\Users\\irakl\\Desktop\\TBC .Net Course\\Final Project\\offers.itacademy.ge.API\\wwwroot\\uploads\\companies\\defaultCompanyImage.png",
+      "SourceId": "offers.itacademy.ge.API",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\irakl\\Desktop\\TBC .Net Course\\Final Project\\offers.itacademy.ge.API\\wwwroot\\",
+      "BasePath": "_content/offers.itacademy.ge.API",
+      "RelativePath": "uploads/companies/defaultCompanyImage#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "5w9p3r8by1",
+      "Integrity": "q5JW6+6x39XZr0YzrIybcZirMuc/Yt+k0bqi5Fns+7c=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\companies\\defaultCompanyImage.png"
+    },
+    {
+      "Identity": "C:\\Users\\irakl\\Desktop\\TBC .Net Course\\Final Project\\offers.itacademy.ge.API\\wwwroot\\uploads\\offers\\2dd362d9-66f1-4b48-8256-3cccdd5af215.png",
+      "SourceId": "offers.itacademy.ge.API",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\irakl\\Desktop\\TBC .Net Course\\Final Project\\offers.itacademy.ge.API\\wwwroot\\",
+      "BasePath": "_content/offers.itacademy.ge.API",
+      "RelativePath": "uploads/offers/2dd362d9-66f1-4b48-8256-3cccdd5af215#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "4xklf6t0rb",
+      "Integrity": "2IuUXUsPaQ/KsaUT3sV+DY7i0qap40R1c+xOErHB+Bs=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\offers\\2dd362d9-66f1-4b48-8256-3cccdd5af215.png"
+    },
+    {
+      "Identity": "C:\\Users\\irakl\\Desktop\\TBC .Net Course\\Final Project\\offers.itacademy.ge.API\\wwwroot\\uploads\\offers\\8106975e-b3a7-4cc6-829b-a38c4df010a2.png",
+      "SourceId": "offers.itacademy.ge.API",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\irakl\\Desktop\\TBC .Net Course\\Final Project\\offers.itacademy.ge.API\\wwwroot\\",
+      "BasePath": "_content/offers.itacademy.ge.API",
+      "RelativePath": "uploads/offers/8106975e-b3a7-4cc6-829b-a38c4df010a2#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "4xklf6t0rb",
+      "Integrity": "2IuUXUsPaQ/KsaUT3sV+DY7i0qap40R1c+xOErHB+Bs=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\offers\\8106975e-b3a7-4cc6-829b-a38c4df010a2.png"
+    },
+    {
+      "Identity": "C:\\Users\\irakl\\Desktop\\TBC .Net Course\\Final Project\\offers.itacademy.ge.API\\wwwroot\\uploads\\offers\\84e82583-5f39-4618-b4a1-cc07c8c99134.png",
+      "SourceId": "offers.itacademy.ge.API",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\irakl\\Desktop\\TBC .Net Course\\Final Project\\offers.itacademy.ge.API\\wwwroot\\",
+      "BasePath": "_content/offers.itacademy.ge.API",
+      "RelativePath": "uploads/offers/84e82583-5f39-4618-b4a1-cc07c8c99134#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "4xklf6t0rb",
+      "Integrity": "2IuUXUsPaQ/KsaUT3sV+DY7i0qap40R1c+xOErHB+Bs=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\offers\\84e82583-5f39-4618-b4a1-cc07c8c99134.png"
+    },
+    {
+      "Identity": "C:\\Users\\irakl\\Desktop\\TBC .Net Course\\Final Project\\offers.itacademy.ge.API\\wwwroot\\uploads\\offers\\8bb7b69f-dafe-434d-8723-a26418f79888.png",
+      "SourceId": "offers.itacademy.ge.API",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\irakl\\Desktop\\TBC .Net Course\\Final Project\\offers.itacademy.ge.API\\wwwroot\\",
+      "BasePath": "_content/offers.itacademy.ge.API",
+      "RelativePath": "uploads/offers/8bb7b69f-dafe-434d-8723-a26418f79888#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "4xklf6t0rb",
+      "Integrity": "2IuUXUsPaQ/KsaUT3sV+DY7i0qap40R1c+xOErHB+Bs=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\offers\\8bb7b69f-dafe-434d-8723-a26418f79888.png"
+    },
+    {
+      "Identity": "C:\\Users\\irakl\\Desktop\\TBC .Net Course\\Final Project\\offers.itacademy.ge.API\\wwwroot\\uploads\\offers\\a709e8f5-5fb5-43f1-a5f7-2a05aa1aed9d.png",
+      "SourceId": "offers.itacademy.ge.API",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\irakl\\Desktop\\TBC .Net Course\\Final Project\\offers.itacademy.ge.API\\wwwroot\\",
+      "BasePath": "_content/offers.itacademy.ge.API",
+      "RelativePath": "uploads/offers/a709e8f5-5fb5-43f1-a5f7-2a05aa1aed9d#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "4xklf6t0rb",
+      "Integrity": "2IuUXUsPaQ/KsaUT3sV+DY7i0qap40R1c+xOErHB+Bs=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\offers\\a709e8f5-5fb5-43f1-a5f7-2a05aa1aed9d.png"
+    },
+    {
+      "Identity": "C:\\Users\\irakl\\Desktop\\TBC .Net Course\\Final Project\\offers.itacademy.ge.API\\wwwroot\\uploads\\offers\\defaultOfferImage.png",
+      "SourceId": "offers.itacademy.ge.API",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\irakl\\Desktop\\TBC .Net Course\\Final Project\\offers.itacademy.ge.API\\wwwroot\\",
+      "BasePath": "_content/offers.itacademy.ge.API",
+      "RelativePath": "uploads/offers/defaultOfferImage#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "nthyi8pail",
+      "Integrity": "Re8nC9u6VNKXksPLAVRJyOrE6LfB/0d2t817iPUU67Q=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\offers\\defaultOfferImage.png"
+    },
+    {
+      "Identity": "C:\\Users\\irakl\\Desktop\\TBC .Net Course\\Final Project\\offers.itacademy.ge.API\\wwwroot\\uploads\\offers\\edb7adc9-1696-4c91-84c4-6ed912867d0c.png",
+      "SourceId": "offers.itacademy.ge.API",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\irakl\\Desktop\\TBC .Net Course\\Final Project\\offers.itacademy.ge.API\\wwwroot\\",
+      "BasePath": "_content/offers.itacademy.ge.API",
+      "RelativePath": "uploads/offers/edb7adc9-1696-4c91-84c4-6ed912867d0c#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "4xklf6t0rb",
+      "Integrity": "2IuUXUsPaQ/KsaUT3sV+DY7i0qap40R1c+xOErHB+Bs=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\offers\\edb7adc9-1696-4c91-84c4-6ed912867d0c.png"
+    },
+    {
+      "Identity": "C:\\Users\\irakl\\Desktop\\TBC .Net Course\\Final Project\\offers.itacademy.ge.API\\wwwroot\\uploads\\offers\\f2395832-d83d-4c33-abe8-c444745b7812.png",
+      "SourceId": "offers.itacademy.ge.API",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\irakl\\Desktop\\TBC .Net Course\\Final Project\\offers.itacademy.ge.API\\wwwroot\\",
+      "BasePath": "_content/offers.itacademy.ge.API",
+      "RelativePath": "uploads/offers/f2395832-d83d-4c33-abe8-c444745b7812#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "2nxa00khz5",
+      "Integrity": "zkgOoMjrxex9JVV+r34fc5ffBJLmEvoGjUQwXvzl8fU=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\offers\\f2395832-d83d-4c33-abe8-c444745b7812.png"
+    }
+  ],
+  "Endpoints": [
+    {
+      "Route": "uploads/companies/2726fa70-c6c6-4c5e-80d7-0f9581cb8c82.4xklf6t0rb.png",
+      "AssetFile": "C:\\Users\\irakl\\Desktop\\TBC .Net Course\\Final Project\\offers.itacademy.ge.API\\wwwroot\\uploads\\companies\\2726fa70-c6c6-4c5e-80d7-0f9581cb8c82.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "59157"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"2IuUXUsPaQ/KsaUT3sV+DY7i0qap40R1c+xOErHB+Bs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 26 Mar 2025 15:10:44 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "4xklf6t0rb"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/companies/2726fa70-c6c6-4c5e-80d7-0f9581cb8c82.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-2IuUXUsPaQ/KsaUT3sV+DY7i0qap40R1c+xOErHB+Bs="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/companies/2726fa70-c6c6-4c5e-80d7-0f9581cb8c82.png",
+      "AssetFile": "C:\\Users\\irakl\\Desktop\\TBC .Net Course\\Final Project\\offers.itacademy.ge.API\\wwwroot\\uploads\\companies\\2726fa70-c6c6-4c5e-80d7-0f9581cb8c82.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "59157"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"2IuUXUsPaQ/KsaUT3sV+DY7i0qap40R1c+xOErHB+Bs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 26 Mar 2025 15:10:44 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-2IuUXUsPaQ/KsaUT3sV+DY7i0qap40R1c+xOErHB+Bs="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/companies/3e52cbeb-4faf-448a-bf19-3b9b1412e7c5.4xklf6t0rb.png",
+      "AssetFile": "C:\\Users\\irakl\\Desktop\\TBC .Net Course\\Final Project\\offers.itacademy.ge.API\\wwwroot\\uploads\\companies\\3e52cbeb-4faf-448a-bf19-3b9b1412e7c5.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "59157"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"2IuUXUsPaQ/KsaUT3sV+DY7i0qap40R1c+xOErHB+Bs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 27 Mar 2025 09:59:47 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "4xklf6t0rb"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/companies/3e52cbeb-4faf-448a-bf19-3b9b1412e7c5.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-2IuUXUsPaQ/KsaUT3sV+DY7i0qap40R1c+xOErHB+Bs="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/companies/3e52cbeb-4faf-448a-bf19-3b9b1412e7c5.png",
+      "AssetFile": "C:\\Users\\irakl\\Desktop\\TBC .Net Course\\Final Project\\offers.itacademy.ge.API\\wwwroot\\uploads\\companies\\3e52cbeb-4faf-448a-bf19-3b9b1412e7c5.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "59157"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"2IuUXUsPaQ/KsaUT3sV+DY7i0qap40R1c+xOErHB+Bs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 27 Mar 2025 09:59:47 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-2IuUXUsPaQ/KsaUT3sV+DY7i0qap40R1c+xOErHB+Bs="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/companies/55c46445-5b45-43db-8044-c1e98b739b41.5w9p3r8by1.png",
+      "AssetFile": "C:\\Users\\irakl\\Desktop\\TBC .Net Course\\Final Project\\offers.itacademy.ge.API\\wwwroot\\uploads\\companies\\55c46445-5b45-43db-8044-c1e98b739b41.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "388727"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"q5JW6+6x39XZr0YzrIybcZirMuc/Yt+k0bqi5Fns+7c=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 28 Mar 2025 18:39:23 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "5w9p3r8by1"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/companies/55c46445-5b45-43db-8044-c1e98b739b41.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-q5JW6+6x39XZr0YzrIybcZirMuc/Yt+k0bqi5Fns+7c="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/companies/55c46445-5b45-43db-8044-c1e98b739b41.png",
+      "AssetFile": "C:\\Users\\irakl\\Desktop\\TBC .Net Course\\Final Project\\offers.itacademy.ge.API\\wwwroot\\uploads\\companies\\55c46445-5b45-43db-8044-c1e98b739b41.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "388727"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"q5JW6+6x39XZr0YzrIybcZirMuc/Yt+k0bqi5Fns+7c=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 28 Mar 2025 18:39:23 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-q5JW6+6x39XZr0YzrIybcZirMuc/Yt+k0bqi5Fns+7c="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/companies/daf58c59-e8db-4b4c-ab5a-4888a9f2d2e6.4xklf6t0rb.png",
+      "AssetFile": "C:\\Users\\irakl\\Desktop\\TBC .Net Course\\Final Project\\offers.itacademy.ge.API\\wwwroot\\uploads\\companies\\daf58c59-e8db-4b4c-ab5a-4888a9f2d2e6.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "59157"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"2IuUXUsPaQ/KsaUT3sV+DY7i0qap40R1c+xOErHB+Bs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 26 Mar 2025 15:15:17 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "4xklf6t0rb"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/companies/daf58c59-e8db-4b4c-ab5a-4888a9f2d2e6.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-2IuUXUsPaQ/KsaUT3sV+DY7i0qap40R1c+xOErHB+Bs="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/companies/daf58c59-e8db-4b4c-ab5a-4888a9f2d2e6.png",
+      "AssetFile": "C:\\Users\\irakl\\Desktop\\TBC .Net Course\\Final Project\\offers.itacademy.ge.API\\wwwroot\\uploads\\companies\\daf58c59-e8db-4b4c-ab5a-4888a9f2d2e6.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "59157"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"2IuUXUsPaQ/KsaUT3sV+DY7i0qap40R1c+xOErHB+Bs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 26 Mar 2025 15:15:17 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-2IuUXUsPaQ/KsaUT3sV+DY7i0qap40R1c+xOErHB+Bs="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/companies/defaultCompanyImage.5w9p3r8by1.png",
+      "AssetFile": "C:\\Users\\irakl\\Desktop\\TBC .Net Course\\Final Project\\offers.itacademy.ge.API\\wwwroot\\uploads\\companies\\defaultCompanyImage.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "388727"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"q5JW6+6x39XZr0YzrIybcZirMuc/Yt+k0bqi5Fns+7c=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 27 Mar 2025 11:44:30 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "5w9p3r8by1"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/companies/defaultCompanyImage.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-q5JW6+6x39XZr0YzrIybcZirMuc/Yt+k0bqi5Fns+7c="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/companies/defaultCompanyImage.png",
+      "AssetFile": "C:\\Users\\irakl\\Desktop\\TBC .Net Course\\Final Project\\offers.itacademy.ge.API\\wwwroot\\uploads\\companies\\defaultCompanyImage.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "388727"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"q5JW6+6x39XZr0YzrIybcZirMuc/Yt+k0bqi5Fns+7c=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 27 Mar 2025 11:44:30 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-q5JW6+6x39XZr0YzrIybcZirMuc/Yt+k0bqi5Fns+7c="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/offers/2dd362d9-66f1-4b48-8256-3cccdd5af215.4xklf6t0rb.png",
+      "AssetFile": "C:\\Users\\irakl\\Desktop\\TBC .Net Course\\Final Project\\offers.itacademy.ge.API\\wwwroot\\uploads\\offers\\2dd362d9-66f1-4b48-8256-3cccdd5af215.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "59157"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"2IuUXUsPaQ/KsaUT3sV+DY7i0qap40R1c+xOErHB+Bs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 26 Mar 2025 12:40:30 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "4xklf6t0rb"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/offers/2dd362d9-66f1-4b48-8256-3cccdd5af215.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-2IuUXUsPaQ/KsaUT3sV+DY7i0qap40R1c+xOErHB+Bs="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/offers/2dd362d9-66f1-4b48-8256-3cccdd5af215.png",
+      "AssetFile": "C:\\Users\\irakl\\Desktop\\TBC .Net Course\\Final Project\\offers.itacademy.ge.API\\wwwroot\\uploads\\offers\\2dd362d9-66f1-4b48-8256-3cccdd5af215.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "59157"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"2IuUXUsPaQ/KsaUT3sV+DY7i0qap40R1c+xOErHB+Bs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 26 Mar 2025 12:40:30 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-2IuUXUsPaQ/KsaUT3sV+DY7i0qap40R1c+xOErHB+Bs="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/offers/8106975e-b3a7-4cc6-829b-a38c4df010a2.4xklf6t0rb.png",
+      "AssetFile": "C:\\Users\\irakl\\Desktop\\TBC .Net Course\\Final Project\\offers.itacademy.ge.API\\wwwroot\\uploads\\offers\\8106975e-b3a7-4cc6-829b-a38c4df010a2.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "59157"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"2IuUXUsPaQ/KsaUT3sV+DY7i0qap40R1c+xOErHB+Bs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 26 Mar 2025 14:18:15 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "4xklf6t0rb"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/offers/8106975e-b3a7-4cc6-829b-a38c4df010a2.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-2IuUXUsPaQ/KsaUT3sV+DY7i0qap40R1c+xOErHB+Bs="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/offers/8106975e-b3a7-4cc6-829b-a38c4df010a2.png",
+      "AssetFile": "C:\\Users\\irakl\\Desktop\\TBC .Net Course\\Final Project\\offers.itacademy.ge.API\\wwwroot\\uploads\\offers\\8106975e-b3a7-4cc6-829b-a38c4df010a2.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "59157"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"2IuUXUsPaQ/KsaUT3sV+DY7i0qap40R1c+xOErHB+Bs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 26 Mar 2025 14:18:15 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-2IuUXUsPaQ/KsaUT3sV+DY7i0qap40R1c+xOErHB+Bs="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/offers/84e82583-5f39-4618-b4a1-cc07c8c99134.4xklf6t0rb.png",
+      "AssetFile": "C:\\Users\\irakl\\Desktop\\TBC .Net Course\\Final Project\\offers.itacademy.ge.API\\wwwroot\\uploads\\offers\\84e82583-5f39-4618-b4a1-cc07c8c99134.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "59157"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"2IuUXUsPaQ/KsaUT3sV+DY7i0qap40R1c+xOErHB+Bs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 26 Mar 2025 12:58:16 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "4xklf6t0rb"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/offers/84e82583-5f39-4618-b4a1-cc07c8c99134.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-2IuUXUsPaQ/KsaUT3sV+DY7i0qap40R1c+xOErHB+Bs="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/offers/84e82583-5f39-4618-b4a1-cc07c8c99134.png",
+      "AssetFile": "C:\\Users\\irakl\\Desktop\\TBC .Net Course\\Final Project\\offers.itacademy.ge.API\\wwwroot\\uploads\\offers\\84e82583-5f39-4618-b4a1-cc07c8c99134.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "59157"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"2IuUXUsPaQ/KsaUT3sV+DY7i0qap40R1c+xOErHB+Bs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 26 Mar 2025 12:58:16 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-2IuUXUsPaQ/KsaUT3sV+DY7i0qap40R1c+xOErHB+Bs="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/offers/8bb7b69f-dafe-434d-8723-a26418f79888.4xklf6t0rb.png",
+      "AssetFile": "C:\\Users\\irakl\\Desktop\\TBC .Net Course\\Final Project\\offers.itacademy.ge.API\\wwwroot\\uploads\\offers\\8bb7b69f-dafe-434d-8723-a26418f79888.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "59157"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"2IuUXUsPaQ/KsaUT3sV+DY7i0qap40R1c+xOErHB+Bs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 26 Mar 2025 13:26:22 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "4xklf6t0rb"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/offers/8bb7b69f-dafe-434d-8723-a26418f79888.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-2IuUXUsPaQ/KsaUT3sV+DY7i0qap40R1c+xOErHB+Bs="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/offers/8bb7b69f-dafe-434d-8723-a26418f79888.png",
+      "AssetFile": "C:\\Users\\irakl\\Desktop\\TBC .Net Course\\Final Project\\offers.itacademy.ge.API\\wwwroot\\uploads\\offers\\8bb7b69f-dafe-434d-8723-a26418f79888.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "59157"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"2IuUXUsPaQ/KsaUT3sV+DY7i0qap40R1c+xOErHB+Bs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 26 Mar 2025 13:26:22 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-2IuUXUsPaQ/KsaUT3sV+DY7i0qap40R1c+xOErHB+Bs="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/offers/a709e8f5-5fb5-43f1-a5f7-2a05aa1aed9d.4xklf6t0rb.png",
+      "AssetFile": "C:\\Users\\irakl\\Desktop\\TBC .Net Course\\Final Project\\offers.itacademy.ge.API\\wwwroot\\uploads\\offers\\a709e8f5-5fb5-43f1-a5f7-2a05aa1aed9d.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "59157"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"2IuUXUsPaQ/KsaUT3sV+DY7i0qap40R1c+xOErHB+Bs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 28 Mar 2025 13:08:47 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "4xklf6t0rb"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/offers/a709e8f5-5fb5-43f1-a5f7-2a05aa1aed9d.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-2IuUXUsPaQ/KsaUT3sV+DY7i0qap40R1c+xOErHB+Bs="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/offers/a709e8f5-5fb5-43f1-a5f7-2a05aa1aed9d.png",
+      "AssetFile": "C:\\Users\\irakl\\Desktop\\TBC .Net Course\\Final Project\\offers.itacademy.ge.API\\wwwroot\\uploads\\offers\\a709e8f5-5fb5-43f1-a5f7-2a05aa1aed9d.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "59157"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"2IuUXUsPaQ/KsaUT3sV+DY7i0qap40R1c+xOErHB+Bs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 28 Mar 2025 13:08:47 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-2IuUXUsPaQ/KsaUT3sV+DY7i0qap40R1c+xOErHB+Bs="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/offers/defaultOfferImage.nthyi8pail.png",
+      "AssetFile": "C:\\Users\\irakl\\Desktop\\TBC .Net Course\\Final Project\\offers.itacademy.ge.API\\wwwroot\\uploads\\offers\\defaultOfferImage.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "200532"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Re8nC9u6VNKXksPLAVRJyOrE6LfB/0d2t817iPUU67Q=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 27 Mar 2025 11:44:34 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "nthyi8pail"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/offers/defaultOfferImage.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Re8nC9u6VNKXksPLAVRJyOrE6LfB/0d2t817iPUU67Q="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/offers/defaultOfferImage.png",
+      "AssetFile": "C:\\Users\\irakl\\Desktop\\TBC .Net Course\\Final Project\\offers.itacademy.ge.API\\wwwroot\\uploads\\offers\\defaultOfferImage.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "200532"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Re8nC9u6VNKXksPLAVRJyOrE6LfB/0d2t817iPUU67Q=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 27 Mar 2025 11:44:34 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Re8nC9u6VNKXksPLAVRJyOrE6LfB/0d2t817iPUU67Q="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/offers/edb7adc9-1696-4c91-84c4-6ed912867d0c.4xklf6t0rb.png",
+      "AssetFile": "C:\\Users\\irakl\\Desktop\\TBC .Net Course\\Final Project\\offers.itacademy.ge.API\\wwwroot\\uploads\\offers\\edb7adc9-1696-4c91-84c4-6ed912867d0c.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "59157"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"2IuUXUsPaQ/KsaUT3sV+DY7i0qap40R1c+xOErHB+Bs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 26 Mar 2025 13:01:51 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "4xklf6t0rb"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/offers/edb7adc9-1696-4c91-84c4-6ed912867d0c.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-2IuUXUsPaQ/KsaUT3sV+DY7i0qap40R1c+xOErHB+Bs="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/offers/edb7adc9-1696-4c91-84c4-6ed912867d0c.png",
+      "AssetFile": "C:\\Users\\irakl\\Desktop\\TBC .Net Course\\Final Project\\offers.itacademy.ge.API\\wwwroot\\uploads\\offers\\edb7adc9-1696-4c91-84c4-6ed912867d0c.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "59157"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"2IuUXUsPaQ/KsaUT3sV+DY7i0qap40R1c+xOErHB+Bs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 26 Mar 2025 13:01:51 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-2IuUXUsPaQ/KsaUT3sV+DY7i0qap40R1c+xOErHB+Bs="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/offers/f2395832-d83d-4c33-abe8-c444745b7812.2nxa00khz5.png",
+      "AssetFile": "C:\\Users\\irakl\\Desktop\\TBC .Net Course\\Final Project\\offers.itacademy.ge.API\\wwwroot\\uploads\\offers\\f2395832-d83d-4c33-abe8-c444745b7812.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "649409"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"zkgOoMjrxex9JVV+r34fc5ffBJLmEvoGjUQwXvzl8fU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 28 Mar 2025 13:11:42 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "2nxa00khz5"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/offers/f2395832-d83d-4c33-abe8-c444745b7812.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-zkgOoMjrxex9JVV+r34fc5ffBJLmEvoGjUQwXvzl8fU="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/offers/f2395832-d83d-4c33-abe8-c444745b7812.png",
+      "AssetFile": "C:\\Users\\irakl\\Desktop\\TBC .Net Course\\Final Project\\offers.itacademy.ge.API\\wwwroot\\uploads\\offers\\f2395832-d83d-4c33-abe8-c444745b7812.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "649409"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"zkgOoMjrxex9JVV+r34fc5ffBJLmEvoGjUQwXvzl8fU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 28 Mar 2025 13:11:42 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-zkgOoMjrxex9JVV+r34fc5ffBJLmEvoGjUQwXvzl8fU="
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,122 @@
+﻿@{
+    ViewData["Title"] = "Admin Profile";
+}
+
+<div class="container">
+    <h2 class="mt-4">Admin Dashboard</h2>
+    <p>Welcome, @User.Identity!.Name! You have administrative privileges.</p>
+
+    @if (TempData["Success"] != null)
+    {
+        <div class="alert alert-success">@TempData["Success"]</div>
+    }
+    @if (TempData["Error"] != null)
+    {
+        <div class="alert alert-danger">@TempData["Error"]</div>
+    }
+
+    <div class="row mt-4">
+        <div class="col-md-6">
+            <div class="card">
+                <div class="card-header">
+                    <h5>Manage Categories</h5>
+                </div>
+                <div class="card-body">
+                    <p>View, create, edit, or delete categories (paginated list).</p>
+                    <a asp-controller="Category" asp-action="GetAll" class="btn btn-primary">Go to Categories</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div class="card">
+                <div class="card-header">
+                    <h5>Register New Admin</h5>
+                </div>
+                <div class="card-body">
+                    <p>Create a new admin account.</p>
+                    <a asp-action="RegisterAdmin" class="btn btn-primary">Register Admin</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row mt-4">
+        <div class="col-md-6">
+            <div class="card">
+                <div class="card-header">
+                    <h5>Manage All Offers</h5>
+                </div>
+                <div class="card-body">
+                    <p>View all product offers.</p>
+                    <a asp-controller="ProductOffer" asp-action="GetAll" class="btn btn-primary">Go to Offers</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div class="card">
+                <div class="card-header">
+                    <h5>View Active Offers</h5>
+                </div>
+                <div class="card-body">
+                    <p>See all currently active offers.</p>
+                    <a asp-controller="ProductOffer" asp-action="ActiveOffers" class="btn btn-primary">View Active Offers</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row mt-4">
+        <div class="col-md-6">
+            <div class="card">
+                <div class="card-header">
+                    <h5>View User Purchases</h5>
+                </div>
+                <div class="card-body">
+                    <p>View purchases by user ID.</p>
+                    <form asp-action="UserPurchases" asp-controller="Purchase" method="get">
+                        <div class="input-group">
+                            <input type="number" name="userId" class="form-control" placeholder="Enter User ID" required min="1" />
+                            <button type="submit" class="btn btn-primary">View</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div class="card">
+                <div class="card-header">
+                    <h5>View Offer Purchases</h5>
+                </div>
+                <div class="card-body">
+                    <p>View purchases by offer ID.</p>
+                    <form asp-action="OfferPurchases" asp-controller="Purchase" method="get">
+                        <div class="input-group">
+                            <input type="number" name="offerId" class="form-control" placeholder="Enter Offer ID" required min="1" />
+                            <button type="submit" class="btn btn-primary">View</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row mt-4">
+        <div class="col-md-6">
+            <div class="card">
+                <div class="card-header">
+                    <h5>Manage Users</h5>
+                </div>
+                <div class="card-body">
+                    <p>View and manage users.</p>
+                    <a asp-controller="User" asp-action="Companies" class="btn btn-primary mb-2">View Companies</a>
+                    <a asp-controller="User" asp-action="Customers" class="btn btn-primary mb-2">View Customers</a>
+                    <a asp-controller="User" asp-action="Admins" class="btn btn-primary">View Admins</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="mt-4">
+        <a asp-controller="Login" asp-action="Logout" class="btn btn-danger">Logout</a>
+    </div>
+</div>
