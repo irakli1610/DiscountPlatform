@@ -1,6 +1,6 @@
 # Discount Platform
 
-This is a discount platform project with API, MVC, and a background worker service. using C#, ASp .Net Core
+This is a discount platform project with API, MVC, and a background worker service. using C#, ASP .Net Core
 
 The platform allows companies to post discounted offers (especially for perishable items), and customers to purchase them at the end of the day.
 
